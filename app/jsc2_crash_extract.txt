@@ -1,0 +1,60 @@
+08-16 23:07:24.966 22545 22545 W SoLoader: Running a recovery step for libjscexecutor.so due to com.facebook.soloader.SoLoaderDSONotFoundError: couldn't find DSO to load: libjscexecutor.so
+08-16 23:07:24.966 22545 22545 W SoLoader: 	existing SO sources: 
+08-16 23:07:24.966 22545 22545 W SoLoader: 		SoSource 0: BackupSoSource[root = /data/data/com.careeraiapp.jobs/lib-main flags = 1 apks = [/data/app/~~Ga5OPsn86otXjCh6-fxl0w==/com.careeraiapp.jobs-6crEBNCZlSG7UESHfpAaAQ==/base.apk]]
+08-16 23:07:24.966 22545 22545 W SoLoader: 		SoSource 1: ApplicationSoSource[DirectorySoSource[root = /data/app/~~Ga5OPsn86otXjCh6-fxl0w==/com.careeraiapp.jobs-6crEBNCZlSG7UESHfpAaAQ==/lib/arm64 flags = 0]]
+08-16 23:07:24.966 22545 22545 W SoLoader: 		SoSource 2: DirectorySoSource[root = /system/lib64 flags = 2]
+08-16 23:07:24.966 22545 22545 W SoLoader: 		SoSource 3: DirectorySoSource[root = /vendor/lib64 flags = 2]
+08-16 23:07:24.966 22545 22545 W SoLoader: 	Native lib dir: /data/app/~~Ga5OPsn86otXjCh6-fxl0w==/com.careeraiapp.jobs-6crEBNCZlSG7UESHfpAaAQ==/lib/arm64
+08-16 23:07:24.967 22545 22545 W soloader.recovery.CheckBaseApkExists: Base apk exists: /data/app/~~Ga5OPsn86otXjCh6-fxl0w==/com.careeraiapp.jobs-6crEBNCZlSG7UESHfpAaAQ==/base.apk
+08-16 23:07:24.967 22545 22545 E SoLoader: Waiting on SoSource BackupSoSource
+08-16 23:07:24.967 22545 22545 W SoLoader: Running a recovery step for libjscexecutor.so due to com.facebook.soloader.SoLoaderDSONotFoundError: couldn't find DSO to load: libjscexecutor.so
+08-16 23:07:24.967 22545 22545 W SoLoader: 	existing SO sources: 
+08-16 23:07:24.967 22545 22545 W SoLoader: 		SoSource 0: BackupSoSource[root = /data/data/com.careeraiapp.jobs/lib-main flags = 1 apks = [/data/app/~~Ga5OPsn86otXjCh6-fxl0w==/com.careeraiapp.jobs-6crEBNCZlSG7UESHfpAaAQ==/base.apk]]
+08-16 23:07:24.967 22545 22545 W SoLoader: 		SoSource 1: ApplicationSoSource[DirectorySoSource[root = /data/app/~~Ga5OPsn86otXjCh6-fxl0w==/com.careeraiapp.jobs-6crEBNCZlSG7UESHfpAaAQ==/lib/arm64 flags = 0]]
+08-16 23:07:24.967 22545 22545 W SoLoader: 		SoSource 2: DirectorySoSource[root = /system/lib64 flags = 2]
+08-16 23:07:24.967 22545 22545 W SoLoader: 		SoSource 3: DirectorySoSource[root = /vendor/lib64 flags = 2]
+08-16 23:07:24.967 22545 22545 W SoLoader: 	Native lib dir: /data/app/~~Ga5OPsn86otXjCh6-fxl0w==/com.careeraiapp.jobs-6crEBNCZlSG7UESHfpAaAQ==/lib/arm64
+08-16 23:07:24.967 22545 22545 E SoLoader: Checking /data/app missing libraries.
+08-16 23:07:24.966  1269  1269 W /vendor/bin/hw/vendor.qti.hardware.perf@2.2-service: type=1400 audit(0.0:1711223): avc:  denied  { search } for  comm=41646170744C61756E636820566D name="2153" dev="proc" ino=107669215 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:system_server:s0 tclass=dir permissive=0
+08-16 23:07:24.966  1269  1269 W /vendor/bin/hw/vendor.qti.hardware.perf@2.2-service: type=1400 audit(0.0:1711222): avc:  denied  { search } for  comm=41646170744C61756E636820566D name="2153" dev="proc" ino=107669215 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:system_server:s0 tclass=dir permissive=0
+08-16 23:07:24.966  1269  1269 W /vendor/bin/hw/vendor.qti.hardware.perf@2.2-service: type=1400 audit(0.0:1711224): avc:  denied  { search } for  comm=41646170744C61756E636820566D name="2154" dev="proc" ino=107669216 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:system_server:s0 tclass=dir permissive=0
+08-16 23:07:24.966  1269  1269 W /vendor/bin/hw/vendor.qti.hardware.perf@2.2-service: type=1400 audit(0.0:1711225): avc:  denied  { search } for  comm=41646170744C61756E636820566D name="2155" dev="proc" ino=107669217 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:system_server:s0 tclass=dir permissive=0
+08-16 23:07:24.966  1269  1269 W /vendor/bin/hw/vendor.qti.hardware.perf@2.2-service: type=1400 audit(0.0:1711226): avc:  denied  { search } for  comm=41646170744C61756E636820566D name="2154" dev="proc" ino=107669216 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:system_server:s0 tclass=dir permissive=0
+08-16 23:07:24.966  1269  1269 W /vendor/bin/hw/vendor.qti.hardware.perf@2.2-service: type=1400 audit(0.0:1711227): avc:  denied  { search } for  comm=41646170744C61756E636820566D name="2155" dev="proc" ino=107669217 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:system_server:s0 tclass=dir permissive=0
+08-16 23:07:24.966  1269  1269 W /vendor/bin/hw/vendor.qti.hardware.perf@2.2-service: type=1400 audit(0.0:1711228): avc:  denied  { search } for  comm=41646170744C61756E636820566D name="2796" dev="proc" ino=107669224 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:system_server:s0 tclass=dir permissive=0
+08-16 23:07:24.972 22545 22545 E SoLoader: No libraries missing from /data/app/~~Ga5OPsn86otXjCh6-fxl0w==/com.careeraiapp.jobs-6crEBNCZlSG7UESHfpAaAQ==/lib/arm64
+08-16 23:07:24.972 22545 22545 E SoLoader: Checking /data/data missing libraries.
+08-16 23:07:24.972 22545 22545 E SoLoader: No libraries missing from unpacking so paths while recovering /data/data failure
+08-16 23:07:24.972 22545 22545 E SoLoader: Waiting on SoSource BackupSoSource
+08-16 23:07:24.973 22545 22545 W SoLoader: Running a recovery step for libjscexecutor.so due to com.facebook.soloader.SoLoaderDSONotFoundError: couldn't find DSO to load: libjscexecutor.so
+08-16 23:07:24.973 22545 22545 W SoLoader: 	existing SO sources: 
+08-16 23:07:24.973 22545 22545 W SoLoader: 		SoSource 0: BackupSoSource[root = /data/data/com.careeraiapp.jobs/lib-main flags = 1 apks = [/data/app/~~Ga5OPsn86otXjCh6-fxl0w==/com.careeraiapp.jobs-6crEBNCZlSG7UESHfpAaAQ==/base.apk]]
+08-16 23:07:24.973 22545 22545 W SoLoader: 		SoSource 1: ApplicationSoSource[DirectorySoSource[root = /data/app/~~Ga5OPsn86otXjCh6-fxl0w==/com.careeraiapp.jobs-6crEBNCZlSG7UESHfpAaAQ==/lib/arm64 flags = 0]]
+08-16 23:07:24.973 22545 22545 W SoLoader: 		SoSource 2: DirectorySoSource[root = /system/lib64 flags = 2]
+08-16 23:07:24.973 22545 22545 W SoLoader: 		SoSource 3: DirectorySoSource[root = /vendor/lib64 flags = 2]
+08-16 23:07:24.973 22545 22545 W SoLoader: 	Native lib dir: /data/app/~~Ga5OPsn86otXjCh6-fxl0w==/com.careeraiapp.jobs-6crEBNCZlSG7UESHfpAaAQ==/lib/arm64
+08-16 23:07:24.973 22545 22545 W SoLoader: Failed to recover
+--------- beginning of crash
+08-16 23:07:24.975 22545 22545 E AndroidRuntime: FATAL EXCEPTION: main
+08-16 23:07:24.975 22545 22545 E AndroidRuntime: Process: com.careeraiapp.jobs, PID: 22545
+08-16 23:07:24.975 22545 22545 E AndroidRuntime: com.facebook.soloader.SoLoaderDSONotFoundError: couldn't find DSO to load: libjscexecutor.so
+08-16 23:07:24.975 22545 22545 E AndroidRuntime: 	existing SO sources: 
+08-16 23:07:24.975 22545 22545 E AndroidRuntime: 		SoSource 0: BackupSoSource[root = /data/data/com.careeraiapp.jobs/lib-main flags = 1 apks = [/data/app/~~Ga5OPsn86otXjCh6-fxl0w==/com.careeraiapp.jobs-6crEBNCZlSG7UESHfpAaAQ==/base.apk]]
+08-16 23:07:24.975 22545 22545 E AndroidRuntime: 		SoSource 1: ApplicationSoSource[DirectorySoSource[root = /data/app/~~Ga5OPsn86otXjCh6-fxl0w==/com.careeraiapp.jobs-6crEBNCZlSG7UESHfpAaAQ==/lib/arm64 flags = 0]]
+08-16 23:07:24.975 22545 22545 E AndroidRuntime: 		SoSource 2: DirectorySoSource[root = /system/lib64 flags = 2]
+08-16 23:07:24.975 22545 22545 E AndroidRuntime: 		SoSource 3: DirectorySoSource[root = /vendor/lib64 flags = 2]
+08-16 23:07:24.975 22545 22545 E AndroidRuntime: 	Native lib dir: /data/app/~~Ga5OPsn86otXjCh6-fxl0w==/com.careeraiapp.jobs-6crEBNCZlSG7UESHfpAaAQ==/lib/arm64
+08-16 23:07:24.975 22545 22545 E AndroidRuntime: 
+08-16 23:07:24.975 22545 22545 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.doLoadLibraryBySoName(SoLoader.java:1216)
+08-16 23:07:24.975 22545 22545 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryBySoNameImpl(SoLoader.java:1078)
+08-16 23:07:24.975 22545 22545 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryBySoName(SoLoader.java:943)
+08-16 23:07:24.975 22545 22545 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryOnAndroid(SoLoader.java:859)
+08-16 23:07:24.975 22545 22545 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:842)
+08-16 23:07:24.975 22545 22545 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:812)
+08-16 23:07:24.975 22545 22545 E AndroidRuntime: 	at com.facebook.react.jscexecutor.JSCExecutor$Companion.loadLibrary(JSCExecutor.kt:31)
+08-16 23:07:24.975 22545 22545 E AndroidRuntime: 	at com.facebook.react.jscexecutor.JSCExecutor.<clinit>(JSCExecutor.kt:25)
+08-16 23:07:24.975 22545 22545 E AndroidRuntime: 	at com.facebook.react.ReactInstanceManagerBuilder.getDefaultJSExecutorFactory(ReactInstanceManagerBuilder.java:410)
+08-16 23:07:24.975 22545 22545 E AndroidRuntime: 	at com.facebook.react.ReactInstanceManagerBuilder.build(ReactInstanceManagerBuilder.java:349)
+08-16 23:07:24.975 22545 22545 E AndroidRuntime: 	at com.facebook.react.ReactNativeHost.createReactInstanceManager(ReactNativeHost.java:87)
+08-16 23:07:24.975 22545 22545 E AndroidRuntime: 	at expo.modules.ReactNativeHostWrapperBase.createReactInstanceManager(ReactNativeHostWrapperBase.kt:29)
+08-16 23:07:24.975 22545 22545 E AndroidRuntime: 	at com.facebook.react.ReactNativeHost.getReactInstanceManager(ReactNativeHost.java:57)

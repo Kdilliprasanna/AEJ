@@ -1,0 +1,382 @@
+08-17 21:32:21.589 21115 21115 E AndroidRuntime: FATAL EXCEPTION: main
+08-17 21:32:21.589 21115 21115 E AndroidRuntime: Process: com.careeraiapp.jobs, PID: 21115
+08-17 21:32:21.589 21115 21115 E AndroidRuntime: com.facebook.soloader.SoLoaderDSONotFoundError: couldn't find DSO to load: libhermes.so
+08-17 21:32:21.589 21115 21115 E AndroidRuntime: 		SoSource 0: BackupSoSource[root = /data/data/com.careeraiapp.jobs/lib-main flags = 1 apks = [/data/app/~~VqlOseLchKjf44iHgfBBqw==/com.careeraiapp.jobs-wtfXwnZVLT-INYELRkYaYw==/base.apk]]
+08-17 21:32:21.589 21115 21115 E AndroidRuntime: 		SoSource 1: ApplicationSoSource[DirectorySoSource[root = /data/app/~~VqlOseLchKjf44iHgfBBqw==/com.careeraiapp.jobs-wtfXwnZVLT-INYELRkYaYw==/lib/arm64 flags = 0]]
+08-17 21:32:21.589 21115 21115 E AndroidRuntime: 	Native lib dir: /data/app/~~VqlOseLchKjf44iHgfBBqw==/com.careeraiapp.jobs-wtfXwnZVLT-INYELRkYaYw==/lib/arm64
+08-17 21:32:21.589 21115 21115 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.doLoadLibraryBySoName(SoLoader.java:1216)
+08-17 21:32:21.589 21115 21115 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryBySoNameImpl(SoLoader.java:1078)
+08-17 21:32:21.589 21115 21115 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryBySoName(SoLoader.java:943)
+08-17 21:32:21.589 21115 21115 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryOnAndroid(SoLoader.java:859)
+08-17 21:32:21.589 21115 21115 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:842)
+08-17 21:32:21.589 21115 21115 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:812)
+08-17 21:32:21.589 21115 21115 E AndroidRuntime: 	at com.facebook.hermes.reactexecutor.HermesExecutor.loadLibrary(HermesExecutor.java:26)
+08-17 21:32:21.589 21115 21115 E AndroidRuntime: 	at com.facebook.hermes.reactexecutor.HermesExecutor.<clinit>(HermesExecutor.java:20)
+08-17 21:32:21.589 21115 21115 E AndroidRuntime: 	at com.facebook.react.ReactInstanceManagerBuilder.getDefaultJSExecutorFactory(ReactInstanceManagerBuilder.java:407)
+08-17 21:32:21.589 21115 21115 E AndroidRuntime: 	at com.facebook.react.ReactInstanceManagerBuilder.build(ReactInstanceManagerBuilder.java:349)
+08-17 21:32:21.589 21115 21115 E AndroidRuntime: 	at com.facebook.react.ReactNativeHost.createReactInstanceManager(ReactNativeHost.java:87)
+08-17 21:32:21.589 21115 21115 E AndroidRuntime: 	at com.facebook.react.ReactNativeHost.getReactInstanceManager(ReactNativeHost.java:57)
+08-17 21:32:21.589 21115 21115 E AndroidRuntime: 	at com.facebook.react.ReactDelegate.loadApp(ReactDelegate.java:301)
+08-17 21:32:21.589 21115 21115 E AndroidRuntime: 	at com.facebook.react.ReactActivityDelegate.loadApp(ReactActivityDelegate.java:137)
+08-17 21:32:21.589 21115 21115 E AndroidRuntime: 	at com.facebook.react.ReactActivityDelegate.onCreate(ReactActivityDelegate.java:132)
+08-17 21:32:21.589 21115 21115 E AndroidRuntime: 	at com.facebook.react.ReactActivity.onCreate(ReactActivity.java:47)
+08-17 21:32:21.589 21115 21115 E AndroidRuntime: 	at com.careeraiapp.jobs.MainActivity.onCreate(MainActivity.kt:13)
+08-17 21:33:01.667 23297 23297 E AndroidRuntime: FATAL EXCEPTION: main
+08-17 21:33:01.667 23297 23297 E AndroidRuntime: Process: com.careeraiapp.jobs, PID: 23297
+08-17 21:33:01.667 23297 23297 E AndroidRuntime: com.facebook.soloader.SoLoaderDSONotFoundError: couldn't find DSO to load: libhermes.so
+08-17 21:33:01.667 23297 23297 E AndroidRuntime: 		SoSource 0: BackupSoSource[root = /data/data/com.careeraiapp.jobs/lib-main flags = 1 apks = [/data/app/~~VqlOseLchKjf44iHgfBBqw==/com.careeraiapp.jobs-wtfXwnZVLT-INYELRkYaYw==/base.apk]]
+08-17 21:33:01.667 23297 23297 E AndroidRuntime: 		SoSource 1: ApplicationSoSource[DirectorySoSource[root = /data/app/~~VqlOseLchKjf44iHgfBBqw==/com.careeraiapp.jobs-wtfXwnZVLT-INYELRkYaYw==/lib/arm64 flags = 0]]
+08-17 21:33:01.667 23297 23297 E AndroidRuntime: 	Native lib dir: /data/app/~~VqlOseLchKjf44iHgfBBqw==/com.careeraiapp.jobs-wtfXwnZVLT-INYELRkYaYw==/lib/arm64
+08-17 21:33:01.667 23297 23297 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.doLoadLibraryBySoName(SoLoader.java:1216)
+08-17 21:33:01.667 23297 23297 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryBySoNameImpl(SoLoader.java:1078)
+08-17 21:33:01.667 23297 23297 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryBySoName(SoLoader.java:943)
+08-17 21:33:01.667 23297 23297 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryOnAndroid(SoLoader.java:859)
+08-17 21:33:01.667 23297 23297 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:842)
+08-17 21:33:01.667 23297 23297 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:812)
+08-17 21:33:01.667 23297 23297 E AndroidRuntime: 	at com.facebook.hermes.reactexecutor.HermesExecutor.loadLibrary(HermesExecutor.java:26)
+08-17 21:33:01.667 23297 23297 E AndroidRuntime: 	at com.facebook.hermes.reactexecutor.HermesExecutor.<clinit>(HermesExecutor.java:20)
+08-17 21:33:01.667 23297 23297 E AndroidRuntime: 	at com.facebook.react.ReactInstanceManagerBuilder.getDefaultJSExecutorFactory(ReactInstanceManagerBuilder.java:407)
+08-17 21:33:01.667 23297 23297 E AndroidRuntime: 	at com.facebook.react.ReactInstanceManagerBuilder.build(ReactInstanceManagerBuilder.java:349)
+08-17 21:33:01.667 23297 23297 E AndroidRuntime: 	at com.facebook.react.ReactNativeHost.createReactInstanceManager(ReactNativeHost.java:87)
+08-17 21:33:01.667 23297 23297 E AndroidRuntime: 	at com.facebook.react.ReactNativeHost.getReactInstanceManager(ReactNativeHost.java:57)
+08-17 21:33:01.667 23297 23297 E AndroidRuntime: 	at com.facebook.react.ReactDelegate.loadApp(ReactDelegate.java:301)
+08-17 21:33:01.667 23297 23297 E AndroidRuntime: 	at com.facebook.react.ReactActivityDelegate.loadApp(ReactActivityDelegate.java:137)
+08-17 21:33:01.667 23297 23297 E AndroidRuntime: 	at com.facebook.react.ReactActivityDelegate.onCreate(ReactActivityDelegate.java:132)
+08-17 21:33:01.667 23297 23297 E AndroidRuntime: 	at com.facebook.react.ReactActivity.onCreate(ReactActivity.java:47)
+08-17 21:33:01.667 23297 23297 E AndroidRuntime: 	at com.careeraiapp.jobs.MainActivity.onCreate(MainActivity.kt:13)
+08-17 21:33:10.870 23843 23843 E AndroidRuntime: FATAL EXCEPTION: main
+08-17 21:33:10.870 23843 23843 E AndroidRuntime: Process: com.careeraiapp.jobs, PID: 23843
+08-17 21:33:10.870 23843 23843 E AndroidRuntime: com.facebook.soloader.SoLoaderDSONotFoundError: couldn't find DSO to load: libhermes.so
+08-17 21:33:10.870 23843 23843 E AndroidRuntime: 		SoSource 0: BackupSoSource[root = /data/data/com.careeraiapp.jobs/lib-main flags = 1 apks = [/data/app/~~VqlOseLchKjf44iHgfBBqw==/com.careeraiapp.jobs-wtfXwnZVLT-INYELRkYaYw==/base.apk]]
+08-17 21:33:10.870 23843 23843 E AndroidRuntime: 		SoSource 1: ApplicationSoSource[DirectorySoSource[root = /data/app/~~VqlOseLchKjf44iHgfBBqw==/com.careeraiapp.jobs-wtfXwnZVLT-INYELRkYaYw==/lib/arm64 flags = 0]]
+08-17 21:33:10.870 23843 23843 E AndroidRuntime: 	Native lib dir: /data/app/~~VqlOseLchKjf44iHgfBBqw==/com.careeraiapp.jobs-wtfXwnZVLT-INYELRkYaYw==/lib/arm64
+08-17 21:33:10.870 23843 23843 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.doLoadLibraryBySoName(SoLoader.java:1216)
+08-17 21:33:10.870 23843 23843 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryBySoNameImpl(SoLoader.java:1078)
+08-17 21:33:10.870 23843 23843 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryBySoName(SoLoader.java:943)
+08-17 21:33:10.870 23843 23843 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryOnAndroid(SoLoader.java:859)
+08-17 21:33:10.870 23843 23843 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:842)
+08-17 21:33:10.870 23843 23843 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:812)
+08-17 21:33:10.870 23843 23843 E AndroidRuntime: 	at com.facebook.hermes.reactexecutor.HermesExecutor.loadLibrary(HermesExecutor.java:26)
+08-17 21:33:10.870 23843 23843 E AndroidRuntime: 	at com.facebook.hermes.reactexecutor.HermesExecutor.<clinit>(HermesExecutor.java:20)
+08-17 21:33:10.870 23843 23843 E AndroidRuntime: 	at com.facebook.react.ReactInstanceManagerBuilder.getDefaultJSExecutorFactory(ReactInstanceManagerBuilder.java:407)
+08-17 21:33:10.870 23843 23843 E AndroidRuntime: 	at com.facebook.react.ReactInstanceManagerBuilder.build(ReactInstanceManagerBuilder.java:349)
+08-17 21:33:10.870 23843 23843 E AndroidRuntime: 	at com.facebook.react.ReactNativeHost.createReactInstanceManager(ReactNativeHost.java:87)
+08-17 21:33:10.870 23843 23843 E AndroidRuntime: 	at com.facebook.react.ReactNativeHost.getReactInstanceManager(ReactNativeHost.java:57)
+08-17 21:33:10.870 23843 23843 E AndroidRuntime: 	at com.facebook.react.ReactDelegate.loadApp(ReactDelegate.java:301)
+08-17 21:33:10.870 23843 23843 E AndroidRuntime: 	at com.facebook.react.ReactActivityDelegate.loadApp(ReactActivityDelegate.java:137)
+08-17 21:33:10.870 23843 23843 E AndroidRuntime: 	at com.facebook.react.ReactActivityDelegate.onCreate(ReactActivityDelegate.java:132)
+08-17 21:33:10.870 23843 23843 E AndroidRuntime: 	at com.facebook.react.ReactActivity.onCreate(ReactActivity.java:47)
+08-17 21:33:10.870 23843 23843 E AndroidRuntime: 	at com.careeraiapp.jobs.MainActivity.onCreate(MainActivity.kt:13)
+08-17 21:33:20.347 24699 24699 E AndroidRuntime: FATAL EXCEPTION: main
+08-17 21:33:20.347 24699 24699 E AndroidRuntime: Process: com.careeraiapp.jobs, PID: 24699
+08-17 21:33:20.347 24699 24699 E AndroidRuntime: com.facebook.soloader.SoLoaderDSONotFoundError: couldn't find DSO to load: libhermes.so
+08-17 21:33:20.347 24699 24699 E AndroidRuntime: 		SoSource 0: BackupSoSource[root = /data/data/com.careeraiapp.jobs/lib-main flags = 1 apks = [/data/app/~~VqlOseLchKjf44iHgfBBqw==/com.careeraiapp.jobs-wtfXwnZVLT-INYELRkYaYw==/base.apk]]
+08-17 21:33:20.347 24699 24699 E AndroidRuntime: 		SoSource 1: ApplicationSoSource[DirectorySoSource[root = /data/app/~~VqlOseLchKjf44iHgfBBqw==/com.careeraiapp.jobs-wtfXwnZVLT-INYELRkYaYw==/lib/arm64 flags = 0]]
+08-17 21:33:20.347 24699 24699 E AndroidRuntime: 	Native lib dir: /data/app/~~VqlOseLchKjf44iHgfBBqw==/com.careeraiapp.jobs-wtfXwnZVLT-INYELRkYaYw==/lib/arm64
+08-17 21:33:20.347 24699 24699 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.doLoadLibraryBySoName(SoLoader.java:1216)
+08-17 21:33:20.347 24699 24699 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryBySoNameImpl(SoLoader.java:1078)
+08-17 21:33:20.347 24699 24699 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryBySoName(SoLoader.java:943)
+08-17 21:33:20.347 24699 24699 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryOnAndroid(SoLoader.java:859)
+08-17 21:33:20.347 24699 24699 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:842)
+08-17 21:33:20.347 24699 24699 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:812)
+08-17 21:33:20.347 24699 24699 E AndroidRuntime: 	at com.facebook.hermes.reactexecutor.HermesExecutor.loadLibrary(HermesExecutor.java:26)
+08-17 21:33:20.347 24699 24699 E AndroidRuntime: 	at com.facebook.hermes.reactexecutor.HermesExecutor.<clinit>(HermesExecutor.java:20)
+08-17 21:33:20.347 24699 24699 E AndroidRuntime: 	at com.facebook.react.ReactInstanceManagerBuilder.getDefaultJSExecutorFactory(ReactInstanceManagerBuilder.java:407)
+08-17 21:33:20.347 24699 24699 E AndroidRuntime: 	at com.facebook.react.ReactInstanceManagerBuilder.build(ReactInstanceManagerBuilder.java:349)
+08-17 21:33:20.347 24699 24699 E AndroidRuntime: 	at com.facebook.react.ReactNativeHost.createReactInstanceManager(ReactNativeHost.java:87)
+08-17 21:33:20.347 24699 24699 E AndroidRuntime: 	at com.facebook.react.ReactNativeHost.getReactInstanceManager(ReactNativeHost.java:57)
+08-17 21:33:20.347 24699 24699 E AndroidRuntime: 	at com.facebook.react.ReactDelegate.loadApp(ReactDelegate.java:301)
+08-17 21:33:20.347 24699 24699 E AndroidRuntime: 	at com.facebook.react.ReactActivityDelegate.loadApp(ReactActivityDelegate.java:137)
+08-17 21:33:20.347 24699 24699 E AndroidRuntime: 	at com.facebook.react.ReactActivityDelegate.onCreate(ReactActivityDelegate.java:132)
+08-17 21:33:20.347 24699 24699 E AndroidRuntime: 	at com.facebook.react.ReactActivity.onCreate(ReactActivity.java:47)
+08-17 21:33:20.347 24699 24699 E AndroidRuntime: 	at com.careeraiapp.jobs.MainActivity.onCreate(MainActivity.kt:13)
+08-17 21:39:12.100 21929 23936 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-17 21:39:12.102 21929 23936 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-17 21:41:28.410 21929 14660 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-17 21:41:28.413 21929 14660 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-17 21:41:39.682 21929 22042 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-17 21:41:39.689 21929 22042 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-17 21:42:06.715 21929 14658 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-17 21:42:06.720 21929 14658 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-17 21:45:37.576 21929  5919 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-17 21:45:37.577 21929  5919 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-17 21:46:05.470 21929  7571 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-17 21:46:05.483 21929  7571 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-17 21:46:26.271 21929  7713 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-17 21:46:26.273 21929  7713 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-17 21:47:07.011 21929 10916 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-17 21:47:07.016 21929 10916 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-17 21:50:32.355 21929 10914 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-17 21:50:32.357 21929 10914 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-17 21:53:47.225 21929 10918 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-17 21:53:47.226 21929 10918 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-17 21:58:50.436 21929  8560 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-17 21:58:50.438 21929  8560 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-17 21:59:34.214 21929  8568 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-17 21:59:34.215 21929  8568 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-17 22:03:43.651 21929 11933 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-17 22:03:43.652 21929 11933 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-17 22:05:17.591 16846 17078 E ActivityThread: Failed to find provider info for com.facebook.appmanager.nekodirect
+08-17 22:09:09.350 21929 25339 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-17 22:09:09.351 21929 25339 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-17 22:09:19.213 21929 28196 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-17 22:09:19.216 21929 28196 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-17 22:10:33.722 21929 31005 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-17 22:10:33.723 21929 31005 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-17 22:10:49.404 21929 30662 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-17 22:10:49.405 21929 30662 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-17 22:18:51.909 21929 23096 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-17 22:18:51.925 21929 23096 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-17 22:23:31.779 31400 31400 E AndroidRuntime: FATAL EXCEPTION: main
+08-17 22:23:31.779 31400 31400 E AndroidRuntime: Process: com.careeraiapp.jobs, PID: 31400
+08-17 22:23:31.779 31400 31400 E AndroidRuntime: com.facebook.soloader.SoLoaderULError: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN8facebook3jsi7Runtime13castInterfaceERKNS0_4UUIDE" referenced by "/data/data/com.careeraiapp.jobs/lib-main/libhermes.so"...
+08-17 22:23:31.779 31400 31400 E AndroidRuntime: 	at com.facebook.soloader.SoLoaderULErrorFactory.create(SoLoaderULErrorFactory.java:34)
+08-17 22:23:31.779 31400 31400 E AndroidRuntime: 	at com.facebook.soloader.DirectorySoSource.loadLibraryFrom(DirectorySoSource.java:115)
+08-17 22:23:31.779 31400 31400 E AndroidRuntime: 	at com.facebook.soloader.DirectorySoSource.loadLibrary(DirectorySoSource.java:71)
+08-17 22:23:31.779 31400 31400 E AndroidRuntime: 	at com.facebook.soloader.BackupSoSource.loadLibrary(BackupSoSource.java:98)
+08-17 22:23:31.779 31400 31400 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryFromSoSource(SoLoader.java:1246)
+08-17 22:23:31.779 31400 31400 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.doLoadLibraryBySoName(SoLoader.java:1210)
+08-17 22:23:31.779 31400 31400 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryBySoNameImpl(SoLoader.java:1078)
+08-17 22:23:31.779 31400 31400 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryBySoName(SoLoader.java:943)
+08-17 22:23:31.779 31400 31400 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryOnAndroid(SoLoader.java:859)
+08-17 22:23:31.779 31400 31400 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:842)
+08-17 22:23:31.779 31400 31400 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:812)
+08-17 22:23:31.779 31400 31400 E AndroidRuntime: 	at com.facebook.hermes.reactexecutor.HermesExecutor.loadLibrary(HermesExecutor.java:26)
+08-17 22:23:31.779 31400 31400 E AndroidRuntime: 	at com.facebook.hermes.reactexecutor.HermesExecutor.<clinit>(HermesExecutor.java:20)
+08-17 22:23:31.779 31400 31400 E AndroidRuntime: 	at com.facebook.react.ReactInstanceManagerBuilder.getDefaultJSExecutorFactory(ReactInstanceManagerBuilder.java:407)
+08-17 22:23:31.779 31400 31400 E AndroidRuntime: 	at com.facebook.react.ReactInstanceManagerBuilder.build(ReactInstanceManagerBuilder.java:349)
+08-17 22:23:31.779 31400 31400 E AndroidRuntime: 	at com.facebook.react.ReactNativeHost.createReactInstanceManager(ReactNativeHost.java:87)
+08-17 22:23:31.779 31400 31400 E AndroidRuntime: 	at com.facebook.react.ReactNativeHost.getReactInstanceManager(ReactNativeHost.java:57)
+08-17 22:23:31.779 31400 31400 E AndroidRuntime: 	at com.facebook.react.ReactDelegate.loadApp(ReactDelegate.java:301)
+08-17 22:23:31.779 31400 31400 E AndroidRuntime: 	at com.facebook.react.ReactActivityDelegate.loadApp(ReactActivityDelegate.java:137)
+08-17 22:23:31.779 31400 31400 E AndroidRuntime: 	at com.facebook.react.ReactActivityDelegate.onCreate(ReactActivityDelegate.java:132)
+08-17 22:23:31.779 31400 31400 E AndroidRuntime: 	at com.facebook.react.ReactActivity.onCreate(ReactActivity.java:47)
+08-17 22:23:31.779 31400 31400 E AndroidRuntime: 	at com.careeraiapp.jobs.MainActivity.onCreate(MainActivity.kt:13)
+08-17 22:23:31.780 31400 31400 E AndroidRuntime: Caused by: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN8facebook3jsi7Runtime13castInterfaceERKNS0_4UUIDE" referenced by "/data/data/com.careeraiapp.jobs/lib-main/libhermes.so"...
+08-17 22:23:31.780 31400 31400 E AndroidRuntime: 	at com.facebook.soloader.SoFileLoaderImpl.load(SoFileLoaderImpl.java:64)
+08-17 22:23:31.780 31400 31400 E AndroidRuntime: 	at com.facebook.soloader.InstrumentedSoFileLoader.load(InstrumentedSoFileLoader.java:36)
+08-17 22:23:31.780 31400 31400 E AndroidRuntime: 	at com.facebook.soloader.DirectorySoSource.loadLibraryFrom(DirectorySoSource.java:113)
+08-17 22:24:31.591   768   768 E AndroidRuntime: FATAL EXCEPTION: main
+08-17 22:24:31.591   768   768 E AndroidRuntime: Process: com.careeraiapp.jobs, PID: 768
+08-17 22:24:31.591   768   768 E AndroidRuntime: com.facebook.soloader.SoLoaderULError: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN8facebook3jsi7Runtime13castInterfaceERKNS0_4UUIDE" referenced by "/data/data/com.careeraiapp.jobs/lib-main/libhermes.so"...
+08-17 22:24:31.591   768   768 E AndroidRuntime: 	at com.facebook.soloader.SoLoaderULErrorFactory.create(SoLoaderULErrorFactory.java:34)
+08-17 22:24:31.591   768   768 E AndroidRuntime: 	at com.facebook.soloader.DirectorySoSource.loadLibraryFrom(DirectorySoSource.java:115)
+08-17 22:24:31.591   768   768 E AndroidRuntime: 	at com.facebook.soloader.DirectorySoSource.loadLibrary(DirectorySoSource.java:71)
+08-17 22:24:31.591   768   768 E AndroidRuntime: 	at com.facebook.soloader.BackupSoSource.loadLibrary(BackupSoSource.java:98)
+08-17 22:24:31.591   768   768 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryFromSoSource(SoLoader.java:1246)
+08-17 22:24:31.591   768   768 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.doLoadLibraryBySoName(SoLoader.java:1210)
+08-17 22:24:31.591   768   768 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryBySoNameImpl(SoLoader.java:1078)
+08-17 22:24:31.591   768   768 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryBySoName(SoLoader.java:943)
+08-17 22:24:31.591   768   768 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryOnAndroid(SoLoader.java:859)
+08-17 22:24:31.591   768   768 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:842)
+08-17 22:24:31.591   768   768 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:812)
+08-17 22:24:31.591   768   768 E AndroidRuntime: 	at com.facebook.hermes.reactexecutor.HermesExecutor.loadLibrary(HermesExecutor.java:26)
+08-17 22:24:31.591   768   768 E AndroidRuntime: 	at com.facebook.hermes.reactexecutor.HermesExecutor.<clinit>(HermesExecutor.java:20)
+08-17 22:24:31.591   768   768 E AndroidRuntime: 	at com.facebook.react.ReactInstanceManagerBuilder.getDefaultJSExecutorFactory(ReactInstanceManagerBuilder.java:407)
+08-17 22:24:31.591   768   768 E AndroidRuntime: 	at com.facebook.react.ReactInstanceManagerBuilder.build(ReactInstanceManagerBuilder.java:349)
+08-17 22:24:31.591   768   768 E AndroidRuntime: 	at com.facebook.react.ReactNativeHost.createReactInstanceManager(ReactNativeHost.java:87)
+08-17 22:24:31.591   768   768 E AndroidRuntime: 	at com.facebook.react.ReactNativeHost.getReactInstanceManager(ReactNativeHost.java:57)
+08-17 22:24:31.591   768   768 E AndroidRuntime: 	at com.facebook.react.ReactDelegate.loadApp(ReactDelegate.java:301)
+08-17 22:24:31.591   768   768 E AndroidRuntime: 	at com.facebook.react.ReactActivityDelegate.loadApp(ReactActivityDelegate.java:137)
+08-17 22:24:31.591   768   768 E AndroidRuntime: 	at com.facebook.react.ReactActivityDelegate.onCreate(ReactActivityDelegate.java:132)
+08-17 22:24:31.591   768   768 E AndroidRuntime: 	at com.facebook.react.ReactActivity.onCreate(ReactActivity.java:47)
+08-17 22:24:31.591   768   768 E AndroidRuntime: 	at com.careeraiapp.jobs.MainActivity.onCreate(MainActivity.kt:13)
+08-17 22:24:31.592   768   768 E AndroidRuntime: Caused by: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN8facebook3jsi7Runtime13castInterfaceERKNS0_4UUIDE" referenced by "/data/data/com.careeraiapp.jobs/lib-main/libhermes.so"...
+08-17 22:24:31.592   768   768 E AndroidRuntime: 	at com.facebook.soloader.SoFileLoaderImpl.load(SoFileLoaderImpl.java:64)
+08-17 22:24:31.592   768   768 E AndroidRuntime: 	at com.facebook.soloader.InstrumentedSoFileLoader.load(InstrumentedSoFileLoader.java:36)
+08-17 22:24:31.592   768   768 E AndroidRuntime: 	at com.facebook.soloader.DirectorySoSource.loadLibraryFrom(DirectorySoSource.java:113)
+08-17 22:26:30.821 21929 17417 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-17 22:26:30.822 21929 17417 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-17 22:27:26.912 21929 17417 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-17 22:27:26.913 21929 17417 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-17 22:27:53.747 21929  2562 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-17 22:27:53.749 21929  2562 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-17 22:28:07.026 21929  1512 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-17 22:28:07.027 21929  1512 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-17 22:32:36.311 21929  2717 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-17 22:32:36.316 21929  2717 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-17 22:34:45.547 21929  4784 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-17 22:34:45.548 21929  4784 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-17 22:41:05.499 21929  3135 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-17 22:41:05.500 21929  3135 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-17 22:42:03.666 21929  3137 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-17 22:42:03.667 21929  3137 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-17 22:42:09.477 21929  6580 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-17 22:42:09.481 21929  6580 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-17 22:42:43.989 21929  6588 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-17 22:42:43.990 21929  6588 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-18 06:00:52.009  7354 27628 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-18 06:00:52.009  7354 27628 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-18 06:01:20.227  7354 18814 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-18 06:01:20.230  7354 18814 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-18 06:01:20.902  7354 16335 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-18 06:01:20.904  7354 16335 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-18 06:01:35.021  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.katana.provider.LastUsedTimestampProvider
+08-18 06:01:35.022  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.wakizashi.provider.LastUsedTimestampProvider
+08-18 06:01:35.022  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.orca.provider.LastUsedTimestampProvider
+08-18 06:01:35.024  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.lite.provider.LastUsedTimestampProvider
+08-18 06:01:35.028  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.katana.provider.LastUsedTimestampProvider
+08-18 06:01:35.037  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.wakizashi.provider.LastUsedTimestampProvider
+08-18 06:01:35.043  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.orca.provider.LastUsedTimestampProvider
+08-18 06:01:35.047  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.lite.provider.LastUsedTimestampProvider
+08-18 06:01:35.048  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.katana.provider.LastUsedTimestampProvider
+08-18 06:01:35.049  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.wakizashi.provider.LastUsedTimestampProvider
+08-18 06:01:35.050  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.orca.provider.LastUsedTimestampProvider
+08-18 06:01:35.051  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.lite.provider.LastUsedTimestampProvider
+08-18 06:01:35.052  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.katana.provider.LastUsedTimestampProvider
+08-18 06:01:35.053  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.wakizashi.provider.LastUsedTimestampProvider
+08-18 06:01:35.055  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.orca.provider.LastUsedTimestampProvider
+08-18 06:01:35.059  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.lite.provider.LastUsedTimestampProvider
+08-18 06:01:35.060  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.katana.provider.LastUsedTimestampProvider
+08-18 06:01:35.061  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.wakizashi.provider.LastUsedTimestampProvider
+08-18 06:01:35.070  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.orca.provider.LastUsedTimestampProvider
+08-18 06:01:35.073  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.lite.provider.LastUsedTimestampProvider
+08-18 06:01:35.075  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.katana.provider.LastUsedTimestampProvider
+08-18 06:01:35.076  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.wakizashi.provider.LastUsedTimestampProvider
+08-18 06:01:35.077  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.orca.provider.LastUsedTimestampProvider
+08-18 06:01:35.077  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.lite.provider.LastUsedTimestampProvider
+08-18 06:01:35.079  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.katana.provider.LastUsedTimestampProvider
+08-18 06:01:35.080  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.wakizashi.provider.LastUsedTimestampProvider
+08-18 06:01:35.082  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.orca.provider.LastUsedTimestampProvider
+08-18 06:01:35.082  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.lite.provider.LastUsedTimestampProvider
+08-18 06:01:35.083  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.katana.provider.LastUsedTimestampProvider
+08-18 06:01:35.086  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.wakizashi.provider.LastUsedTimestampProvider
+08-18 06:01:35.087  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.orca.provider.LastUsedTimestampProvider
+08-18 06:01:35.091  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.lite.provider.LastUsedTimestampProvider
+08-18 06:01:35.093  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.katana.provider.LastUsedTimestampProvider
+08-18 06:01:35.094  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.wakizashi.provider.LastUsedTimestampProvider
+08-18 06:01:35.095  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.orca.provider.LastUsedTimestampProvider
+08-18 06:01:35.098  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.lite.provider.LastUsedTimestampProvider
+08-18 06:01:35.099  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.katana.provider.LastUsedTimestampProvider
+08-18 06:01:35.100  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.wakizashi.provider.LastUsedTimestampProvider
+08-18 06:01:35.101  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.orca.provider.LastUsedTimestampProvider
+08-18 06:01:35.102  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.lite.provider.LastUsedTimestampProvider
+08-18 06:01:35.103  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.katana.provider.LastUsedTimestampProvider
+08-18 06:01:35.104  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.wakizashi.provider.LastUsedTimestampProvider
+08-18 06:01:35.106  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.orca.provider.LastUsedTimestampProvider
+08-18 06:01:35.107  7364 19587 E ActivityThread: Failed to find provider info for com.facebook.lite.provider.LastUsedTimestampProvider
+08-18 06:01:35.369  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.katana.provider.LastUsedTimestampProvider
+08-18 06:01:35.371  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.wakizashi.provider.LastUsedTimestampProvider
+08-18 06:01:35.374  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.orca.provider.LastUsedTimestampProvider
+08-18 06:01:35.375  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.lite.provider.LastUsedTimestampProvider
+08-18 06:01:35.382  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.katana.provider.LastUsedTimestampProvider
+08-18 06:01:35.394  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.wakizashi.provider.LastUsedTimestampProvider
+08-18 06:01:35.402  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.orca.provider.LastUsedTimestampProvider
+08-18 06:01:35.405  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.lite.provider.LastUsedTimestampProvider
+08-18 06:01:35.408  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.katana.provider.LastUsedTimestampProvider
+08-18 06:01:35.414  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.wakizashi.provider.LastUsedTimestampProvider
+08-18 06:01:35.416  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.orca.provider.LastUsedTimestampProvider
+08-18 06:01:35.417  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.lite.provider.LastUsedTimestampProvider
+08-18 06:01:35.419  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.katana.provider.LastUsedTimestampProvider
+08-18 06:01:35.427  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.wakizashi.provider.LastUsedTimestampProvider
+08-18 06:01:35.428  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.orca.provider.LastUsedTimestampProvider
+08-18 06:01:35.433  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.lite.provider.LastUsedTimestampProvider
+08-18 06:01:35.438  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.katana.provider.LastUsedTimestampProvider
+08-18 06:01:35.440  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.wakizashi.provider.LastUsedTimestampProvider
+08-18 06:01:35.443  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.orca.provider.LastUsedTimestampProvider
+08-18 06:01:35.444  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.lite.provider.LastUsedTimestampProvider
+08-18 06:01:35.445  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.katana.provider.LastUsedTimestampProvider
+08-18 06:01:35.450  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.wakizashi.provider.LastUsedTimestampProvider
+08-18 06:01:35.451  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.orca.provider.LastUsedTimestampProvider
+08-18 06:01:35.452  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.lite.provider.LastUsedTimestampProvider
+08-18 06:01:35.453  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.katana.provider.LastUsedTimestampProvider
+08-18 06:01:35.454  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.wakizashi.provider.LastUsedTimestampProvider
+08-18 06:01:35.455  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.orca.provider.LastUsedTimestampProvider
+08-18 06:01:35.456  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.lite.provider.LastUsedTimestampProvider
+08-18 06:01:35.457  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.katana.provider.LastUsedTimestampProvider
+08-18 06:01:35.457  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.wakizashi.provider.LastUsedTimestampProvider
+08-18 06:01:35.459  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.orca.provider.LastUsedTimestampProvider
+08-18 06:01:35.460  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.lite.provider.LastUsedTimestampProvider
+08-18 06:01:35.461  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.katana.provider.LastUsedTimestampProvider
+08-18 06:01:35.463  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.wakizashi.provider.LastUsedTimestampProvider
+08-18 06:01:35.465  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.orca.provider.LastUsedTimestampProvider
+08-18 06:01:35.467  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.lite.provider.LastUsedTimestampProvider
+08-18 06:01:35.467  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.katana.provider.LastUsedTimestampProvider
+08-18 06:01:35.468  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.wakizashi.provider.LastUsedTimestampProvider
+08-18 06:01:35.469  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.orca.provider.LastUsedTimestampProvider
+08-18 06:01:35.470  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.lite.provider.LastUsedTimestampProvider
+08-18 06:01:35.471  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.katana.provider.LastUsedTimestampProvider
+08-18 06:01:35.471  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.wakizashi.provider.LastUsedTimestampProvider
+08-18 06:01:35.472  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.orca.provider.LastUsedTimestampProvider
+08-18 06:01:35.473  7364 19651 E ActivityThread: Failed to find provider info for com.facebook.lite.provider.LastUsedTimestampProvider
+08-18 06:01:52.988  7354 18496 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-18 06:01:52.992  7354 18496 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-18 06:36:07.576  7354 26556 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-18 06:36:07.586  7354 26556 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-18 06:36:20.123  7354 18815 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-18 06:36:20.130  7354 18815 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-18 06:36:35.844  7354 31875 E ActivityThread: Failed to find provider info for com.facebook.stella.assistant.deviceconnectionstate
+08-18 06:36:35.860  7354 31875 E ActivityThread: Failed to find provider info for com.facebook.stella_debug.assistant.deviceconnectionstate
+08-18 06:40:22.028 18053 18053 E Zygote  : process_name_ptr:18053 com.careeraiapp.jobs
+08-18 06:40:22.033  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1656   userId=0   windowMode=1   baseIntent=Intent { act=null flag=268435456 cmp=ComponentInfo{com.careeraiapp.jobs/com.careeraiapp.jobs.MainActivity} }
+08-18 06:40:22.119  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1656   userId=0   windowMode=1   baseIntent=Intent { act=null flag=268435456 cmp=ComponentInfo{com.careeraiapp.jobs/com.careeraiapp.jobs.MainActivity} }
+08-18 06:40:22.150  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1656   userId=0   windowMode=1   baseIntent=Intent { act=null flag=268435456 cmp=ComponentInfo{com.careeraiapp.jobs/com.careeraiapp.jobs.MainActivity} }
+08-18 06:40:22.189 18053 18053 E ExpoModulesPackage: 	at com.careeraiapp.jobs.MainApplication.<init>(MainApplication.kt:31)
+08-18 06:40:22.269 18053 18053 E SoLoader: Waiting on SoSource BackupSoSource
+08-18 06:40:22.272 18053 18053 E SoLoader: Checking /data/app missing libraries.
+08-18 06:40:22.277 18053 18053 E SoLoader: No libraries missing from /data/app/~~d2lnzurERHJ9DgDqxC7AcQ==/com.careeraiapp.jobs-pX_47qem26KvUBRAejUzbw==/lib/arm64
+08-18 06:40:22.277 18053 18053 E SoLoader: Reunpacking BackupSoSources due to com.facebook.soloader.SoLoaderULError: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN8facebook3jsi7Runtime13castInterfaceERKNS0_4UUIDE" referenced by "/data/app/~~d2lnzurERHJ9DgDqxC7AcQ==/com.careeraiapp.jobs-pX_47qem26KvUBRAejUzbw==/lib/arm64/libhermes.so"..., retrying for specific library libhermes.so
+08-18 06:40:22.277 18053 18053 E SoLoader: Preparing BackupSoSource for the first time BackupSoSource
+08-18 06:40:22.320 18053 18053 E SoLoader: Checking /data/data missing libraries.
+08-18 06:40:22.320 18053 18053 E SoLoader: No libraries missing from unpacking so paths while recovering /data/data failure
+08-18 06:40:22.320 18053 18053 E SoLoader: Reunpacking NonApk UnpackingSoSources due to com.facebook.soloader.SoLoaderULError: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN8facebook3jsi7Runtime13castInterfaceERKNS0_4UUIDE" referenced by "/data/data/com.careeraiapp.jobs/lib-main/libhermes.so"..., retrying for specific library libhermes.so
+08-18 06:40:22.322 18053 18053 E SoLoader: Waiting on SoSource BackupSoSource
+08-18 06:40:22.326 18053 18053 E AndroidRuntime: FATAL EXCEPTION: main
+08-18 06:40:22.326 18053 18053 E AndroidRuntime: Process: com.careeraiapp.jobs, PID: 18053
+08-18 06:40:22.326 18053 18053 E AndroidRuntime: com.facebook.soloader.SoLoaderULError: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN8facebook3jsi7Runtime13castInterfaceERKNS0_4UUIDE" referenced by "/data/data/com.careeraiapp.jobs/lib-main/libhermes.so"...
+08-18 06:40:22.326 18053 18053 E AndroidRuntime: 	at com.facebook.soloader.SoLoaderULErrorFactory.create(SoLoaderULErrorFactory.java:34)
+08-18 06:40:22.326 18053 18053 E AndroidRuntime: 	at com.facebook.soloader.DirectorySoSource.loadLibraryFrom(DirectorySoSource.java:115)
+08-18 06:40:22.326 18053 18053 E AndroidRuntime: 	at com.facebook.soloader.DirectorySoSource.loadLibrary(DirectorySoSource.java:71)
+08-18 06:40:22.326 18053 18053 E AndroidRuntime: 	at com.facebook.soloader.BackupSoSource.loadLibrary(BackupSoSource.java:98)
+08-18 06:40:22.326 18053 18053 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryFromSoSource(SoLoader.java:1246)
+08-18 06:40:22.326 18053 18053 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.doLoadLibraryBySoName(SoLoader.java:1210)
+08-18 06:40:22.326 18053 18053 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryBySoNameImpl(SoLoader.java:1078)
+08-18 06:40:22.326 18053 18053 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryBySoName(SoLoader.java:943)
+08-18 06:40:22.326 18053 18053 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryOnAndroid(SoLoader.java:859)
+08-18 06:40:22.326 18053 18053 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:842)
+08-18 06:40:22.326 18053 18053 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:812)
+08-18 06:40:22.326 18053 18053 E AndroidRuntime: 	at com.facebook.hermes.reactexecutor.HermesExecutor.loadLibrary(HermesExecutor.java:26)
+08-18 06:40:22.326 18053 18053 E AndroidRuntime: 	at com.facebook.hermes.reactexecutor.HermesExecutor.<clinit>(HermesExecutor.java:20)
+08-18 06:40:22.326 18053 18053 E AndroidRuntime: 	at com.facebook.react.ReactInstanceManagerBuilder.getDefaultJSExecutorFactory(ReactInstanceManagerBuilder.java:407)
+08-18 06:40:22.326 18053 18053 E AndroidRuntime: 	at com.facebook.react.ReactInstanceManagerBuilder.build(ReactInstanceManagerBuilder.java:349)
+08-18 06:40:22.326 18053 18053 E AndroidRuntime: 	at com.facebook.react.ReactNativeHost.createReactInstanceManager(ReactNativeHost.java:87)
+08-18 06:40:22.326 18053 18053 E AndroidRuntime: 	at com.facebook.react.ReactNativeHost.getReactInstanceManager(ReactNativeHost.java:57)
+08-18 06:40:22.326 18053 18053 E AndroidRuntime: 	at com.facebook.react.ReactDelegate.loadApp(ReactDelegate.java:301)
+08-18 06:40:22.326 18053 18053 E AndroidRuntime: 	at com.facebook.react.ReactActivityDelegate.loadApp(ReactActivityDelegate.java:137)
+08-18 06:40:22.326 18053 18053 E AndroidRuntime: 	at com.facebook.react.ReactActivityDelegate.onCreate(ReactActivityDelegate.java:132)
+08-18 06:40:22.326 18053 18053 E AndroidRuntime: 	at com.facebook.react.ReactActivity.onCreate(ReactActivity.java:47)
+08-18 06:40:22.326 18053 18053 E AndroidRuntime: 	at com.careeraiapp.jobs.MainActivity.onCreate(MainActivity.kt:13)
+08-18 06:40:22.327 18053 18053 E AndroidRuntime: Caused by: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN8facebook3jsi7Runtime13castInterfaceERKNS0_4UUIDE" referenced by "/data/data/com.careeraiapp.jobs/lib-main/libhermes.so"...
+08-18 06:40:22.327 18053 18053 E AndroidRuntime: 	at com.facebook.soloader.SoFileLoaderImpl.load(SoFileLoaderImpl.java:64)
+08-18 06:40:22.327 18053 18053 E AndroidRuntime: 	at com.facebook.soloader.InstrumentedSoFileLoader.load(InstrumentedSoFileLoader.java:36)
+08-18 06:40:22.327 18053 18053 E AndroidRuntime: 	at com.facebook.soloader.DirectorySoSource.loadLibraryFrom(DirectorySoSource.java:113)
+08-18 06:40:22.336  5662  6043 E JavaExceptionHandler: Process: com.careeraiapp.jobs, PID: 18053
+08-18 06:40:22.336  5662  6043 E JavaExceptionHandler: com.facebook.soloader.SoLoaderULError: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN8facebook3jsi7Runtime13castInterfaceERKNS0_4UUIDE" referenced by "/data/data/com.careeraiapp.jobs/lib-main/libhermes.so"...
+08-18 06:40:22.336  5662  6043 E JavaExceptionHandler: 	at com.facebook.soloader.SoLoaderULErrorFactory.create(SoLoaderULErrorFactory.java:34)
+08-18 06:40:22.336  5662  6043 E JavaExceptionHandler: 	at com.facebook.soloader.DirectorySoSource.loadLibraryFrom(DirectorySoSource.java:115)
+08-18 06:40:22.336  5662  6043 E JavaExceptionHandler: 	at com.facebook.soloader.DirectorySoSource.loadLibrary(DirectorySoSource.java:71)
+08-18 06:40:22.336  5662  6043 E JavaExceptionHandler: 	at com.facebook.soloader.BackupSoSource.loadLibrary(BackupSoSource.java:98)
+08-18 06:40:22.336  5662  6043 E JavaExceptionHandler: 	at com.facebook.soloader.SoLoader.loadLibraryFromSoSource(SoLoader.java:1246)
+08-18 06:40:22.336  5662  6043 E JavaExceptionHandler: 	at com.facebook.soloader.SoLoader.doLoadLibraryBySoName(SoLoader.java:1210)
+08-18 06:40:22.336  5662  6043 E JavaExceptionHandler: 	at com.facebook.soloader.SoLoader.loadLibraryBySoNameImpl(SoLoader.java:1078)
+08-18 06:40:22.336  5662  6043 E JavaExceptionHandler: 	at com.facebook.soloader.SoLoader.loadLibraryBySoName(SoLoader.java:943)
+08-18 06:40:22.336  5662  6043 E JavaExceptionHandler: 	at com.facebook.soloader.SoLoader.loadLibraryOnAndroid(SoLoader.java:859)
+08-18 06:40:22.336  5662  6043 E JavaExceptionHandler: 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:842)
+08-18 06:40:22.336  5662  6043 E JavaExceptionHandler: 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:812)
+08-18 06:40:22.336  5662  6043 E JavaExceptionHandler: 	at com.facebook.hermes.reactexecutor.HermesExecutor.loadLibrary(HermesExecutor.java:26)
+08-18 06:40:22.336  5662  6043 E JavaExceptionHandler: 	at com.facebook.hermes.reactexecutor.HermesExecutor.<clinit>(HermesExecutor.java:20)
+08-18 06:40:22.336  5662  6043 E JavaExceptionHandler: 	at com.facebook.react.ReactInstanceManagerBuilder.getDefaultJSExecutorFactory(ReactInstanceManagerBuilder.java:407)
+08-18 06:40:22.336  5662  6043 E JavaExceptionHandler: 	at com.facebook.react.ReactInstanceManagerBuilder.build(ReactInstanceManagerBuilder.java:349)
+08-18 06:40:22.336  5662  6043 E JavaExceptionHandler: 	at com.facebook.react.ReactNativeHost.createReactInstanceManager(ReactNativeHost.java:87)
+08-18 06:40:22.336  5662  6043 E JavaExceptionHandler: 	at com.facebook.react.ReactNativeHost.getReactInstanceManager(ReactNativeHost.java:57)
+08-18 06:40:22.336  5662  6043 E JavaExceptionHandler: 	at com.facebook.react.ReactDelegate.loadApp(ReactDelegate.java:301)
+08-18 06:40:22.336  5662  6043 E JavaExceptionHandler: 	at com.facebook.react.ReactActivityDelegate.loadApp(ReactActivityDelegate.java:137)
+08-18 06:40:22.336  5662  6043 E JavaExceptionHandler: 	at com.facebook.react.ReactActivityDelegate.onCreate(ReactActivityDelegate.java:132)
+08-18 06:40:22.336  5662  6043 E JavaExceptionHandler: 	at com.facebook.react.ReactActivity.onCreate(ReactActivity.java:47)
+08-18 06:40:22.336  5662  6043 E JavaExceptionHandler: 	at com.careeraiapp.jobs.MainActivity.onCreate(MainActivity.kt:13)
+08-18 06:40:22.336  5662  6043 E JavaExceptionHandler: Caused by: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN8facebook3jsi7Runtime13castInterfaceERKNS0_4UUIDE" referenced by "/data/data/com.careeraiapp.jobs/lib-main/libhermes.so"...
+08-18 06:40:22.336  5662  6043 E JavaExceptionHandler: 	at com.facebook.soloader.SoFileLoaderImpl.load(SoFileLoaderImpl.java:64)
+08-18 06:40:22.336  5662  6043 E JavaExceptionHandler: 	at com.facebook.soloader.InstrumentedSoFileLoader.load(InstrumentedSoFileLoader.java:36)
+08-18 06:40:22.336  5662  6043 E JavaExceptionHandler: 	at com.facebook.soloader.DirectorySoSource.loadLibraryFrom(DirectorySoSource.java:113)
+08-18 06:40:22.450  3445 20467 E LauncherAnimationRunner: onAnimationStart:   target=RemoteAnimationTargetCompat{taskId=1656, mode=1, isTranslucent=false, clipRect=Rect(0, 0 - 0, 0), position=Point(0, 0), sourceContainerBounds=Rect(0, 0 - 1080, 2400), prefixOrderIndex=1, isNotInRecents=true, contentInsets=Rect(0, 0 - 0, 0), activityType=1, packageName=com.careeraiapp.jobs, startBounds=Rect(0, 0 - 1080, 2400), windowType=-1}
+08-18 06:40:23.146  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1656   userId=0   windowMode=1   baseIntent=Intent { act=null flag=268435456 cmp=ComponentInfo{com.careeraiapp.jobs/com.careeraiapp.jobs.MainActivity} }

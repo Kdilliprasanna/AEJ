@@ -1,0 +1,347 @@
+--------- beginning of main
+08-17 21:31:24.997  1911 17408 D SimpleC2Component: Using output block pool with poolID 20804 => got 20804 - 0
+08-17 21:31:24.997 28133 17406 I MediaCodec: [mId: 207] [audio-debug-dec] setState: STARTED
+08-17 21:31:24.999 28133 17400 I MediaCodec: [mId: 207] [audio-debug-dec] queueInputBuffer: index: 1 pts: 1000000000000 timediff: 0
+08-17 21:31:25.000 28133 17400 I MediaCodec: [mId: 207] [audio-debug-dec] queueInputBuffer: index: 2 pts: 1000000046439 timediff: 1
+08-17 21:31:25.001 28133 17400 I MediaCodec: [mId: 207] [audio-debug-dec] queueInputBuffer: index: 3 pts: 1000000092879 timediff: 1
+08-17 21:31:25.005  1911 17408 I C2SoftAacDec: Reconfiguring decoder: 0->44100 Hz, 0->2 channels
+08-17 21:31:25.011 28133 17406 D CCodecConfig: c2 config diff is   c2::float output.drc.output-loudness.value = -14
+08-17 21:31:25.011 28133 17406 D CCodecConfig:   c2::u32 raw.channel-mask.value = 12
+08-17 21:31:25.011 28133 17406 D CCodecBuffers: [c2.android.aac.decoder#646:Output[N]] popFromStashAndRegister: at 1000000000000us, output format changed to AMessage(what = 0x00000000) = {
+08-17 21:31:25.011 28133 17406 D CCodecBuffers:   int32_t aac-drc-album-mode = 0
+08-17 21:31:25.011 28133 17406 D CCodecBuffers:   int32_t aac-drc-boost-level = 127
+08-17 21:31:25.011 28133 17406 D CCodecBuffers:   int32_t aac-drc-cut-level = 127
+08-17 21:31:25.011 28133 17406 D CCodecBuffers:   int32_t aac-drc-effect-type = 3
+08-17 21:31:25.011 28133 17406 D CCodecBuffers:   int32_t aac-drc-output-loudness = 56
+08-17 21:31:25.011 28133 17406 D CCodecBuffers:   int32_t aac-encoded-target-level = -1
+08-17 21:31:25.011 28133 17406 D CCodecBuffers:   int32_t aac-max-output-channel_count = 8
+08-17 21:31:25.011 28133 17406 D CCodecBuffers:   int32_t aac-target-ref-level = 56
+08-17 21:31:25.011 28133 17406 D CCodecBuffers:   int32_t channel-count = 2
+08-17 21:31:25.011 28133 17406 D CCodecBuffers:   int32_t channel-mask = 12
+08-17 21:31:25.011 28133 17406 D CCodecBuffers:   int32_t max-output-channel-count = 8
+08-17 21:31:25.011 28133 17406 D CCodecBuffers:   string mime = "audio/raw"
+08-17 21:31:25.011 28133 17406 D CCodecBuffers:   int32_t sample-rate = 44100
+08-17 21:31:25.011 28133 17406 D CCodecBuffers:   int32_t android._config-pcm-encoding = 2
+08-17 21:31:25.011 28133 17406 D CCodecBuffers: }
+08-17 21:31:25.029 28133 17400 D AudioTrackStub: AudioTrackStub() create
+08-17 21:31:25.030 28133 17400 I AudioTrackImpl: initAudioTrackImpl()
+08-17 21:31:25.030  1095 29889 D audio_hw_primary: adev_get_parameters:get_audiocloud_monitor_app_name_list
+08-17 21:31:25.030  1095 29889 D soundtrigger: audio_extn_sound_trigger_get_parameters input string<get_audiocloud_monitor_app_name_list=>
+08-17 21:31:25.030  1095 29889 D soundtrigger: extract_sm_handle input string <get_audiocloud_monitor_app_name_list=> param string <get_audiocloud_monitor_app_name_list=>
+08-17 21:31:25.030  1095 29889 D audio_hw_extn: audio_extn_fm_get_parameters: Enter
+08-17 21:31:25.030  1095 29889 D audio_hw_extn: audio_extn_get_parameters: returns 
+08-17 21:31:25.030  1095 29889 V msm8974_platform: platform_get_parameters: exit: returns - 
+08-17 21:31:25.030  1095 29889 D audio_hw_primary: adev_get_parameters: exit: returns - 
+08-17 21:31:25.031 28133 17400 D AudioTrack: set(): (sessionId=0), mcallback is 1, streamType -1, sampleRate 44100, format 0x1, channelMask 0x3, frameCount 14144, flags 0, notificationFrames 0,transferType 3, uid 10111, pid 28133
+08-17 21:31:25.031  1095 29889 D audio_hw_primary: adev_get_parameters:audio_game_sound_volume_gap_switch
+08-17 21:31:25.031  1095 29889 D soundtrigger: audio_extn_sound_trigger_get_parameters input string<audio_game_sound_volume_gap_switch=>
+08-17 21:31:25.031  1095 29889 D soundtrigger: extract_sm_handle input string <audio_game_sound_volume_gap_switch=> param string <audio_game_sound_volume_gap_switch=>
+08-17 21:31:25.031  1095 29889 D audio_hw_extn: audio_extn_fm_get_parameters: Enter
+08-17 21:31:25.031  1095 29889 D audio_hw_extn: audio_extn_get_parameters: returns 
+08-17 21:31:25.031  1095 29889 V msm8974_platform: platform_get_parameters: exit: returns - audio_game_sound_volume_gap_switch=off
+08-17 21:31:25.031  1095 29889 D audio_hw_primary: adev_get_parameters: exit: returns - audio_game_sound_volume_gap_switch=off
+08-17 21:31:25.035  1367 26380 D APM_AudioPolicyManager: getOutputForAttrInt()+ attributes={ Content type: AUDIO_CONTENT_TYPE_UNKNOWN Usage: AUDIO_USAGE_MEDIA Source: AUDIO_SOURCE_INVALID Flags: 0xa00 Tags:  } stream=AUDIO_STREAM_MUSIC session 94897 output 0 selectedDeviceId 0 device AUDIO_DEVICE_NONE sampling rate 44100 format 0x1channel mask 0x3 flags 0x8 stream AUDIO_STREAM_MUSIC uid 10111
+08-17 21:31:25.036  1367 26380 D APM_AudioPolicyManager: getOutputForAttrInt() device {AUDIO_DEVICE_OUT_SPEAKER, @:}, sampling rate 44100, format 0x1, channel mask 0x3, flags 0x8 stream AUDIO_STREAM_MUSIC
+08-17 21:31:25.038  1367 26380 D MiAudioPolicyManager: getPackageName: com.instagram.android  uid 10111
+08-17 21:31:25.039  1095 29889 D audio_hw_primary: adev_get_parameters:audio_karaoke_running
+08-17 21:31:25.039  1095 29889 D audio_hw_primary: get para : audio_karaoke_running = false
+08-17 21:31:25.039  1095 29889 D soundtrigger: audio_extn_sound_trigger_get_parameters input string<audio_karaoke_running=>
+08-17 21:31:25.039  1095 29889 D soundtrigger: extract_sm_handle input string <audio_karaoke_running=> param string <audio_karaoke_running=>
+08-17 21:31:25.039  1095 29889 D audio_hw_extn: audio_extn_fm_get_parameters: Enter
+08-17 21:31:25.039  1095 29889 D audio_hw_extn: audio_extn_get_parameters: returns audio_karaoke_running=false
+08-17 21:31:25.039  1095 29889 V msm8974_platform: platform_get_parameters: exit: returns - audio_karaoke_running=false
+08-17 21:31:25.039  1095 29889 D audio_hw_primary: adev_get_parameters: exit: returns - audio_karaoke_running=false
+08-17 21:31:25.040  1095  1157 D audio_hw_primary: adev_get_parameters:vr_audio_mode_on
+08-17 21:31:25.040  1095  1157 I audio_hw_primary: getting vr mode to 0
+08-17 21:31:25.040  1095  1157 D audio_hw_primary: adev_get_parameters: exit: returns - vr_audio_mode_on=false
+08-17 21:31:25.040  1367 26380 D AudioPolicyManagerImpl: set isSpatializerFlagCE to 0.
+08-17 21:31:25.040  1367 26380 D AudioPolicyManagerImpl: set isSpatializerFlagCE to 0.
+08-17 21:31:25.040  1367 26380 D AudioPolicyManagerImpl: set isSpatializerFlagCE to 0.
+08-17 21:31:25.040  1367 26380 D AudioPolicyManagerImpl: set isSpatializerFlagCE to 0.
+08-17 21:31:25.040  1367 26380 D APM_AudioPolicyManager: getOutputForDevices(), spatializer_flag_ce is 0, spatializer_ce_lastflag is 0
+08-17 21:31:25.041  1367 26380 D APM_AudioPolicyManager: getOutputForAttrInt()- attributes={ Content type: AUDIO_CONTENT_TYPE_UNKNOWN Usage: AUDIO_USAGE_MEDIA Source: AUDIO_SOURCE_INVALID Flags: 0xa00 Tags:  } stream=AUDIO_STREAM_MUSIC session 94897 output 21 selectedDeviceId 0 device {AUDIO_DEVICE_OUT_SPEAKER, @:} sampling rate 44100 format 0x1channel mask 0x3 flags 0x8 stream AUDIO_STREAM_MUSIC uid 10111
+08-17 21:31:25.041  1367 26380 D ClientInfoStub: ClientInfoStub()
+08-17 21:31:25.042  1367 26380 D APM_AudioPolicyManager: getOutputForAttr() returns output 21 requestedPortId 0 selectedDeviceId 3 for port ID 13973
+08-17 21:31:25.043  1367 26380 I AudioFlingerImpl: getPackageName: com.instagram.android for uid: 10111 of audiotrack, note that it is a binder call
+08-17 21:31:25.043  1367 26380 D AudioFlinger: Client defaulted notificationFrames to 7072 for frameCount 14144
+08-17 21:31:25.046  1367 26380 I AF::Track: isInWhiteList curPkgName com.instagram.android  uid 10111
+08-17 21:31:25.046  1367 26380 D AF::Track: Track(13453): usage = 1 mbIsAttrNeedFade = 0
+08-17 21:31:25.046  1367 26380 I AudioFlingerImpl: getPackageName: com.instagram.android for uid: 10111 of audiotrack, note that it is a binder call
+08-17 21:31:25.048  1367 26380 V xlog_client:  xlog_send  msg_id: 29
+08-17 21:31:25.048  1367 26380 V xlog_client:  xlog_send 
+08-17 21:31:25.048  1367 26380 V xlog_client: xlog_open fd = 17
+08-17 21:31:25.048  1367 26380 D xlog_client: xlog_format_msg: send msg 29
+08-17 21:31:25.049  1367 26380 D xlog_client: _xlog_write_flat_msg: send msg {"name":"audio_track_message","audio_event":{"app_name":"com.instagram.android", "scenario":"playback", "frame_count":"14144", "sample_rate":"44100", "notif_frame_act":"7072", "transfer_type":"3", "afframe_count":"1920", "afsample_rate":"48000", "aflatency":"80", "fcnt_times":"4"},"dgt":"null","audio_ext":"null" }
+08-17 21:31:25.049  1367 26380 V xlog_client: xlog_close 17
+08-17 21:31:25.049  1893  2908 I MQSserver: getData len: 512 content: {"name":"audio_track_message","audio_event":{"app_name":"com.instagram.android", "scenario":"playback", "frame_count":"14144", "sample_rate":"44100", "notif_frame_act":"7072", "transfer_type":"3", "afframe_count":"1920", "afsample_rate":"48000", "aflatency":"80", "fcnt_times":"4"},"dgt":"null","audio_ext":"null" }À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+08-17 21:31:25.049  1893  2908 D MQSserver: enter updateCountaudio_track_message
+08-17 21:31:25.049  1893  2908 D MQSserver: read count frome file: 514
+08-17 21:31:25.049  1893  2908 D MQSserver: update RBI json: {"name":"audio_track_message","audio_event":{"app_name":"com.instagram.android","scenario":"playback","frame_count":"14144","sample_rate":"44100","notif_frame_act":"7072","transfer_type":"3","afframe_count":"1920","afsample_rate":"48000","aflatency":"80","fcnt_times":"4"},"dgt":"null","audio_ext":"null","onetrack_count":"515"}
+08-17 21:31:25.049  1893  2908 D MQSserver: updateCount: name: audio_track_message/audio_event : {"app_name":"com.instagram.android","scenario":"playback","frame_count":"14144","sample_rate":"44100","notif_frame_act":"7072","transfer_type":"3","afframe_count":"1920","afsample_rate":"48000","aflatency":"80","fcnt_times":"4"}
+08-17 21:31:25.051 28133 17400 D android.media.AudioTrack: setStereoVolume setParameters is 1.0, rightVolume is 1.0, isMuted is false, mIsLastMute is false, mNeedNotifyedNative is true
+08-17 21:31:25.051 28133 17400 D AudioTrackImpl: setMediaSetMute(13973): Parameter media_set_track_muted is 0 return
+08-17 21:31:25.051 28133 12305 I AudioTrackImpl: before scaleVolumeForVideo L:1.000000 R:1.000000 and the pakage is com.instagram.android
+08-17 21:31:25.051 28133 12305 I AudioTrack: AudioTrack::setVolume L:0.800000 R:0.800000
+08-17 21:31:25.051 28133 17400 I AudioTrackImpl: before scaleVolumeForVideo L:1.000000 R:1.000000 and the pakage is com.instagram.android
+08-17 21:31:25.052 28133 17400 I AudioTrack: AudioTrack::setVolume L:0.800000 R:0.800000
+08-17 21:31:25.056 28133 17400 D AudioTrack: start(13973): prior state:STATE_STOPPED
+08-17 21:31:25.056  1367 26380 D AF::Track: setFadeIn isFadeNeeded = 0
+08-17 21:31:25.056 28133 12305 I AudioTrackImpl: before scaleVolumeForVideo L:1.000000 R:1.000000 and the pakage is com.instagram.android
+08-17 21:31:25.056  1893  2899 D AudioServiceStubImpl: onUpdateMediaState mediaActive=true
+08-17 21:31:25.056 28133 12305 I AudioTrack: AudioTrack::setVolume L:0.800000 R:0.800000
+08-17 21:31:25.058  1367  1874 W AudioFlinger: The package name(android) provided does not correspond to the uid 1041
+08-17 21:31:25.058 27016 27016 I BluetoothAdapterService: BT_FAST_SCAN AudioManager isPlaying: true mIsMusicPlaying true
+08-17 21:31:25.063  1095 29889 I EffectsFactory: EffectCreate() create_effect
+08-17 21:31:25.074  1095  2905 D audio_hw_primary: out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: appname=+com.instagram.android
+08-17 21:31:25.074  1095  2905 D audio_hw_primary: out_set_parameters: [hal_apptype] cannot find app type [+com.instagram.android], return !
+08-17 21:31:25.075  1367  1874 D APM_AudioPolicyManager: startOutput() output 21, stream 3, session 94897 appname com.instagram.android
+08-17 21:31:25.076  1367 26380 D audioserver: FGS Logger Transaction failed
+08-17 21:31:25.076  1367 26380 D audioserver: -129
+08-17 21:31:25.076  1367 26380 D AF::Track: noteStartAudioInNeed
+08-17 21:31:25.077  7921 32251 I PowerKeeper.Event: noteStartAudioInNeed uid is 10111, sessionid is 94897, port is 13973, type is 2
+08-17 21:31:25.077 28133 17400 D AudioAnomalyCheck: [AudioRepeatStartStopCheck] current uid = 10111, uidBackstageCnt = 0, NowAppState = 1
+08-17 21:31:25.078  1893  2899 D AudioServiceStubImpl: onUpdateMediaState mediaActive=true
+08-17 21:31:25.078 27016 27016 I BluetoothAdapterService: BT_FAST_SCAN AudioManager isPlaying: true mIsMusicPlaying true
+08-17 21:31:25.096  1413  2292 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+08-17 21:31:25.096 28133 28133 D SurfaceView: UPDATE null, mIsCastMode = false
+--------- beginning of system
+08-17 21:31:25.102  1893  2681 I PowerManagerServiceImpl: Release wakelock: SCREEN_BRIGHT_WAKE_LOCK        'GrootPlayer:WakeLock' DISABLED ACQ=-1s363ms (uid=10111 pid=28133 pkg=com.instagram.android)
+08-17 21:31:25.114  1095  2905 D msm8974_platform: platform_split_snd_device: snd_device(2) num devices(1) new_snd_devices(0)
+08-17 21:31:25.114  1095  2905 D ACDB-LOADER: ACDB -> send_audvoltable
+08-17 21:31:25.114  1095  2905 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_INSTANCE_GAIN_DEP_STEP_TABLE_SIZE
+08-17 21:31:25.114  1095  2905 D android.hardware.audio.service: Failed to fetch the lookup information of the device 0000271B 
+08-17 21:31:25.114  1095  2905 D ACDB-LOADER: Error: ACDB_CMD_GET_AUDPROC_INSTANCE_GAIN_DEP_STEP_TABLE_SIZE Returned = -19
+08-17 21:31:25.114  1095  2905 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_INSTANCE_GAIN_DEP_STEP_TABLE, vol index 2
+08-17 21:31:25.114  1095  2905 D android.hardware.audio.service: Failed to fetch the lookup information of the device 0000271B 
+08-17 21:31:25.114  1095  2905 D ACDB-LOADER: Error: ACDB AudProc vol returned = -19
+08-17 21:31:25.114  1095  2905 D ACDB-LOADER: ACDB -> AUDIO_SET_VOL_CAL cal type = 40
+08-17 21:31:25.114  1095  2905 W msm8974_platform: platform_send_gain_dep_cal: Usecase list is empty
+08-17 21:31:25.114  1367  2248 D AudioFlinger: updateWakeLockUids_l AudioOut_15 uids:10111 
+08-17 21:31:25.115  1367 26380 W AidlConversionCppNdk: legacy2aidl_audio_channel_mask_t_AudioChannelLayout: no AudioChannelLayout found for legacy output audio_channel_mask_t value 0x10
+08-17 21:31:25.116 28133 12305 W AidlConversionCppNdk: aidl2legacy_AudioChannelLayout_audio_channel_mask_t: no legacy output audio_channel_mask_t found for AudioChannelLayout{layoutMask: 16}
+08-17 21:31:25.122  1893  2899 D AudioServiceStubImpl: onUpdateMediaState mediaActive=true
+08-17 21:31:25.124 27016 27016 I BluetoothAdapterService: BT_FAST_SCAN AudioManager isPlaying: true mIsMusicPlaying true
+08-17 21:31:25.147 28133 17400 D AudioTrack: getTimestamp_l(13973): device stall time corrected using current time 412218279918789
+08-17 21:31:25.188 28133 28856 W RenderInspector: DequeueBuffer time out on com.instagram.android/com.instagram.mainactivity.InstagramMainActivity, count=8, avg=10 ms, max=13 ms.
+08-17 21:31:25.191 28133 28133 E stagram.android: Invalid resource ID 0x0000024f.
+08-17 21:31:25.194 28133 28133 E stagram.android: Invalid resource ID 0x0000024f.
+08-17 21:31:25.194 28133 28133 E stagram.android: Invalid resource ID 0x0000024f.
+08-17 21:31:25.195 28133 17354 W runtime-internals: redirecting sigaction to sigmux_sigaction for signal 11
+08-17 21:31:25.197 28133 28133 E stagram.android: Invalid resource ID 0x0000024f.
+08-17 21:31:25.198 28133 28133 E stagram.android: Invalid resource ID 0x0000024f.
+08-17 21:31:25.201 28133 28133 E stagram.android: Invalid resource ID 0x0000024f.
+08-17 21:31:25.201 28133 28133 E stagram.android: Invalid resource ID 0x0000024f.
+08-17 21:31:25.203 28133 17354 D AudioTrack: pause(sessionID=94889) pause(13972): prior state:STATE_ACTIVE
+08-17 21:31:25.203  1367 26380 D AF::Track: setFadeOut isFadeNeeded = 0 isFadingOut = 0
+08-17 21:31:25.203  1367 26380 D AF::Track: setFadeOut Done
+08-17 21:31:25.203 28133 17357 I MediaCodec: [mId: 206] [audio-debug-dec] setState: FLUSHING
+08-17 21:31:25.204  1893  2899 D AudioServiceStubImpl: onUpdateMediaState mediaActive=true
+08-17 21:31:25.204 28133 17410 D AudioTrack: stop(sessionID=94889)
+08-17 21:31:25.204 28133 17410 D AudioTrack: stop(13972): prior state:STATE_FLUSHED
+08-17 21:31:25.204 28133 17357 I CCodecBufferChannel: [mId: 206] [audio-debug-dec] flush: flushing 4 works
+08-17 21:31:25.204 28133 17410 D AudioTrack: ~AudioTrack(sessionID=94889)
+08-17 21:31:25.204 28133 17357 I MediaCodec: [mId: 206] [audio-debug-dec] setState: STARTED
+08-17 21:31:25.204  1911 17358 W SimpleC2Component: unknown frame index: 37
+08-17 21:31:25.204 28133 17410 D AudioTrack: stop(sessionID=94889)
+08-17 21:31:25.204 28133 17410 D AudioTrack: stop(13972): prior state:STATE_FLUSHED
+08-17 21:31:25.204  1911 17358 D SimpleC2Component: work form old generation: was 1 now 0
+08-17 21:31:25.204 28133 17357 I CCodecConfig: query failed after returning 20 values (BAD_INDEX)
+08-17 21:31:25.204 28133 28133 E stagram.android: Invalid resource ID 0x0000024f.
+08-17 21:31:25.205 28133 28133 E stagram.android: Invalid resource ID 0x0000024f.
+08-17 21:31:25.205 28133 17410 D AudioTrackStub: ~AudioTrackStub() destroy
+08-17 21:31:25.205 28133 17357 W Codec2Client: query -- param skipped: index = 1342179345.
+08-17 21:31:25.205 28133 17357 W Codec2Client: query -- param skipped: index = 2415921170.
+08-17 21:31:25.205 28133 17357 W Codec2Client: query -- param skipped: index = 1610614798.
+08-17 21:31:25.206 28133 17357 D CCodecBufferChannel: [c2.android.aac.decoder#832] start: updating output delay 2
+08-17 21:31:25.206 27016 27016 I BluetoothAdapterService: BT_FAST_SCAN AudioManager isPlaying: true mIsMusicPlaying true
+08-17 21:31:25.206  1893  2899 D AudioServiceStubImpl: onUpdateMediaState mediaActive=true
+08-17 21:31:25.206 28133 17357 D CCodecBufferChannel: [c2.android.aac.decoder#832] flushed work; ignored.
+08-17 21:31:25.206 28133 17357 D CCodecBufferChannel: [c2.android.aac.decoder#832] Discard frames from previous generation.
+08-17 21:31:25.206 28133 17357 D PipelineWatcher: onWorkDone: frameIndex not found (38); ignored
+08-17 21:31:25.207 27016 27016 I BluetoothAdapterService: BT_FAST_SCAN AudioManager isPlaying: true mIsMusicPlaying true
+08-17 21:31:25.207 28133 17354 I MediaCodec: [mId: 206] [audio-debug-dec] stop
+08-17 21:31:25.207 27016 27016 I BluetoothAdapterService: BT_FAST_SCAN AudioManager isPlaying: true mIsMusicPlaying true
+08-17 21:31:25.207 28133 17357 I MediaCodec: [mId: 206] [audio-debug-dec] Stats over last 1435ms:
+08-17 21:31:25.207 28133 17357 I MediaCodec: [mId: 206] [audio-debug-dec] ClientName: com.instagram.android ComponentName: c2.android.aac.decoder
+08-17 21:31:25.208 28133 17357 I MediaCodec: [mId: 206] [audio-debug-dec] Qinput: 40, DQinput: 40 success out of 149 tries
+08-17 21:31:25.208 28133 17357 I MediaCodec: [mId: 206] [audio-debug-dec] Render: 0, Drop: 31, DQoutput: 32 success out of 36 tries
+08-17 21:31:25.208 28133 17357 I MediaCodec: [mId: 206] [audio-debug-dec] setState: STOPPING
+08-17 21:31:25.208  1893  2899 D AudioServiceStubImpl: onUpdateMediaState mediaActive=true
+08-17 21:31:25.208 28133 17357 D CCodecBufferChannel: [c2.android.aac.decoder#832] MediaCodec discarded an unknown buffer
+08-17 21:31:25.208 28133 17357 D CCodecBufferChannel: [c2.android.aac.decoder#832] MediaCodec discarded an unknown buffer
+08-17 21:31:25.208 28133 17357 D CCodecBufferChannel: [c2.android.aac.decoder#832] MediaCodec discarded an unknown buffer
+08-17 21:31:25.208 28133 17357 D CCodecBufferChannel: [c2.android.aac.decoder#832] MediaCodec discarded an unknown buffer
+08-17 21:31:25.208 28133 28133 E stagram.android: Invalid resource ID 0x0000024f.
+08-17 21:31:25.208 28133 28133 E stagram.android: Invalid resource ID 0x0000024f.
+08-17 21:31:25.209 28133 17357 I MediaCodec: [mId: 206] [audio-debug-dec] setState: INITIALIZED
+08-17 21:31:25.209 28133 17357 I MediaCodec: [mId: 206] [audio-debug-dec] setState: RELEASING
+08-17 21:31:25.210 28133 17411 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+08-17 21:31:25.210  1911 10680 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+08-17 21:31:25.211 28133 17357 I MediaCodec: [mId: 206] [audio-debug-dec] setState: UNINITIALIZED
+08-17 21:31:25.211 28133 17353 W MessageQueue: Handler (android.os.Handler) {dfa0118} sending message to a Handler on a dead thread
+08-17 21:31:25.211 28133 17353 W MessageQueue: java.lang.IllegalStateException: Handler (android.os.Handler) {dfa0118} sending message to a Handler on a dead thread
+08-17 21:31:25.211 28133 17353 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:574)
+08-17 21:31:25.211 28133 17353 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:786)
+08-17 21:31:25.211 28133 17353 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:735)
+08-17 21:31:25.211 28133 17353 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:705)
+08-17 21:31:25.211 28133 17353 W MessageQueue: 	at android.os.Handler.sendMessage(Handler.java:643)
+08-17 21:31:25.211 28133 17353 W MessageQueue: 	at android.os.Message.sendToTarget(Message.java:484)
+08-17 21:31:25.211 28133 17353 W MessageQueue: 	at X.0L7.A02(:4)
+08-17 21:31:25.211 28133 17353 W MessageQueue: 	at X.0K9.Gzm(:9)
+08-17 21:31:25.211 28133 17353 W MessageQueue: 	at X.0IL.Gzm(:11)
+08-17 21:31:25.211 28133 17353 W MessageQueue: 	at X.9cF.A0D(:172)
+08-17 21:31:25.211 28133 17353 W MessageQueue: 	at X.9cF.handleMessage(:1829)
+08-17 21:31:25.211 28133 17353 W MessageQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-17 21:31:25.211 28133 17353 W MessageQueue: 	at android.os.Looper.loopOnce(Looper.java:224)
+08-17 21:31:25.211 28133 17353 W MessageQueue: 	at android.os.Looper.loop(Looper.java:318)
+08-17 21:31:25.211 28133 17353 W MessageQueue: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+08-17 21:31:25.211 28133 17353 W MessageQueue: Handler (android.os.Handler) {53ef956} sending message to a Handler on a dead thread
+08-17 21:31:25.211 28133 17353 W MessageQueue: java.lang.IllegalStateException: Handler (android.os.Handler) {53ef956} sending message to a Handler on a dead thread
+08-17 21:31:25.211 28133 17353 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:574)
+08-17 21:31:25.211 28133 17353 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:786)
+08-17 21:31:25.211 28133 17353 W MessageQueue: 	at android.os.Handler.sendMessageAtFrontOfQueue(Handler.java:758)
+08-17 21:31:25.211 28133 17353 W MessageQueue: 	at X.0G2.Ga0(:8)
+08-17 21:31:25.211 28133 17353 W MessageQueue: 	at X.0G0.A01(:29)
+08-17 21:31:25.211 28133 17353 W MessageQueue: 	at X.0IL.Gzm(:29)
+08-17 21:31:25.211 28133 17353 W MessageQueue: 	at X.9cF.A0D(:172)
+08-17 21:31:25.211 28133 17353 W MessageQueue: 	at X.9cF.handleMessage(:1829)
+08-17 21:31:25.211 28133 17353 W MessageQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-17 21:31:25.211 28133 17353 W MessageQueue: 	at android.os.Looper.loopOnce(Looper.java:224)
+08-17 21:31:25.211 28133 17353 W MessageQueue: 	at android.os.Looper.loop(Looper.java:318)
+08-17 21:31:25.211 28133 17353 W MessageQueue: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+08-17 21:31:25.211 28133 17357 I MediaCodec: MediaStub sendHdrInfo/sendFrameRateFloatCal/updateFrcAieAisState
+08-17 21:31:25.211 28133 17357 D MediaImpl: FRC not support: valueSupport : 
+08-17 21:31:25.211 28133 17357 D MediaImpl: AIE not support: valueSupport : 
+08-17 21:31:25.211 28133 17357 D MediaImpl: AIS not support: valueSupport : 
+08-17 21:31:25.211 28133 17357 D MediaCodec: flushMediametrics
+08-17 21:31:25.211 28133 28133 E stagram.android: Invalid resource ID 0x0000024f.
+08-17 21:31:25.211  1911 10680 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xb4000077e111e028 cached: 0/0M, 0/0% in use; allocs: 0, 0% recycled; transfers: 0, 0% unfetched
+08-17 21:31:25.212 28133 17357 D MediaCodec: flushMediametrics
+08-17 21:31:25.212 28133 17357 W MediaCodec: no metrics handle found
+08-17 21:31:25.212 28133 28133 E stagram.android: Invalid resource ID 0x0000024f.
+08-17 21:31:25.215 28133 28133 E stagram.android: Invalid resource ID 0x0000024f.
+08-17 21:31:25.216 28133 28133 E stagram.android: Invalid resource ID 0x0000024f.
+08-17 21:31:25.219 28133 28133 E stagram.android: Invalid resource ID 0x0000024f.
+08-17 21:31:25.219 28133 28133 E stagram.android: Invalid resource ID 0x0000024f.
+08-17 21:31:25.223 28133 28133 E stagram.android: Invalid resource ID 0x0000024f.
+08-17 21:31:25.223 28133 28133 E stagram.android: Invalid resource ID 0x0000024f.
+08-17 21:31:25.226 28133 28133 E stagram.android: Invalid resource ID 0x0000024f.
+08-17 21:31:25.227 28133 28133 E stagram.android: Invalid resource ID 0x0000024f.
+08-17 21:31:25.230 28133 28133 E stagram.android: Invalid resource ID 0x0000024f.
+08-17 21:31:25.230 28133 28133 E stagram.android: Invalid resource ID 0x0000024f.
+08-17 21:31:25.233  1367  2248 D AF::Track: presentationComplete() try to complete, framesWritten 1896960 completeFrames 1900800 halFrames 3840 => complete 0
+08-17 21:31:25.234 28133 28133 E stagram.android: Invalid resource ID 0x0000024f.
+08-17 21:31:25.275  1367  2248 D AF::Track: presentationComplete() try to complete, framesWritten 1898880 completeFrames 1900800 halFrames 3840 => complete 0
+08-17 21:31:25.296 28133 28133 E stagram.android: Invalid resource ID 0x00000219.
+08-17 21:31:25.299 28133 28133 E stagram.android: Invalid resource ID 0x00000219.
+08-17 21:31:25.300 28133 28133 E stagram.android: Invalid resource ID 0x00000219.
+08-17 21:31:25.303 28133 28133 E stagram.android: Invalid resource ID 0x00000219.
+08-17 21:31:25.303 28133 28133 E stagram.android: Invalid resource ID 0x00000219.
+08-17 21:31:25.307 28133 28133 E stagram.android: Invalid resource ID 0x00000219.
+08-17 21:31:25.307 28133 28133 E stagram.android: Invalid resource ID 0x00000219.
+08-17 21:31:25.310 28133 28133 E stagram.android: Invalid resource ID 0x00000219.
+08-17 21:31:25.310 28133 28133 E stagram.android: Invalid resource ID 0x00000219.
+08-17 21:31:25.313  1367  2248 D AF::Track: presentationComplete() try to complete, framesWritten 1900800 completeFrames 1900800 halFrames 3840 => complete 0
+08-17 21:31:25.314 28133 28133 E stagram.android: Invalid resource ID 0x00000219.
+08-17 21:31:25.314 28133 28133 E stagram.android: Invalid resource ID 0x00000219.
+08-17 21:31:25.317 28133 28133 E stagram.android: Invalid resource ID 0x00000219.
+08-17 21:31:25.318 28133 28133 E stagram.android: Invalid resource ID 0x00000219.
+08-17 21:31:25.321 28133 28133 E stagram.android: Invalid resource ID 0x00000219.
+08-17 21:31:25.322 28133 28133 E stagram.android: Invalid resource ID 0x00000219.
+08-17 21:31:25.325 28133 28133 E stagram.android: Invalid resource ID 0x00000219.
+08-17 21:31:25.325 28133 28133 E stagram.android: Invalid resource ID 0x00000219.
+08-17 21:31:25.328 28133 28133 E stagram.android: Invalid resource ID 0x00000219.
+08-17 21:31:25.329 28133 28133 E stagram.android: Invalid resource ID 0x00000219.
+08-17 21:31:25.332 28133 28133 E stagram.android: Invalid resource ID 0x00000219.
+08-17 21:31:25.332 28133 28133 E stagram.android: Invalid resource ID 0x00000219.
+08-17 21:31:25.336 28133 28133 E stagram.android: Invalid resource ID 0x00000219.
+08-17 21:31:25.336 28133 28133 E stagram.android: Invalid resource ID 0x00000219.
+08-17 21:31:25.339 28133 28133 E stagram.android: Invalid resource ID 0x00000219.
+08-17 21:31:25.342 28133 28133 E stagram.android: Invalid resource ID 0x00000275.
+08-17 21:31:25.345 28133 28133 E stagram.android: Invalid resource ID 0x00000275.
+08-17 21:31:25.346 28133 28133 E stagram.android: Invalid resource ID 0x00000275.
+08-17 21:31:25.349 28133 28133 E stagram.android: Invalid resource ID 0x00000275.
+08-17 21:31:25.350 28133 28133 E stagram.android: Invalid resource ID 0x00000275.
+08-17 21:31:25.353 28133 28133 E stagram.android: Invalid resource ID 0x00000275.
+08-17 21:31:25.353  1367  2248 D AudioFlinger: noteStopAudioInNeed
+08-17 21:31:25.353 28133 28133 E stagram.android: Invalid resource ID 0x00000275.
+08-17 21:31:25.354  1367  2248 D audioserver: FGS Logger Transaction failed
+08-17 21:31:25.354  1367  2248 D audioserver: -129
+08-17 21:31:25.354  7921 32251 I PowerKeeper.Event: noteStopAudioInNeed uid is 10111, sessionid is 94889, port is 13972, type is 2
+08-17 21:31:25.356  1367  2248 D AudioFlinger: updateWakeLockUids_l AudioOut_15 uids:10111 
+08-17 21:31:25.357 28133 28133 E stagram.android: Invalid resource ID 0x00000275.
+08-17 21:31:25.357  1095  2905 D msm8974_platform: platform_split_snd_device: snd_device(2) num devices(1) new_snd_devices(0)
+08-17 21:31:25.357  1095  2905 D ACDB-LOADER: ACDB -> send_audvoltable
+08-17 21:31:25.357  1095  2905 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_INSTANCE_GAIN_DEP_STEP_TABLE_SIZE
+08-17 21:31:25.357  1095  2905 D android.hardware.audio.service: Failed to fetch the lookup information of the device 0000271B 
+08-17 21:31:25.357  1095  2905 D ACDB-LOADER: Error: ACDB_CMD_GET_AUDPROC_INSTANCE_GAIN_DEP_STEP_TABLE_SIZE Returned = -19
+08-17 21:31:25.357  1095  2905 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_INSTANCE_GAIN_DEP_STEP_TABLE, vol index 3
+08-17 21:31:25.357  1095  2905 D android.hardware.audio.service: Failed to fetch the lookup information of the device 0000271B 
+08-17 21:31:25.357  1095  2905 D ACDB-LOADER: Error: ACDB AudProc vol returned = -19
+08-17 21:31:25.357  1095  2905 D ACDB-LOADER: ACDB -> AUDIO_SET_VOL_CAL cal type = 40
+08-17 21:31:25.357  1095  2905 W msm8974_platform: platform_send_gain_dep_cal: Usecase list is empty
+08-17 21:31:25.357  1095  2905 D msm8974_platform: platform_split_snd_device: snd_device(2) num devices(1) new_snd_devices(0)
+08-17 21:31:25.357 28133 28133 E stagram.android: Invalid resource ID 0x00000275.
+08-17 21:31:25.357  1095  2905 W msm8974_platform: platform_send_gain_dep_cal: Usecase list is empty
+08-17 21:31:25.358  1367  1874 W audioserver: Binder 0xb4000070ecadc648 destroyed after setMinSchedulerPolicy before being parceled.
+08-17 21:31:25.358  1367  1874 D APM_AudioPolicyManager: stopOutput portId 13972
+08-17 21:31:25.358  1367  1874 D APM_AudioPolicyManager: stopOutput() output 21, stream 3, session 94889
+08-17 21:31:25.361 28133 28133 E stagram.android: Invalid resource ID 0x00000275.
+08-17 21:31:25.361 28133 28133 E stagram.android: Invalid resource ID 0x00000275.
+08-17 21:31:25.364 28133 28133 E stagram.android: Invalid resource ID 0x00000275.
+08-17 21:31:25.365 28133 28133 E stagram.android: Invalid resource ID 0x00000275.
+08-17 21:31:25.368 28133 28133 E stagram.android: Invalid resource ID 0x00000275.
+08-17 21:31:25.374 28133 28133 E stagram.android: Invalid resource ID 0x00000275.
+08-17 21:31:25.377 28133 28133 E stagram.android: Invalid resource ID 0x00000275.
+08-17 21:31:25.378 28133 28133 E stagram.android: Invalid resource ID 0x00000275.
+08-17 21:31:25.381 28133 28133 E stagram.android: Invalid resource ID 0x00000275.
+08-17 21:31:25.381 28133 28133 E stagram.android: Invalid resource ID 0x00000275.
+08-17 21:31:25.385 28133 28133 E stagram.android: Invalid resource ID 0x00000275.
+08-17 21:31:25.385 28133 28133 E stagram.android: Invalid resource ID 0x00000275.
+08-17 21:31:25.388 28133 28133 E stagram.android: Invalid resource ID 0x00000275.
+08-17 21:31:25.389 28133 28133 E stagram.android: Invalid resource ID 0x00000275.
+08-17 21:31:25.392 28133 28133 E stagram.android: Invalid resource ID 0x00000275.
+08-17 21:31:25.395 28133 28133 E stagram.android: Invalid resource ID 0x00000276.
+08-17 21:31:25.396  1367  2248 D audioserver: FGS Logger Transaction failed
+08-17 21:31:25.396  1367  2248 D audioserver: -129
+08-17 21:31:25.397  1095 29890 D audio_hw_primary: out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: appname=-com.instagram.android
+08-17 21:31:25.397  1095 29890 D audio_hw_primary: out_set_parameters: [hal_apptype] cannot find app type [-com.instagram.android], return !
+08-17 21:31:25.398  1367  1874 D APM_AudioPolicyManager: releaseOutput portId 13972
+08-17 21:31:25.398  1367  1874 D APM_AudioPolicyManager: releaseOutput() output 21, stream 3, session 94889 [uid=10111]
+08-17 21:31:25.398  1367  1874 D ClientInfoStub: ~ClientInfoStub()
+08-17 21:31:25.399 28133 28133 E stagram.android: Invalid resource ID 0x00000276.
+08-17 21:31:25.399 28133 28133 E stagram.android: Invalid resource ID 0x00000276.
+08-17 21:31:25.403 28133 28133 E stagram.android: Invalid resource ID 0x00000276.
+08-17 21:31:25.403 28133 28133 E stagram.android: Invalid resource ID 0x00000276.
+08-17 21:31:25.406 28133 28133 E stagram.android: Invalid resource ID 0x00000276.
+08-17 21:31:25.407 28133 28133 E stagram.android: Invalid resource ID 0x00000276.
+08-17 21:31:25.410 28133 28133 E stagram.android: Invalid resource ID 0x00000276.
+08-17 21:31:25.411 28133 28133 E stagram.android: Invalid resource ID 0x00000276.
+08-17 21:31:25.414 28133 28133 E stagram.android: Invalid resource ID 0x00000276.
+08-17 21:31:25.415 28133 28133 E stagram.android: Invalid resource ID 0x00000276.
+08-17 21:31:25.418 28133 28133 E stagram.android: Invalid resource ID 0x00000276.
+08-17 21:31:25.418 28133 28133 E stagram.android: Invalid resource ID 0x00000276.
+08-17 21:31:25.422 28133 28133 E stagram.android: Invalid resource ID 0x00000276.
+08-17 21:31:25.424 28133 28133 E stagram.android: Invalid resource ID 0x00000276.
+08-17 21:31:25.427 28133 28133 E stagram.android: Invalid resource ID 0x00000276.
+08-17 21:31:25.429 28133 28133 E stagram.android: Invalid resource ID 0x00000276.
+08-17 21:31:25.433 28133 28133 E stagram.android: Invalid resource ID 0x00000276.
+08-17 21:31:25.433 28133 28133 E stagram.android: Invalid resource ID 0x00000276.
+08-17 21:31:25.436 28133 28133 E stagram.android: Invalid resource ID 0x00000276.
+08-17 21:31:25.437 28133 28133 E stagram.android: Invalid resource ID 0x00000276.
+08-17 21:31:25.440 28133 28133 E stagram.android: Invalid resource ID 0x00000276.
+08-17 21:31:25.440 28133 28133 E stagram.android: Invalid resource ID 0x00000276.
+08-17 21:31:25.444 28133 28133 E stagram.android: Invalid resource ID 0x00000276.
+08-17 21:31:25.457  1893  2681 D PerfShielderService: com.instagram.android|com.instagram.android/com.instagram.mainactivity.InstagramMainActivity|1034|412218301560247|75|5|59
+08-17 21:31:25.457  1893  2681 D PerfShielderService: com.instagram.android|com.instagram.android/com.instagram.mainactivity.InstagramMainActivity|206|412218529795976|54|0|8
+08-17 21:31:25.457  5662 26187 W MiuiPerfServiceClient: interceptAndQueuing:28133|com.instagram.android|1034|75|412218301560247|Slow issue draw commands|59
+08-17 21:31:25.457  5662 26187 W MiuiPerfServiceClient: interceptAndQueuing:28133|com.instagram.android|206|54|412218529795976|Slow main thread|8
+08-17 21:31:25.478 28133 28137 I stagram.android: Background concurrent copying GC freed 16MB AllocSpace bytes, 82(7716KB) LOS objects, 14% free, 143MB/167MB, paused 211us,207us total 493.371ms
+08-17 21:31:25.593  1663  1663 I adbd    : adbd service requested 'shell,v2:export ANDROID_LOG_TAGS=''; exec logcat '-d' '-t' '300''
+08-17 21:31:25.606  1948  2130 D [gf_ca_entry]: [gf_ca_invoke_command] enter
+08-17 21:31:25.607  1948  2130 D [gf_ca_entry]: [gf_ta_send_modified_cmd_req] enter
+08-17 21:31:25.607  1948  2130 D [gf_ca_entry]: [gf_ta_send_modified_cmd_req] begin token 36042, cmd_id=1016
+08-17 21:31:25.607  1948  2130 D [gf_sec_ion]: [gf_sec_ion_malloc] enter
+08-17 21:31:25.607  1948  2130 D [gf_sec_ion]: [gf_sec_ion_malloc] gf_sec_ion_malloc data_size = 327680
+08-17 21:31:25.607  1948  2130 D [gf_sec_ion]: [gf_sec_ion_malloc] exit
+08-17 21:31:25.607  1948  2130 D [gf_ca_entry]: [gf_ta_send_modified_cmd_req] whitebox is disabled.

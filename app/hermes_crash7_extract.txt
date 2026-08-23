@@ -1,0 +1,60 @@
+08-16 22:44:49.146 13639 13639 D AndroidRuntime: Shutting down VM
+--------- beginning of crash
+08-16 22:44:49.146 13639 13639 E AndroidRuntime: FATAL EXCEPTION: main
+08-16 22:44:49.146 13639 13639 E AndroidRuntime: Process: com.careeraiapp.jobs, PID: 13639
+08-16 22:44:49.146 13639 13639 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate application com.careeraiapp.jobs.MainApplication package com.careeraiapp.jobs: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.pm.ApplicationInfo android.content.Context.getApplicationInfo()' on a null object reference
+08-16 22:44:49.146 13639 13639 E AndroidRuntime: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1495)
+08-16 22:44:49.146 13639 13639 E AndroidRuntime: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1424)
+08-16 22:44:49.146 13639 13639 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7479)
+08-16 22:44:49.146 13639 13639 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(ActivityThread.java:0)
+08-16 22:44:49.146 13639 13639 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2382)
+08-16 22:44:49.146 13639 13639 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+08-16 22:44:49.146 13639 13639 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:224)
+08-16 22:44:49.146 13639 13639 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:318)
+08-16 22:44:49.146 13639 13639 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8790)
+08-16 22:44:49.146 13639 13639 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-16 22:44:49.146 13639 13639 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:561)
+08-16 22:44:49.146 13639 13639 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1013)
+08-16 22:44:49.146 13639 13639 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.pm.ApplicationInfo android.content.Context.getApplicationInfo()' on a null object reference
+08-16 22:44:49.146 13639 13639 E AndroidRuntime: 	at android.content.ContextWrapper.getApplicationInfo(ContextWrapper.java:217)
+08-16 22:44:49.146 13639 13639 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.getAppType(SoLoader.java:625)
+08-16 22:44:49.146 13639 13639 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.init(SoLoader.java:285)
+08-16 22:44:49.146 13639 13639 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.init(SoLoader.java:260)
+08-16 22:44:49.146 13639 13639 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.init(SoLoader.java:338)
+08-16 22:44:49.146 13639 13639 E AndroidRuntime: 	at com.careeraiapp.jobs.MainApplication.<init>(MainApplication.kt:42)
+08-16 22:44:49.146 13639 13639 E AndroidRuntime: 	at java.lang.Class.newInstance(Native Method)
+08-16 22:44:49.146 13639 13639 E AndroidRuntime: 	at android.app.AppComponentFactory.instantiateApplication(AppComponentFactory.java:76)
+08-16 22:44:49.146 13639 13639 E AndroidRuntime: 	at androidx.core.app.CoreComponentFactory.instantiateApplication(CoreComponentFactory.java:51)
+08-16 22:44:49.146 13639 13639 E AndroidRuntime: 	at android.app.Instrumentation.newApplication(Instrumentation.java:1289)
+08-16 22:44:49.146 13639 13639 E AndroidRuntime: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1487)
+08-16 22:44:49.146 13639 13639 E AndroidRuntime: 	... 11 more
+08-16 22:44:49.142 13639 13639 W areeraiapp.jobs: type=1400 audit(0.0:1705803): avc:  denied  { search } for  name="miuilog" dev="dm-50" ino=38757 scontext=u:r:untrusted_app:s0:c67,c257,c512,c768 tcontext=u:object_r:data_log_file:s0 tclass=dir permissive=0 app=com.careeraiapp.jobs
+08-16 22:44:49.142 13639 13639 W areeraiapp.jobs: type=1400 audit(0.0:1705804): avc:  denied  { search } for  name="miuilog" dev="dm-50" ino=38757 scontext=u:r:untrusted_app:s0:c67,c257,c512,c768 tcontext=u:object_r:data_log_file:s0 tclass=dir permissive=0 app=com.careeraiapp.jobs
+08-16 22:44:49.142 13639 13639 W areeraiapp.jobs: type=1400 audit(0.0:1705805): avc:  denied  { search } for  name="miuilog" dev="dm-50" ino=38757 scontext=u:r:untrusted_app:s0:c67,c257,c512,c768 tcontext=u:object_r:data_log_file:s0 tclass=dir permissive=0 app=com.careeraiapp.jobs
+08-16 22:44:49.142 13639 13639 W areeraiapp.jobs: type=1400 audit(0.0:1705806): avc:  denied  { search } for  name="miuilog" dev="dm-50" ino=38757 scontext=u:r:untrusted_app:s0:c67,c257,c512,c768 tcontext=u:object_r:data_log_file:s0 tclass=dir permissive=0 app=com.careeraiapp.jobs
+08-16 22:44:49.147 13639 13639 W ScoutUtils: Failed to mkdir /data/miuilog/stability/memleak/heapdump/
+08-16 22:44:49.148  5662  8581 W MQSEventManager: jeoccur
+08-16 22:44:49.142 13639 13639 W areeraiapp.jobs: type=1400 audit(0.0:1705807): avc:  denied  { search } for  name="miuilog" dev="dm-50" ino=38757 scontext=u:r:untrusted_app:s0:c67,c257,c512,c768 tcontext=u:object_r:data_log_file:s0 tclass=dir permissive=0 app=com.careeraiapp.jobs
+08-16 22:44:49.142 13639 13639 W areeraiapp.jobs: type=1400 audit(0.0:1705808): avc:  denied  { search } for  name="miuilog" dev="dm-50" ino=38757 scontext=u:r:untrusted_app:s0:c67,c257,c512,c768 tcontext=u:object_r:data_log_file:s0 tclass=dir permissive=0 app=com.careeraiapp.jobs
+08-16 22:44:49.142 13639 13639 W areeraiapp.jobs: type=1400 audit(0.0:1705809): avc:  denied  { getattr } for  path="/data/miuilog" dev="dm-50" ino=38757 scontext=u:r:untrusted_app:s0:c67,c257,c512,c768 tcontext=u:object_r:data_log_file:s0 tclass=dir permissive=0 app=com.careeraiapp.jobs
+08-16 22:44:49.142 13639 13639 W areeraiapp.jobs: type=1400 audit(0.0:1705810): avc:  denied  { search } for  name="miuilog" dev="dm-50" ino=38757 scontext=u:r:untrusted_app:s0:c67,c257,c512,c768 tcontext=u:object_r:data_log_file:s0 tclass=dir permissive=0 app=com.careeraiapp.jobs
+08-16 22:44:49.142 13639 13639 W areeraiapp.jobs: type=1400 audit(0.0:1705811): avc:  denied  { search } for  name="miuilog" dev="dm-50" ino=38757 scontext=u:r:untrusted_app:s0:c67,c257,c512,c768 tcontext=u:object_r:data_log_file:s0 tclass=dir permissive=0 app=com.careeraiapp.jobs
+08-16 22:44:49.148  5662  6043 E JavaExceptionHandler: Process: com.careeraiapp.jobs, PID: 13639
+08-16 22:44:49.148  5662  6043 E JavaExceptionHandler: java.lang.RuntimeException: Unable to instantiate application com.careeraiapp.jobs.MainApplication package com.careeraiapp.jobs: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.pm.ApplicationInfo android.content.Context.getApplicationInfo()' on a null object reference
+08-16 22:44:49.148  5662  6043 E JavaExceptionHandler: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1495)
+08-16 22:44:49.148  5662  6043 E JavaExceptionHandler: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1424)
+08-16 22:44:49.148  5662  6043 E JavaExceptionHandler: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7479)
+08-16 22:44:49.148  5662  6043 E JavaExceptionHandler: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(ActivityThread.java:0)
+08-16 22:44:49.148  5662  6043 E JavaExceptionHandler: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2382)
+08-16 22:44:49.148  5662  6043 E JavaExceptionHandler: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+08-16 22:44:49.148  5662  6043 E JavaExceptionHandler: 	at android.os.Looper.loopOnce(Looper.java:224)
+08-16 22:44:49.148  5662  6043 E JavaExceptionHandler: 	at android.os.Looper.loop(Looper.java:318)
+08-16 22:44:49.148  5662  6043 E JavaExceptionHandler: 	at android.app.ActivityThread.main(ActivityThread.java:8790)
+08-16 22:44:49.148  5662  6043 E JavaExceptionHandler: 	at java.lang.reflect.Method.invoke(Native Method)
+08-16 22:44:49.148  5662  6043 E JavaExceptionHandler: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:561)
+08-16 22:44:49.148  5662  6043 E JavaExceptionHandler: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1013)
+08-16 22:44:49.148  5662  6043 E JavaExceptionHandler: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.pm.ApplicationInfo android.content.Context.getApplicationInfo()' on a null object reference
+08-16 22:44:49.148  5662  6043 E JavaExceptionHandler: 	at android.content.ContextWrapper.getApplicationInfo(ContextWrapper.java:217)
+08-16 22:44:49.148  5662  6043 E JavaExceptionHandler: 	at com.facebook.soloader.SoLoader.getAppType(SoLoader.java:625)
+08-16 22:44:49.148  5662  6043 E JavaExceptionHandler: 	at com.facebook.soloader.SoLoader.init(SoLoader.java:285)
+08-16 22:44:49.148  5662  6043 E JavaExceptionHandler: 	at com.facebook.soloader.SoLoader.init(SoLoader.java:260)

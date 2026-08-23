@@ -1,0 +1,181 @@
+--------- beginning of main
+08-17 19:25:25.814  1300  1300 I vendor.xiaomi.hardware.micharge@1.0-service: ReadFilePathValue path = /sys/class/power_supply/battery/night_charging value = 0
+08-17 19:25:25.814  5645  9293 I ChargeProtectionUtils: getNightChargingState: 0
+08-17 19:25:25.814 28133 24764 W MessageQueue: Handler (android.os.Handler) {439840e} sending message to a Handler on a dead thread
+08-17 19:25:25.814 28133 24764 W MessageQueue: java.lang.IllegalStateException: Handler (android.os.Handler) {439840e} sending message to a Handler on a dead thread
+08-17 19:25:25.814 28133 24764 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:574)
+08-17 19:25:25.814 28133 24764 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:786)
+08-17 19:25:25.814 28133 24764 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:735)
+08-17 19:25:25.814 28133 24764 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:705)
+08-17 19:25:25.814 28133 24764 W MessageQueue: 	at android.os.Handler.sendMessage(Handler.java:643)
+08-17 19:25:25.814 28133 24764 W MessageQueue: 	at android.os.Message.sendToTarget(Message.java:484)
+08-17 19:25:25.814 28133 24764 W MessageQueue: 	at X.0L7.A02(:4)
+08-17 19:25:25.814 28133 24764 W MessageQueue: 	at X.0K9.Gzm(:9)
+08-17 19:25:25.814 28133 24764 W MessageQueue: 	at X.0IL.Gzm(:11)
+08-17 19:25:25.814 28133 24764 W MessageQueue: 	at X.9cF.A0D(:172)
+08-17 19:25:25.814 28133 24764 W MessageQueue: 	at X.9cF.handleMessage(:1829)
+08-17 19:25:25.814 28133 24764 W MessageQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-17 19:25:25.814 28133 24764 W MessageQueue: 	at android.os.Looper.loopOnce(Looper.java:224)
+08-17 19:25:25.814 28133 24764 W MessageQueue: 	at android.os.Looper.loop(Looper.java:318)
+08-17 19:25:25.814 28133 24764 W MessageQueue: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+08-17 19:25:25.814 28133 24764 W MessageQueue: Handler (android.os.Handler) {5bfac3c} sending message to a Handler on a dead thread
+08-17 19:25:25.814 28133 24764 W MessageQueue: java.lang.IllegalStateException: Handler (android.os.Handler) {5bfac3c} sending message to a Handler on a dead thread
+08-17 19:25:25.814 28133 24764 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:574)
+08-17 19:25:25.814 28133 24764 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:786)
+08-17 19:25:25.814 28133 24764 W MessageQueue: 	at android.os.Handler.sendMessageAtFrontOfQueue(Handler.java:758)
+08-17 19:25:25.814 28133 24764 W MessageQueue: 	at X.0G2.Ga0(:8)
+08-17 19:25:25.814 28133 24764 W MessageQueue: 	at X.0G0.A01(:29)
+08-17 19:25:25.814 28133 24764 W MessageQueue: 	at X.0IL.Gzm(:29)
+08-17 19:25:25.814 28133 24764 W MessageQueue: 	at X.9cF.A0D(:172)
+08-17 19:25:25.814 28133 24764 W MessageQueue: 	at X.9cF.handleMessage(:1829)
+08-17 19:25:25.814 28133 24764 W MessageQueue: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-17 19:25:25.814 28133 24764 W MessageQueue: 	at android.os.Looper.loopOnce(Looper.java:224)
+08-17 19:25:25.814 28133 24764 W MessageQueue: 	at android.os.Looper.loop(Looper.java:318)
+08-17 19:25:25.814 28133 24764 W MessageQueue: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+08-17 19:25:25.815 28133 24782 D AudioAnomalyCheck: [AudioRepeatStartStopCheck] current uid = 10111, uidBackstageCnt = 0, NowAppState = 1
+08-17 19:25:25.815  1367  2248 D AF::Track: presentationComplete() try to complete, framesWritten 1777920 completeFrames 1781760 halFrames 3840 => complete 0
+08-17 19:25:25.816  1367  2248 D AudioFlinger: updateWakeLockUids_l AudioOut_15 uids:10111 
+08-17 19:25:25.817  1367  1367 W AidlConversionCppNdk: legacy2aidl_audio_channel_mask_t_AudioChannelLayout: no AudioChannelLayout found for legacy output audio_channel_mask_t value 0x10
+08-17 19:25:25.817 28133 28142 W AidlConversionCppNdk: aidl2legacy_AudioChannelLayout_audio_channel_mask_t: no legacy output audio_channel_mask_t found for AudioChannelLayout{layoutMask: 16}
+08-17 19:25:25.819  7921 10221 I PowerKeeper.Event: noteStartAudioInNeed uid is 10111, sessionid is 92801, port is 13612, type is 2
+08-17 19:25:25.820 27016 27016 I BluetoothAdapterService: BT_FAST_SCAN AudioManager isPlaying: true mIsMusicPlaying true
+08-17 19:25:25.819  1893  2899 D AudioServiceStubImpl: onUpdateMediaState mediaActive=true
+08-17 19:25:25.821 28133 24768 I MediaCodec: [mId: 28] [audio-debug-dec] setState: UNINITIALIZED
+08-17 19:25:25.825 27016 27016 I BluetoothAdapterService: BT_FAST_SCAN AudioManager isPlaying: true mIsMusicPlaying true
+08-17 19:25:25.825  1893  1997 I android_os_HwBinder: HwBinder: Starting thread pool for getting: vendor.xiaomi.hardware.micharge@1.0::IMiCharge/default
+08-17 19:25:25.827  1300  1300 I vendor.xiaomi.hardware.micharge@1.0-service: ReadFilePathValue path = /sys/class/power_supply/bms/fastcharge_mode value = 0
+08-17 19:25:25.828 28133 24796 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+08-17 19:25:25.828  1911  2383 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+08-17 19:25:25.829 28133 24768 I MediaCodec: MediaStub sendHdrInfo/sendFrameRateFloatCal/updateFrcAieAisState
+08-17 19:25:25.829 28133 24768 D MediaImpl: FRC not support: valueSupport : 
+08-17 19:25:25.829 28133 24768 D MediaImpl: AIE not support: valueSupport : 
+08-17 19:25:25.829 28133 24768 D MediaImpl: AIS not support: valueSupport : 
+08-17 19:25:25.829 28133 24768 D MediaCodec: flushMediametrics
+08-17 19:25:25.829 28133 24768 D MediaCodec: flushMediametrics
+08-17 19:25:25.829 28133 24768 W MediaCodec: no metrics handle found
+08-17 19:25:25.830  1911 24769 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xb4000077df2d4428 cached: 0/0M, 0/0% in use; allocs: 0, 0% recycled; transfers: 0, 0% unfetched
+08-17 19:25:25.832  1893  2899 D AudioServiceStubImpl: onUpdateMediaState mediaActive=true
+08-17 19:25:25.832 28133 28133 E stagram.android: Invalid resource ID 0x0000000b.
+08-17 19:25:25.835 28133 28133 E stagram.android: Invalid resource ID 0x0000000b.
+08-17 19:25:25.835 28133 28133 E stagram.android: Invalid resource ID 0x0000000b.
+08-17 19:25:25.838 28133 28133 E stagram.android: Invalid resource ID 0x0000000b.
+08-17 19:25:25.839 28133 28133 E stagram.android: Invalid resource ID 0x0000000b.
+08-17 19:25:25.842 28133 28133 E stagram.android: Invalid resource ID 0x0000000b.
+08-17 19:25:25.842 28133 28133 E stagram.android: Invalid resource ID 0x0000000b.
+08-17 19:25:25.845 28133 28133 E stagram.android: Invalid resource ID 0x0000000b.
+08-17 19:25:25.846 28133 28133 E stagram.android: Invalid resource ID 0x0000000b.
+08-17 19:25:25.849 28133 28133 E stagram.android: Invalid resource ID 0x0000000b.
+08-17 19:25:25.849 28133 28133 E stagram.android: Invalid resource ID 0x0000000b.
+08-17 19:25:25.850  1367  2248 D AF::Track: presentationComplete() try to complete, framesWritten 1779840 completeFrames 1781760 halFrames 3840 => complete 0
+08-17 19:25:25.852 28133 28133 E stagram.android: Invalid resource ID 0x0000000b.
+08-17 19:25:25.853 28133 28133 E stagram.android: Invalid resource ID 0x0000000b.
+08-17 19:25:25.853 28133 24782 D AudioTrack: getTimestamp_l(13612): device stall time corrected using current time 404658986613391
+08-17 19:25:25.856 28133 28133 E stagram.android: Invalid resource ID 0x0000000b.
+08-17 19:25:25.856 28133 28133 E stagram.android: Invalid resource ID 0x0000000b.
+08-17 19:25:25.860 28133 28133 E stagram.android: Invalid resource ID 0x0000000b.
+08-17 19:25:25.860 28133 28133 E stagram.android: Invalid resource ID 0x00000080.
+08-17 19:25:25.863 28133 28133 E stagram.android: Invalid resource ID 0x00000080.
+08-17 19:25:25.864 28133 28133 E stagram.android: Invalid resource ID 0x00000080.
+08-17 19:25:25.867 28133 28133 E stagram.android: Invalid resource ID 0x00000080.
+08-17 19:25:25.867 28133 28133 E stagram.android: Invalid resource ID 0x00000080.
+08-17 19:25:25.871 28133 28133 E stagram.android: Invalid resource ID 0x00000080.
+08-17 19:25:25.871 28133 28133 E stagram.android: Invalid resource ID 0x00000080.
+08-17 19:25:25.874 28133 28133 E stagram.android: Invalid resource ID 0x00000080.
+08-17 19:25:25.876 28133 28133 E stagram.android: Invalid resource ID 0x00000080.
+08-17 19:25:25.879 28133 28133 E stagram.android: Invalid resource ID 0x00000080.
+08-17 19:25:25.880 28133 28133 E stagram.android: Invalid resource ID 0x00000080.
+08-17 19:25:25.883 28133 28133 E stagram.android: Invalid resource ID 0x00000080.
+08-17 19:25:25.883 28133 28133 E stagram.android: Invalid resource ID 0x00000080.
+08-17 19:25:25.887 28133 28133 E stagram.android: Invalid resource ID 0x00000080.
+08-17 19:25:25.887 28133 28133 E stagram.android: Invalid resource ID 0x00000080.
+08-17 19:25:25.890  1367  2248 D AF::Track: presentationComplete() try to complete, framesWritten 1781760 completeFrames 1781760 halFrames 3840 => complete 0
+08-17 19:25:25.891 28133 28133 E stagram.android: Invalid resource ID 0x00000080.
+08-17 19:25:25.906 28133 28133 E stagram.android: Invalid resource ID 0x00000081.
+08-17 19:25:25.910 28133 28133 E stagram.android: Invalid resource ID 0x00000081.
+08-17 19:25:25.910 28133 28133 E stagram.android: Invalid resource ID 0x00000081.
+08-17 19:25:25.913 28133 28133 E stagram.android: Invalid resource ID 0x00000081.
+08-17 19:25:25.916 28133 28133 E stagram.android: Invalid resource ID 0x00000081.
+08-17 19:25:25.920 28133 28133 E stagram.android: Invalid resource ID 0x00000081.
+08-17 19:25:25.920 28133 28133 E stagram.android: Invalid resource ID 0x00000081.
+08-17 19:25:25.924 28133 28133 E stagram.android: Invalid resource ID 0x00000081.
+08-17 19:25:25.924 28133 28133 E stagram.android: Invalid resource ID 0x00000081.
+08-17 19:25:25.928 28133 28133 E stagram.android: Invalid resource ID 0x00000081.
+08-17 19:25:25.929 28133 28133 E stagram.android: Invalid resource ID 0x00000081.
+08-17 19:25:25.930  1367  2248 D AudioFlinger: noteStopAudioInNeed
+08-17 19:25:25.931  1367  2248 D audioserver: FGS Logger Transaction failed
+08-17 19:25:25.931  1367  2248 D audioserver: -129
+08-17 19:25:25.932  7921 11818 I PowerKeeper.Event: noteStopAudioInNeed uid is 10111, sessionid is 92793, port is 13611, type is 2
+08-17 19:25:25.932 28133 28133 E stagram.android: Invalid resource ID 0x00000081.
+08-17 19:25:25.933 28133 28133 E stagram.android: Invalid resource ID 0x00000081.
+08-17 19:25:25.934  1367  2248 D AudioFlinger: updateWakeLockUids_l AudioOut_15 uids:10111 
+08-17 19:25:25.935  1095 30818 D msm8974_platform: platform_split_snd_device: snd_device(2) num devices(1) new_snd_devices(0)
+08-17 19:25:25.935  1095 30818 W msm8974_platform: platform_send_gain_dep_cal: Usecase list is empty
+08-17 19:25:25.936  1367  1874 W audioserver: Binder 0xb4000070ecae0068 destroyed after setMinSchedulerPolicy before being parceled.
+08-17 19:25:25.936  1367  1874 D APM_AudioPolicyManager: stopOutput portId 13611
+08-17 19:25:25.936  1367  1874 D APM_AudioPolicyManager: stopOutput() output 21, stream 3, session 92793
+08-17 19:25:25.936 28133 28133 E stagram.android: Invalid resource ID 0x00000081.
+08-17 19:25:25.937 28133 28133 E stagram.android: Invalid resource ID 0x00000081.
+08-17 19:25:25.940 28133 28133 E stagram.android: Invalid resource ID 0x00000081.
+08-17 19:25:25.954 28133 28856 W RenderInspector: DequeueBuffer time out on com.instagram.android/com.instagram.android.activity.MainTabActivity, count=9, avg=13 ms, max=18 ms.
+08-17 19:25:25.974  1367  2248 D audioserver: FGS Logger Transaction failed
+08-17 19:25:25.974  1367  2248 D audioserver: -129
+08-17 19:25:25.975  1095 30818 D audio_hw_primary: out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: appname=-com.instagram.android
+08-17 19:25:25.975  1095 30818 D audio_hw_primary: out_set_parameters: [hal_apptype] cannot find app type [-com.instagram.android], return !
+08-17 19:25:25.977  1367  1874 D APM_AudioPolicyManager: releaseOutput portId 13611
+08-17 19:25:25.977  1367  1874 D APM_AudioPolicyManager: releaseOutput() output 21, stream 3, session 92793 [uid=10111]
+08-17 19:25:25.977  1367  1874 D ClientInfoStub: ~ClientInfoStub()
+08-17 19:25:26.040 28133 28137 I stagram.android: Background concurrent copying GC freed 10MB AllocSpace bytes, 50(12MB) LOS objects, 20% free, 93MB/117MB, paused 199us,147us total 329.109ms
+08-17 19:25:26.506 17801 13290 I .android.gms.ui: Explicit concurrent copying GC freed 192KB AllocSpace bytes, 0(0B) LOS objects, 66% free, 12MB/36MB, paused 319us,101us total 243.657ms
+08-17 19:25:26.578 28133 28133 E SlowAppComponent: 0ms: KeepWarmReceiver instantiating…
+08-17 19:25:26.578 28133 28133 E SlowAppComponent: Main thread was blocked for 28ms in the foreground starting with KeepWarmReceiver
+--------- beginning of system
+08-17 19:25:26.684  1893  3010 I SmartPower: com.facebook.appmanager/10098(14049): background->idle(3001ms) R(broadcast start Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) }) adj=905.
+08-17 19:25:26.684  1893  3010 I SmartPower: com.xiaomi.discover/10106(18619): background->idle(3000ms) R(broadcast start Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) }) adj=905.
+08-17 19:25:26.685  1893  3010 I SmartPower: com.google.android.youtube/10186(7788): background->idle(3000ms) R(broadcast start Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) }) adj=701.
+08-17 19:25:26.687  1893  3010 I SmartPower: com.facebook.appmanager/99910098(24366): background->idle(3000ms) R(broadcast start Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) }) adj=905.
+08-17 19:25:26.687  1893  3010 I SmartPower: com.android.chrome/10197(8189): background->idle(3000ms) R(broadcast start Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) }) adj=701.
+08-17 19:25:26.688  1893  3010 I SmartPower: com.whatsapp/10252(21929): background->idle(3001ms) R(broadcast start Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) }) adj=701.
+08-17 19:25:26.688  1893  3010 I SmartPower: com.miui.android.fashiongallery/10233(31172): background->idle(3000ms) R(broadcast start Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) }) adj=905.
+08-17 19:25:26.689  1893  3010 I SmartPower: pdf.pdfreader.viewer.editor.free/10029(26228): background->idle(3000ms) R(broadcast start Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) }) adj=900.
+08-17 19:25:26.691  1893  3010 I SmartPower: jio.cloud.drive/10358(28487): background->idle(3000ms) R(broadcast start Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) }) adj=905.
+08-17 19:25:26.691  1893  3010 I SmartPower: com.jio.myjio/10263(29931): background->idle(3001ms) R(broadcast start Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) }) adj=945.
+08-17 19:25:26.691  1893  3010 I SmartPower: cmu.cleanmaster.new.app/10418(312): background->idle(3000ms) R(broadcast start Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) }) adj=905.
+08-17 19:25:26.692  1893  3010 I SmartPower: com.miui.global.packageinstaller/10124(4433): background->idle(3001ms) R(broadcast start Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) }) adj=905.
+08-17 19:25:26.746 28133 28133 E stagram.android: Invalid resource ID 0x00000004.
+08-17 19:25:26.750 28133 28133 E stagram.android: Invalid resource ID 0x00000004.
+08-17 19:25:26.750 28133 28133 E stagram.android: Invalid resource ID 0x00000004.
+08-17 19:25:26.753 28133 28133 E stagram.android: Invalid resource ID 0x00000004.
+08-17 19:25:26.753 28133 28133 E stagram.android: Invalid resource ID 0x00000004.
+08-17 19:25:26.757 28133 28133 E stagram.android: Invalid resource ID 0x00000004.
+08-17 19:25:26.757 28133 28133 E stagram.android: Invalid resource ID 0x00000004.
+08-17 19:25:26.760 28133 28133 E stagram.android: Invalid resource ID 0x00000004.
+08-17 19:25:26.760 28133 28133 E stagram.android: Invalid resource ID 0x00000004.
+08-17 19:25:26.764 28133 28133 E stagram.android: Invalid resource ID 0x00000004.
+08-17 19:25:26.764 28133 28133 E stagram.android: Invalid resource ID 0x00000004.
+08-17 19:25:26.767 28133 28133 E stagram.android: Invalid resource ID 0x00000004.
+08-17 19:25:26.767 28133 28133 E stagram.android: Invalid resource ID 0x00000004.
+08-17 19:25:26.771 28133 28133 E stagram.android: Invalid resource ID 0x00000004.
+08-17 19:25:26.771 28133 28133 E stagram.android: Invalid resource ID 0x00000004.
+08-17 19:25:26.774 28133 28133 E stagram.android: Invalid resource ID 0x00000004.
+08-17 19:25:26.792 28133 28133 E stagram.android: Invalid resource ID 0x0000000b.
+08-17 19:25:26.795 28133 28133 E stagram.android: Invalid resource ID 0x0000000b.
+08-17 19:25:26.795 28133 28133 E stagram.android: Invalid resource ID 0x0000000b.
+08-17 19:25:26.799 28133 28133 E stagram.android: Invalid resource ID 0x0000000b.
+08-17 19:25:26.799 28133 28133 E stagram.android: Invalid resource ID 0x0000000b.
+08-17 19:25:26.802 28133 28133 E stagram.android: Invalid resource ID 0x0000000b.
+08-17 19:25:26.804 28133 28133 E stagram.android: Invalid resource ID 0x0000000b.
+08-17 19:25:26.808 28133 28133 E stagram.android: Invalid resource ID 0x0000000b.
+08-17 19:25:26.808 28133 28133 E stagram.android: Invalid resource ID 0x0000000b.
+08-17 19:25:26.811 28133 28133 E stagram.android: Invalid resource ID 0x0000000b.
+08-17 19:25:26.812 28133 28133 E stagram.android: Invalid resource ID 0x0000000b.
+08-17 19:25:26.815 28133 28133 E stagram.android: Invalid resource ID 0x0000000b.
+08-17 19:25:26.815  1663  1663 I adbd    : adbd service requested 'shell,v2:export ANDROID_LOG_TAGS=''; exec logcat '-d' '-t' '150''
+08-17 19:25:26.815 28133 28133 E stagram.android: Invalid resource ID 0x0000000b.
+08-17 19:25:26.819 28133 28133 E stagram.android: Invalid resource ID 0x0000000b.
+08-17 19:25:26.819 28133 28133 E stagram.android: Invalid resource ID 0x0000000b.
+08-17 19:25:26.823 28133 28133 E stagram.android: Invalid resource ID 0x0000000b.
+08-17 19:25:26.823 28133 28133 E stagram.android: Invalid resource ID 0x00000080.
+08-17 19:25:26.826 28133 28133 E stagram.android: Invalid resource ID 0x00000080.
+08-17 19:25:26.827 28133 28133 E stagram.android: Invalid resource ID 0x00000080.
+08-17 19:25:26.830 28133 28133 E stagram.android: Invalid resource ID 0x00000080.
+08-17 19:25:26.831 28133 28133 E stagram.android: Invalid resource ID 0x00000080.

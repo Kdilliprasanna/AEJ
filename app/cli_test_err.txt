@@ -1,0 +1,19 @@
+Starting Metro Bundler
+
+Failed to construct transformer:  TypeError: (0 , metro_cache_key_1.getCacheKey) is not a function
+    at Object.getCacheKey (C:\Users\Prasanna\OneDrive\Desktop\career-ai\mobile-application\node_modules\@expo\metro-config\build\transform-worker\metro-transform-worker.js:624:56)
+    at getTransformCacheKey (C:\Users\Prasanna\OneDrive\Desktop\career-ai\mobile-application\node_modules\metro\src\DeltaBundler\getTransformCacheKey.js:10:19)
+    at new Transformer (C:\Users\Prasanna\OneDrive\Desktop\career-ai\mobile-application\node_modules\metro\src\DeltaBundler\Transformer.js:36:9)
+    at C:\Users\Prasanna\OneDrive\Desktop\career-ai\mobile-application\node_modules\metro\src\Bundler.js:14:29
+TypeError: depGraph.doesFileExist is not a function
+TypeError: depGraph.doesFileExist is not a function
+    at loadTsConfigPaths (C:\Users\Prasanna\OneDrive\Desktop\career-ai\mobile-application\node_modules\@expo\cli\build\src\start\server\metro\createTypescriptResolver.js:263:18)
+    at init (C:\Users\Prasanna\OneDrive\Desktop\career-ai\mobile-application\node_modules\@expo\cli\build\src\start\server\metro\createTypescriptResolver.js:66:26)
+    at requestTsconfigPaths (C:\Users\Prasanna\OneDrive\Desktop\career-ai\mobile-application\node_modules\@expo\cli\build\src\start\server\metro\createTypescriptResolver.js:76:13)
+    at resolveRequest (C:\Users\Prasanna\OneDrive\Desktop\career-ai\mobile-application\node_modules\@expo\cli\build\src\start\server\metro\withMetroResolvers.js:59:45)
+    at resolveRequest (C:\Users\Prasanna\OneDrive\Desktop\career-ai\mobile-application\node_modules\@expo\cli\build\src\start\server\metro\withMetroResolvers.js:88:24)
+    at resolveRequest (C:\Users\Prasanna\OneDrive\Desktop\career-ai\mobile-application\node_modules\@expo\cli\build\src\start\server\metro\withMetroResolvers.js:104:24)
+    at resolveRequest (C:\Users\Prasanna\OneDrive\Desktop\career-ai\mobile-application\node_modules\@expo\cli\build\src\start\server\metro\withMetroErrorReportingResolver.js:88:33)
+    at Object.resolve (C:\Users\Prasanna\OneDrive\Desktop\career-ai\mobile-application\node_modules\metro-resolver\src\resolve.js:36:12)
+    at ModuleResolver.resolveDependency (C:\Users\Prasanna\OneDrive\Desktop\career-ai\mobile-application\node_modules\metro\src\node-haste\DependencyGraph\ModuleResolution.js:74:31)
+    at DependencyGraph.resolveDependency (C:\Users\Prasanna\OneDrive\Desktop\career-ai\mobile-application\node_modules\metro\src\node-haste\DependencyGraph.js:248:43)

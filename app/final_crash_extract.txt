@@ -1,0 +1,60 @@
+08-16 23:04:49.722 14284 14284 W SoLoader: Running a recovery step for libreact_featureflagsjni.so due to com.facebook.soloader.SoLoaderDSONotFoundError: couldn't find DSO to load: libreact_featureflagsjni.so
+08-16 23:04:49.722 14284 14284 W SoLoader: 	existing SO sources: 
+08-16 23:04:49.722 14284 14284 W SoLoader: 		SoSource 0: BackupSoSource[root = /data/data/com.careeraiapp.jobs/lib-main flags = 1 apks = [/data/app/~~XUHEd8IRoMbzBTY2iIcAHw==/com.careeraiapp.jobs-nRAXHuw4Yg4Z35sTQvpVNQ==/base.apk]]
+08-16 23:04:49.722 14284 14284 W SoLoader: 		SoSource 1: ApplicationSoSource[DirectorySoSource[root = /data/app/~~XUHEd8IRoMbzBTY2iIcAHw==/com.careeraiapp.jobs-nRAXHuw4Yg4Z35sTQvpVNQ==/lib/arm64 flags = 0]]
+08-16 23:04:49.722 14284 14284 W SoLoader: 		SoSource 2: DirectorySoSource[root = /system/lib64 flags = 2]
+08-16 23:04:49.722 14284 14284 W SoLoader: 		SoSource 3: DirectorySoSource[root = /vendor/lib64 flags = 2]
+08-16 23:04:49.722 14284 14284 W SoLoader: 	Native lib dir: /data/app/~~XUHEd8IRoMbzBTY2iIcAHw==/com.careeraiapp.jobs-nRAXHuw4Yg4Z35sTQvpVNQ==/lib/arm64
+08-16 23:04:49.722 14284 14284 W soloader.recovery.CheckBaseApkExists: Base apk exists: /data/app/~~XUHEd8IRoMbzBTY2iIcAHw==/com.careeraiapp.jobs-nRAXHuw4Yg4Z35sTQvpVNQ==/base.apk
+08-16 23:04:49.722 14284 14284 E SoLoader: Waiting on SoSource BackupSoSource
+08-16 23:04:49.722 14284 14284 W SoLoader: Running a recovery step for libreact_featureflagsjni.so due to com.facebook.soloader.SoLoaderDSONotFoundError: couldn't find DSO to load: libreact_featureflagsjni.so
+08-16 23:04:49.722 14284 14284 W SoLoader: 	existing SO sources: 
+08-16 23:04:49.722 14284 14284 W SoLoader: 		SoSource 0: BackupSoSource[root = /data/data/com.careeraiapp.jobs/lib-main flags = 1 apks = [/data/app/~~XUHEd8IRoMbzBTY2iIcAHw==/com.careeraiapp.jobs-nRAXHuw4Yg4Z35sTQvpVNQ==/base.apk]]
+08-16 23:04:49.722 14284 14284 W SoLoader: 		SoSource 1: ApplicationSoSource[DirectorySoSource[root = /data/app/~~XUHEd8IRoMbzBTY2iIcAHw==/com.careeraiapp.jobs-nRAXHuw4Yg4Z35sTQvpVNQ==/lib/arm64 flags = 0]]
+08-16 23:04:49.722 14284 14284 W SoLoader: 		SoSource 2: DirectorySoSource[root = /system/lib64 flags = 2]
+08-16 23:04:49.722 14284 14284 W SoLoader: 		SoSource 3: DirectorySoSource[root = /vendor/lib64 flags = 2]
+08-16 23:04:49.722 14284 14284 W SoLoader: 	Native lib dir: /data/app/~~XUHEd8IRoMbzBTY2iIcAHw==/com.careeraiapp.jobs-nRAXHuw4Yg4Z35sTQvpVNQ==/lib/arm64
+08-16 23:04:49.722 14284 14284 E SoLoader: Checking /data/app missing libraries.
+08-16 23:04:49.728 14284 14284 E SoLoader: No libraries missing from /data/app/~~XUHEd8IRoMbzBTY2iIcAHw==/com.careeraiapp.jobs-nRAXHuw4Yg4Z35sTQvpVNQ==/lib/arm64
+08-16 23:04:49.728 14284 14284 E SoLoader: Checking /data/data missing libraries.
+08-16 23:04:49.728 14284 14284 E SoLoader: No libraries missing from unpacking so paths while recovering /data/data failure
+08-16 23:04:49.728 14284 14284 E SoLoader: Waiting on SoSource BackupSoSource
+08-16 23:04:49.728 14284 14284 W SoLoader: Running a recovery step for libreact_featureflagsjni.so due to com.facebook.soloader.SoLoaderDSONotFoundError: couldn't find DSO to load: libreact_featureflagsjni.so
+08-16 23:04:49.728 14284 14284 W SoLoader: 	existing SO sources: 
+08-16 23:04:49.728 14284 14284 W SoLoader: 		SoSource 0: BackupSoSource[root = /data/data/com.careeraiapp.jobs/lib-main flags = 1 apks = [/data/app/~~XUHEd8IRoMbzBTY2iIcAHw==/com.careeraiapp.jobs-nRAXHuw4Yg4Z35sTQvpVNQ==/base.apk]]
+08-16 23:04:49.728 14284 14284 W SoLoader: 		SoSource 1: ApplicationSoSource[DirectorySoSource[root = /data/app/~~XUHEd8IRoMbzBTY2iIcAHw==/com.careeraiapp.jobs-nRAXHuw4Yg4Z35sTQvpVNQ==/lib/arm64 flags = 0]]
+08-16 23:04:49.728 14284 14284 W SoLoader: 		SoSource 2: DirectorySoSource[root = /system/lib64 flags = 2]
+08-16 23:04:49.728 14284 14284 W SoLoader: 		SoSource 3: DirectorySoSource[root = /vendor/lib64 flags = 2]
+08-16 23:04:49.728 14284 14284 W SoLoader: 	Native lib dir: /data/app/~~XUHEd8IRoMbzBTY2iIcAHw==/com.careeraiapp.jobs-nRAXHuw4Yg4Z35sTQvpVNQ==/lib/arm64
+08-16 23:04:49.728 14284 14284 W SoLoader: Failed to recover
+08-16 23:04:49.729 14284 14284 D AndroidRuntime: Shutting down VM
+--------- beginning of crash
+08-16 23:04:49.729 14284 14284 E AndroidRuntime: FATAL EXCEPTION: main
+08-16 23:04:49.729 14284 14284 E AndroidRuntime: Process: com.careeraiapp.jobs, PID: 14284
+08-16 23:04:49.729 14284 14284 E AndroidRuntime: com.facebook.soloader.SoLoaderDSONotFoundError: couldn't find DSO to load: libreact_featureflagsjni.so
+08-16 23:04:49.729 14284 14284 E AndroidRuntime: 	existing SO sources: 
+08-16 23:04:49.729 14284 14284 E AndroidRuntime: 		SoSource 0: BackupSoSource[root = /data/data/com.careeraiapp.jobs/lib-main flags = 1 apks = [/data/app/~~XUHEd8IRoMbzBTY2iIcAHw==/com.careeraiapp.jobs-nRAXHuw4Yg4Z35sTQvpVNQ==/base.apk]]
+08-16 23:04:49.729 14284 14284 E AndroidRuntime: 		SoSource 1: ApplicationSoSource[DirectorySoSource[root = /data/app/~~XUHEd8IRoMbzBTY2iIcAHw==/com.careeraiapp.jobs-nRAXHuw4Yg4Z35sTQvpVNQ==/lib/arm64 flags = 0]]
+08-16 23:04:49.729 14284 14284 E AndroidRuntime: 		SoSource 2: DirectorySoSource[root = /system/lib64 flags = 2]
+08-16 23:04:49.729 14284 14284 E AndroidRuntime: 		SoSource 3: DirectorySoSource[root = /vendor/lib64 flags = 2]
+08-16 23:04:49.729 14284 14284 E AndroidRuntime: 	Native lib dir: /data/app/~~XUHEd8IRoMbzBTY2iIcAHw==/com.careeraiapp.jobs-nRAXHuw4Yg4Z35sTQvpVNQ==/lib/arm64
+08-16 23:04:49.729 14284 14284 E AndroidRuntime: 
+08-16 23:04:49.729 14284 14284 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.doLoadLibraryBySoName(SoLoader.java:1216)
+08-16 23:04:49.729 14284 14284 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryBySoNameImpl(SoLoader.java:1078)
+08-16 23:04:49.729 14284 14284 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryBySoName(SoLoader.java:943)
+08-16 23:04:49.729 14284 14284 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryOnAndroid(SoLoader.java:859)
+08-16 23:04:49.729 14284 14284 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:842)
+08-16 23:04:49.729 14284 14284 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:812)
+08-16 23:04:49.729 14284 14284 E AndroidRuntime: 	at com.facebook.react.internal.featureflags.ReactNativeFeatureFlagsCxxInterop.<clinit>(ReactNativeFeatureFlagsCxxInterop.kt:28)
+08-16 23:04:49.729 14284 14284 E AndroidRuntime: 	at com.facebook.react.internal.featureflags.ReactNativeFeatureFlagsCxxAccessor.override(ReactNativeFeatureFlagsCxxAccessor.kt:495)
+08-16 23:04:49.729 14284 14284 E AndroidRuntime: 	at com.facebook.react.internal.featureflags.ReactNativeFeatureFlags.override(ReactNativeFeatureFlags.kt:328)
+08-16 23:04:49.729 14284 14284 E AndroidRuntime: 	at com.facebook.react.defaults.DefaultNewArchitectureEntryPoint.load(DefaultNewArchitectureEntryPoint.kt:46)
+08-16 23:04:49.729 14284 14284 E AndroidRuntime: 	at com.facebook.react.defaults.DefaultNewArchitectureEntryPoint.load$default(DefaultNewArchitectureEntryPoint.kt:32)
+08-16 23:04:49.729 14284 14284 E AndroidRuntime: 	at com.careeraiapp.jobs.MainApplication.onCreate(MainApplication.kt:40)
+08-16 23:04:49.729 14284 14284 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1326)
+08-16 23:04:49.729 14284 14284 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7534)
+08-16 23:04:49.729 14284 14284 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(ActivityThread.java:0)
+08-16 23:04:49.729 14284 14284 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2382)
+08-16 23:04:49.729 14284 14284 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+08-16 23:04:49.729 14284 14284 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:224)
+08-16 23:04:49.729 14284 14284 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:318)

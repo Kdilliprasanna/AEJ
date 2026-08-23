@@ -1,0 +1,9 @@
+> Task :app:mergeExtDexRelease FAILED
+com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
+Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
+Type com.facebook.hermes.unicode.AndroidUnicodeUtils is defined multiple times: C:\Users\Prasanna\.gradle\caches\8.13\transforms\0c7437f55b8dd927fc08e85f7318628a\transformed\react-android-0.76.9-release-runtime\react-android-0.76.9-release-runtime_dex\classes.dex, C:\Users\Prasanna\.gradle\caches\8.13\transforms\c7141eb4828137a07d5d7e643cc06eac\transformed\hermes-android-250829098.0.14-release-runtime\hermes-android-250829098.0.14-release-runtime_dex\classes.dex
+	at com.android.builder.dexing.D8DexArchiveMerger.getMergingExceptionToRethrow(D8DexArchiveMerger.java:230)
+	at com.android.builder.dexing.D8DexArchiveMerger.mergeDexArchives(D8DexArchiveMerger.java:218)
+	at com.android.build.gradle.internal.tasks.DexMergingWorkAction.merge(DexMergingTask.kt:935)
+	at com.android.build.gradle.internal.tasks.DexMergingWorkAction.run(DexMergingTask.kt:884)
+	at com.android.build.gradle.internal.profile.ProfileAwareWorkAction.execute(ProfileAwareWorkAction.kt:74)

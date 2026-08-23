@@ -1,0 +1,33 @@
+{
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/android/build/**": true,
+    "**/android/.gradle/**": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/android/build": true,
+    "**/android/.gradle": true
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true
+  },
+  "java.import.gradle.enabled": false,
+  "java.autobuild.enabled": false,
+  "java.project.explorer.showNonJavaResources": false,
+  "java.validation.enabled": false,
+  "kotlin.indexing.enabled": false,
+  "kotlin.diagnostics.enabled": false,
+  "kotlin.languageServer.enabled": false,
+  "kotlin.lint.enable": false,
+  "typescript.validate.enable": true,
+  "javascript.validate.enable": true,
+  "editor.diagnosticModel": "activeFile"
+}

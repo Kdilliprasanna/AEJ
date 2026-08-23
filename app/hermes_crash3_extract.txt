@@ -1,0 +1,60 @@
+08-16 22:20:56.797 31307 31307 W SoLoader: Running a recovery step for libhermestooling.so due to com.facebook.soloader.SoLoaderDSONotFoundError: couldn't find DSO to load: libhermes.so
+08-16 22:20:56.797 31307 31307 W SoLoader: 	existing SO sources: 
+08-16 22:20:56.797 31307 31307 W SoLoader: 		SoSource 0: ApplicationSoSource[DirectorySoSource[root = /data/app/~~iroyeDgNaDUgWyiIaD75KQ==/com.careeraiapp.jobs-ioi7CJfE96z48yganlpAEg==/lib/arm64 flags = 0]]
+08-16 22:20:56.797 31307 31307 W SoLoader: 		SoSource 1: DirectApkSoSource[root = [/data/app/~~iroyeDgNaDUgWyiIaD75KQ==/com.careeraiapp.jobs-ioi7CJfE96z48yganlpAEg==/base.apk!/lib/arm64-v8a]]
+08-16 22:20:56.797 31307 31307 W SoLoader: 		SoSource 2: DirectorySoSource[root = /system/lib64 flags = 2]
+08-16 22:20:56.797 31307 31307 W SoLoader: 		SoSource 3: DirectorySoSource[root = /vendor/lib64 flags = 2]
+08-16 22:20:56.797 31307 31307 W SoLoader: 	Native lib dir: /data/app/~~iroyeDgNaDUgWyiIaD75KQ==/com.careeraiapp.jobs-ioi7CJfE96z48yganlpAEg==/lib/arm64
+08-16 22:20:56.797 31307 31307 W soloader.recovery.CheckBaseApkExists: Base apk exists: /data/app/~~iroyeDgNaDUgWyiIaD75KQ==/com.careeraiapp.jobs-ioi7CJfE96z48yganlpAEg==/base.apk
+08-16 22:20:56.798 31307 31307 W SoLoader: Running a recovery step for libhermestooling.so due to com.facebook.soloader.SoLoaderDSONotFoundError: couldn't find DSO to load: libhermes.so
+08-16 22:20:56.798 31307 31307 W SoLoader: 	existing SO sources: 
+08-16 22:20:56.798 31307 31307 W SoLoader: 		SoSource 0: ApplicationSoSource[DirectorySoSource[root = /data/app/~~iroyeDgNaDUgWyiIaD75KQ==/com.careeraiapp.jobs-ioi7CJfE96z48yganlpAEg==/lib/arm64 flags = 0]]
+08-16 22:20:56.798 31307 31307 W SoLoader: 		SoSource 1: DirectApkSoSource[root = [/data/app/~~iroyeDgNaDUgWyiIaD75KQ==/com.careeraiapp.jobs-ioi7CJfE96z48yganlpAEg==/base.apk!/lib/arm64-v8a]]
+08-16 22:20:56.798 31307 31307 W SoLoader: 		SoSource 2: DirectorySoSource[root = /system/lib64 flags = 2]
+08-16 22:20:56.798 31307 31307 W SoLoader: 		SoSource 3: DirectorySoSource[root = /vendor/lib64 flags = 2]
+08-16 22:20:56.798 31307 31307 W SoLoader: 	Native lib dir: /data/app/~~iroyeDgNaDUgWyiIaD75KQ==/com.careeraiapp.jobs-ioi7CJfE96z48yganlpAEg==/lib/arm64
+08-16 22:20:56.798 31307 31307 E SoLoader: Checking /data/app missing libraries.
+08-16 22:20:56.798 31307 31307 E SoLoader: Successfully recovered from /data/app disk failure.
+08-16 22:20:56.798 31307 31307 W SoLoader: Running a recovery step for libhermestooling.so due to com.facebook.soloader.SoLoaderDSONotFoundError: couldn't find DSO to load: libhermes.so
+08-16 22:20:56.798 31307 31307 W SoLoader: 	existing SO sources: 
+08-16 22:20:56.798 31307 31307 W SoLoader: 		SoSource 0: ApplicationSoSource[DirectorySoSource[root = /data/app/~~iroyeDgNaDUgWyiIaD75KQ==/com.careeraiapp.jobs-ioi7CJfE96z48yganlpAEg==/lib/arm64 flags = 0]]
+08-16 22:20:56.798 31307 31307 W SoLoader: 		SoSource 1: DirectApkSoSource[root = [/data/app/~~iroyeDgNaDUgWyiIaD75KQ==/com.careeraiapp.jobs-ioi7CJfE96z48yganlpAEg==/base.apk!/lib/arm64-v8a]]
+08-16 22:20:56.798 31307 31307 W SoLoader: 		SoSource 2: DirectorySoSource[root = /system/lib64 flags = 3]
+08-16 22:20:56.798 31307 31307 W SoLoader: 		SoSource 3: DirectorySoSource[root = /vendor/lib64 flags = 3]
+08-16 22:20:56.798 31307 31307 W SoLoader: 	Native lib dir: /data/app/~~iroyeDgNaDUgWyiIaD75KQ==/com.careeraiapp.jobs-ioi7CJfE96z48yganlpAEg==/lib/arm64
+08-16 22:20:56.799 31307 31307 E SoLoader: Checking /data/data missing libraries.
+08-16 22:20:56.799 31307 31307 E SoLoader: No libraries missing from unpacking so paths while recovering /data/data failure
+08-16 22:20:56.799 31307 31307 W SoLoader: Running a recovery step for libhermestooling.so due to com.facebook.soloader.SoLoaderDSONotFoundError: couldn't find DSO to load: libhermes.so
+08-16 22:20:56.799 31307 31307 W SoLoader: 	existing SO sources: 
+08-16 22:20:56.799 31307 31307 W SoLoader: 		SoSource 0: ApplicationSoSource[DirectorySoSource[root = /data/app/~~iroyeDgNaDUgWyiIaD75KQ==/com.careeraiapp.jobs-ioi7CJfE96z48yganlpAEg==/lib/arm64 flags = 0]]
+08-16 22:20:56.799 31307 31307 W SoLoader: 		SoSource 1: DirectApkSoSource[root = [/data/app/~~iroyeDgNaDUgWyiIaD75KQ==/com.careeraiapp.jobs-ioi7CJfE96z48yganlpAEg==/base.apk!/lib/arm64-v8a]]
+08-16 22:20:56.799 31307 31307 W SoLoader: 		SoSource 2: DirectorySoSource[root = /system/lib64 flags = 3]
+08-16 22:20:56.799 31307 31307 W SoLoader: 		SoSource 3: DirectorySoSource[root = /vendor/lib64 flags = 3]
+08-16 22:20:56.799 31307 31307 W SoLoader: 	Native lib dir: /data/app/~~iroyeDgNaDUgWyiIaD75KQ==/com.careeraiapp.jobs-ioi7CJfE96z48yganlpAEg==/lib/arm64
+08-16 22:20:56.799 31307 31307 W SoLoader: Failed to recover
+08-16 22:20:56.801  1095 16844 D audio_hw_primary: out_set_parameters: enter: usecase(0: deep-buffer-playback) kvpairs: appname=-com.instagram.android
+08-16 22:20:56.801  1095 16844 D audio_hw_primary: out_set_parameters: [hal_apptype] cannot find app type [-com.instagram.android], return !
+--------- beginning of crash
+08-16 22:20:56.801 31307 31307 E AndroidRuntime: FATAL EXCEPTION: main
+08-16 22:20:56.801 31307 31307 E AndroidRuntime: Process: com.careeraiapp.jobs, PID: 31307
+08-16 22:20:56.801 31307 31307 E AndroidRuntime: com.facebook.soloader.SoLoaderDSONotFoundError: couldn't find DSO to load: libhermes.so
+08-16 22:20:56.801 31307 31307 E AndroidRuntime: 	existing SO sources: 
+08-16 22:20:56.801 31307 31307 E AndroidRuntime: 		SoSource 0: ApplicationSoSource[DirectorySoSource[root = /data/app/~~iroyeDgNaDUgWyiIaD75KQ==/com.careeraiapp.jobs-ioi7CJfE96z48yganlpAEg==/lib/arm64 flags = 0]]
+08-16 22:20:56.801 31307 31307 E AndroidRuntime: 		SoSource 1: DirectApkSoSource[root = [/data/app/~~iroyeDgNaDUgWyiIaD75KQ==/com.careeraiapp.jobs-ioi7CJfE96z48yganlpAEg==/base.apk!/lib/arm64-v8a]]
+08-16 22:20:56.801 31307 31307 E AndroidRuntime: 		SoSource 2: DirectorySoSource[root = /system/lib64 flags = 3]
+08-16 22:20:56.801 31307 31307 E AndroidRuntime: 		SoSource 3: DirectorySoSource[root = /vendor/lib64 flags = 3]
+08-16 22:20:56.801 31307 31307 E AndroidRuntime: 	Native lib dir: /data/app/~~iroyeDgNaDUgWyiIaD75KQ==/com.careeraiapp.jobs-ioi7CJfE96z48yganlpAEg==/lib/arm64
+08-16 22:20:56.801 31307 31307 E AndroidRuntime: 
+08-16 22:20:56.801 31307 31307 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.doLoadLibraryBySoName(SoLoader.java:1216)
+08-16 22:20:56.801 31307 31307 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryBySoNameImpl(SoLoader.java:1078)
+08-16 22:20:56.801 31307 31307 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadDependency(SoLoader.java:920)
+08-16 22:20:56.801 31307 31307 E AndroidRuntime: 	at com.facebook.soloader.DirectApkSoSource.loadDependencies(DirectApkSoSource.java:166)
+08-16 22:20:56.801 31307 31307 E AndroidRuntime: 	at com.facebook.soloader.DirectApkSoSource.loadLibrary(DirectApkSoSource.java:76)
+08-16 22:20:56.801 31307 31307 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryFromSoSource(SoLoader.java:1246)
+08-16 22:20:56.801 31307 31307 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.doLoadLibraryBySoName(SoLoader.java:1210)
+08-16 22:20:56.801 31307 31307 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryBySoNameImpl(SoLoader.java:1078)
+08-16 22:20:56.801 31307 31307 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryBySoName(SoLoader.java:943)
+08-16 22:20:56.801 31307 31307 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryOnAndroid(SoLoader.java:859)
+08-16 22:20:56.801 31307 31307 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:842)
+08-16 22:20:56.801 31307 31307 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:812)
+08-16 22:20:56.801 31307 31307 E AndroidRuntime: 	at com.facebook.react.runtime.hermes.HermesInstance.<clinit>(HermesInstance.kt:32)

@@ -1,0 +1,1199 @@
+--------- beginning of main
+08-16 23:41:22.351 27860 27864 I stagram.android: Background young concurrent copying GC freed 7741KB AllocSpace bytes, 40(1548KB) LOS objects, 4% free, 232MB/241MB, paused 672us,122us total 100.344ms
+08-16 23:41:22.351  1915  1915 I cnss-daemon: nl80211 response handler invoked
+08-16 23:41:22.351  1915  1915 I cnss-daemon: nl80211_response_handler: cmd 103, vendorID 4980, subcmd 13  received
+08-16 23:41:22.351  1161 31411 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+08-16 23:41:22.391  1663  1663 I adbd    : adbd service requested 'shell,v2,raw:am start -n com.careeraiapp.jobs/.MainActivity'
+--------- beginning of system
+08-16 23:41:22.428  1893  3686 D CompatibilityChangeReporter: Compat change id reported: 161252188; UID 10323; state: DISABLED
+08-16 23:41:22.428  1893  3686 W ActivityTaskManager: callingPackage for (uid=2000, pid=12065) has no WPC
+08-16 23:41:22.429  1893  3686 D CompatibilityChangeReporter: Compat change id reported: 265464455; UID 10323; state: DISABLED
+08-16 23:41:22.429  1893  3686 D CompatibilityChangeReporter: Compat change id reported: 265452344; UID 10323; state: DISABLED
+08-16 23:41:22.430  1893  3686 D CompatibilityChangeReporter: Compat change id reported: 266124927; UID 10323; state: DISABLED
+08-16 23:41:22.430  1893  3686 D CompatibilityChangeReporter: Compat change id reported: 265451093; UID 10323; state: DISABLED
+08-16 23:41:22.430  1893  3686 D CompatibilityChangeReporter: Compat change id reported: 265456536; UID 10323; state: DISABLED
+08-16 23:41:22.430  1893  3686 D CompatibilityChangeReporter: Compat change id reported: 255940284; UID 10323; state: DISABLED
+08-16 23:41:22.430  1893  3686 D CompatibilityChangeReporter: Compat change id reported: 236283604; UID 10323; state: DISABLED
+08-16 23:41:22.430  1893  3686 D CompatibilityChangeReporter: Compat change id reported: 263959004; UID 10323; state: DISABLED
+08-16 23:41:22.430  1893  3686 D CompatibilityChangeReporter: Compat change id reported: 264304459; UID 10323; state: DISABLED
+08-16 23:41:22.431  1893  3686 D CompatibilityChangeReporter: Compat change id reported: 264301586; UID 10323; state: DISABLED
+08-16 23:41:22.431  1893  3686 D CompatibilityChangeReporter: Compat change id reported: 254631730; UID 10323; state: DISABLED
+08-16 23:41:22.431  1893  3686 D CompatibilityChangeReporter: Compat change id reported: 273509367; UID 10323; state: DISABLED
+08-16 23:41:22.431  1893  3686 D CompatibilityChangeReporter: Compat change id reported: 263259275; UID 10323; state: DISABLED
+08-16 23:41:22.431  1893  3686 D CompatibilityChangeReporter: Compat change id reported: 174042980; UID 10323; state: DISABLED
+08-16 23:41:22.431  1893  3686 D CompatibilityChangeReporter: Compat change id reported: 174042936; UID 10323; state: DISABLED
+08-16 23:41:22.431  1893  3686 D CompatibilityChangeReporter: Compat change id reported: 181136395; UID 10323; state: DISABLED
+08-16 23:41:22.432  1893  3686 D CompatibilityChangeReporter: Compat change id reported: 194480991; UID 10323; state: ENABLED
+08-16 23:41:22.433  1893  3686 D WindowManager: Collecting in transition 8293: ActivityRecord{835413a u0 com.careeraiapp.jobs/.MainActivity init visibleRequested:false
+08-16 23:41:22.433  1893  2154 E NativeTurboSchedManagerJni: open /dev/metis failed!
+08-16 23:41:22.433  1893  3686 D MiuiFreeFormManagerService: activeOrFullscreenFreeformTaskIfNeed startDefaultAr:false
+08-16 23:41:22.434  1893  3686 D MiuiSplitInputMethodImpl: IME or device not support split ime
+08-16 23:41:22.437  3404  3573 D OneHandedController: stopOneHanded state is 0
+08-16 23:41:22.438  1893  3686 D WindowManager: setLockTaskAuth: task=Task{568a1eb #1447 type=standard A=10323:com.careeraiapp.jobs} mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+08-16 23:41:22.438  1893  3686 D WindowManager: Collecting in transition 8293: Task{568a1eb #1447 type=standard A=10323:com.careeraiapp.jobs} init visibleRequested:false
+08-16 23:41:22.439  1893  3686 D CompatibilityChangeReporter: Compat change id reported: 184838306; UID 10323; state: DISABLED
+08-16 23:41:22.439  1893  3686 D CompatibilityChangeReporter: Compat change id reported: 185004937; UID 10323; state: DISABLED
+08-16 23:41:22.442  1893  3686 D WindowManager: setLockTaskAuth: task=Task{568a1eb #1447 type=standard A=10323:com.careeraiapp.jobs} mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+08-16 23:41:22.442  1893  3686 D CompatibilityChangeReporter: Compat change id reported: 197654537; UID 10323; state: ENABLED
+08-16 23:41:22.442  1893  3686 D MiuiFreeFormManagerService: onStartActivityInner as = Task{568a1eb #1447 type=standard A=10323:com.careeraiapp.jobs} op = null
+08-16 23:41:22.443  1893  3686 D ActivityTaskManager: Task#startActivityLocked isOrhasTask=true newTask=true
+08-16 23:41:22.446  1893  3686 D CompatibilityChangeReporter: Compat change id reported: 205907456; UID 10323; state: ENABLED
+08-16 23:41:22.446  1893  3686 I ActivityTaskManager: resumeTopActivityInnerLocked topActivity:ActivityRecord{835413a u0 com.careeraiapp.jobs/.MainActivity t1447} isFocusable:true this:Task{568a1eb #1447 type=standard A=10323:com.careeraiapp.jobs}
+08-16 23:41:22.446  1893  3686 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+08-16 23:41:22.448  1893  3686 D WindowManager: Collecting in transition 8293: ActivityRecord{835413a u0 com.careeraiapp.jobs/.MainActivity t1447} init visibleRequested:false
+08-16 23:41:22.448  1893  3686 D WindowManager: Requesting StartTransition: TransitionRecord{9e3dde1 id=8293 type=OPEN flags=0x0}
+08-16 23:41:22.449  1893  3686 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.careeraiapp.jobs/.MainActivity} with LAUNCH_SINGLE_TASK from uid 2000 from pid 12065 callingPackage com.android.shell (BAL_ALLOW_PERMISSION) result code=0
+08-16 23:41:22.449  3404  3666 E NativeTurboSchedManagerJni: open /dev/metis failed!
+08-16 23:41:22.449  3404  3669 E NativeTurboSchedManagerJni: open /dev/metis failed!
+08-16 23:41:22.450  3404  3573 E NativeTurboSchedManagerJni: open /dev/metis failed!
+08-16 23:41:22.450  3404  3573 E NativeTurboSchedManagerJni: open /dev/metis failed!
+08-16 23:41:22.451  3404  3573 I SoScUtils: monitorTransitionRequest mRequestOpenTransition:null mRequestOpenTriggerTask:-1 mRequestCloseTransition:null mRequestCloseTriggerTask:-1 mRequestCloseStageType:-1
+08-16 23:41:22.453  1893  3686 D WindowManager: Set transition=TransitionRecord{9e3dde1 id=8293 type=OPEN flags=0x0}, ready=false, SyncId=8293 used=true, override=false, defer=0, states=Display{#0 state=ON size=1080x2400 ROTATION_0}:false
+08-16 23:41:22.453  3404  3573 E NativeTurboSchedManagerJni: open /dev/metis failed!
+08-16 23:41:22.456  1893  3686 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10323; state: DISABLED
+08-16 23:41:22.457  1893  3686 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10323; state: DISABLED
+08-16 23:41:22.462  3445 21449 D TaskStackChangeListeners: onTaskDescriptionChanged =  taskId = 1447
+08-16 23:41:22.462  3404  3573 D OneHandedController: stopOneHanded state is 0
+08-16 23:41:22.466  1413  1413 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+08-16 23:41:22.467  3404  3404 I FocusedNotifPromptContr: onTopActivityMayChanged: topActivity=com.careeraiapp.jobs
+08-16 23:41:22.467  3404  3404 I FocusedNotifPromptContr: topActivityMayChanged: topActivity=com.careeraiapp.jobs
+08-16 23:41:22.467  3404  3404 D KeyguardEditorHelper: onTopActivityMayChanged, topActivity=ComponentInfo{com.careeraiapp.jobs/com.careeraiapp.jobs.MainActivity}; mState=IDEL
+08-16 23:41:22.474  1893  3686 D CoreBackPreview: Window{2d71c7 u0 Splash Screen com.careeraiapp.jobs}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@1856363, mPriority=0, mIsAnimationCallback=false}
+08-16 23:41:22.475  3404  3573 D OneHandedController: stopOneHanded state is 0
+08-16 23:41:22.478  3404  3840 E OpenGLRenderer: Unable to match the desired swap behavior.
+08-16 23:41:22.478  3404  3666 D VRI[jobs]: vri.reportNextDraw android.view.ViewRootImpl.performTraversals:4360 android.view.ViewRootImpl.doTraversal:2989 android.view.ViewRootImpl$TraversalRunnable.run:10304 android.view.Choreographer$CallbackRecord.run:1594 android.view.Choreographer$CallbackRecord.run:1603 
+08-16 23:41:22.478  3404  3666 D VRI[jobs]: vri.Setup new sync=wmsSync-VRI[jobs]#3
+08-16 23:41:22.478  1893  2153 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10323; state: DISABLED
+08-16 23:41:22.479  1893  2153 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 10323; state: DISABLED
+08-16 23:41:22.479  1893  2153 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 10323; state: DISABLED
+08-16 23:41:22.479  1893  2153 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10323; state: ENABLED
+08-16 23:41:22.479  1893  2170 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10323; state: ENABLED
+08-16 23:41:22.482  3404  3666 D VRI[jobs]: vri.reportDrawFinished
+08-16 23:41:22.482  1893  4234 E NativeTurboSchedManagerJni: open /dev/metis failed!
+08-16 23:41:22.482  1893  4234 E NativeTurboSchedManagerJni: open /dev/metis failed!
+08-16 23:41:22.487  1413  1413 W Layer   : gatherBufferInfo: Received unknown dataspace from gralloc
+08-16 23:41:22.489  3445 21449 D RecentsModel: onTaskStackChangedBackground
+08-16 23:41:22.489  3445 21449 D EventBus: No subscribers registered for event class com.miui.home.recents.messages.RecentTasksChangedEvent
+08-16 23:41:22.489  3445 21449 D EventBus: No subscribers registered for event class org.greenrobot.eventbus.NoSubscriberEvent
+08-16 23:41:22.489  3445  3892 D RecentsModel: onTaskStackChangedBackground    MSG_TASK_STACK_CHANGE
+08-16 23:41:22.489  3445  3892 D RecentsModel: preloadRecents
+08-16 23:41:22.489  3445  3892 W RecentsModel: getRunningTask
+08-16 23:41:22.489  3445 21449 D RecentsModel: onTaskStackChangedBackground
+08-16 23:41:22.489  3445 21449 D EventBus: No subscribers registered for event class com.miui.home.recents.messages.RecentTasksChangedEvent
+08-16 23:41:22.489  3445 21449 D EventBus: No subscribers registered for event class org.greenrobot.eventbus.NoSubscriberEvent
+08-16 23:41:22.491  3445  3892 W RecentsModel: getRunningTask   taskInfo=TaskInfo{userId=0 taskId=1338 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x11200000 cmp=com.instagram.android/.activity.MainTabActivity } baseActivity=ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity} topActivity=ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity} origActivity=ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity} realActivity=ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity} numActivities=1 lastActiveTime=635126554 supportsSplitScreenMultiWindow=true supportsMultiWindow=true resizeMode=2 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=200 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@7d3fbbf} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{b0928c com.instagram.android.activity.MainTabActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false topActivityInSizeCompat=false topActivityInMiuiSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden mIsCastMode=false mTopActivityMediaSize=null mTopActivityRecordName=ActivityRecord{7f14906 u0 com.instagram.android/.activity.MainTabActivity t1338} mTopActivityOrientation=1 mTopActivityWindowIsNowVisible=true isTranslucent=false isEmbedded=false shouldBeVisible=true mBehindAppLockPkg=null mOriginatingUid=0}
+08-16 23:41:22.491  3445  3892 W RecentsModel: getTaskInfoIgnoreHomeAndFreeform   taskInfo=ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity}
+08-16 23:41:22.492  3445  3892 E ActivityManagerWrapper: get all recent tasks force including 1338
+08-16 23:41:22.497   974   974 D Zygote  : Forked child process 12074
+08-16 23:41:22.498  3445  3892 E ActivityManagerWrapper: getRecentTasks: size=8
+08-16 23:41:22.498  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1447   userId=0   windowMode=1   baseIntent=Intent { act=null flag=268435456 cmp=ComponentInfo{com.careeraiapp.jobs/com.careeraiapp.jobs.MainActivity} }
+08-16 23:41:22.498  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1338   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=287309824 cmp=ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity} }
+08-16 23:41:22.499  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1401   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.whatsapp/com.whatsapp.Main} }
+08-16 23:41:22.499  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1402   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.VIEW flag=318767104 cmp=ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity} }
+08-16 23:41:22.499  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1270   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=352321536 cmp=ComponentInfo{com.google.android.youtube/com.google.android.apps.youtube.app.watchwhile.InternalMainActivity} }
+08-16 23:41:22.499  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1232   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity} }
+08-16 23:41:22.499  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1233   userId=0   windowMode=1   baseIntent=Intent { act=null flag=268468224 cmp=ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.search.lens.LensActivity} }
+08-16 23:41:22.499  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1226   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=335544320 cmp=ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClockTabActivity} }
+08-16 23:41:22.504  1269  1312 E ANDR-PERF-LM: MetaMeter: handleAsync() 166: AdaptLaunch Invalid Async
+08-16 23:41:22.504  1893  2170 I ActivityManager: Start proc 12074:com.careeraiapp.jobs/u0a323 for next-top-activity {com.careeraiapp.jobs/com.careeraiapp.jobs.MainActivity} caller=com.android.shell
+08-16 23:41:22.505  1893 12077 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1231 com.qualcomm.qti.Performance$SendGameLaunchBroadcast.run:250 java.lang.Thread.run:1572 <bottom of call stack> <bottom of call stack> 
+08-16 23:41:22.509  5752 13262 W SQLiteLog: (28) double-quoted string literal: "com.careeraiapp.jobs"
+08-16 23:41:22.516 27860 27860 W soft_error.cpp: [pando::graphql::PandoGraphQLRequestHybrid::assertValid] : Using a PandoGraphQLRequest after it has been consumed. Query name is ShopEverythingMediaEligibilityBatchQuery
+08-16 23:41:22.516 12074 12074 E Zygote  : process_name_ptr:12074 com.careeraiapp.jobs
+08-16 23:41:22.516  3445  3892 D RecentsModel: onTaskStackChangedBackground    MSG_TASK_STACK_CHANGE
+08-16 23:41:22.516  3445  3892 D RecentsModel: preloadRecents
+08-16 23:41:22.516  3445  3892 W RecentsModel: getRunningTask
+08-16 23:41:22.518  3445  3892 W RecentsModel: getRunningTask   taskInfo=TaskInfo{userId=0 taskId=1338 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x11200000 cmp=com.instagram.android/.activity.MainTabActivity } baseActivity=ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity} topActivity=ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity} origActivity=ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity} realActivity=ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity} numActivities=1 lastActiveTime=635126581 supportsSplitScreenMultiWindow=true supportsMultiWindow=true resizeMode=2 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=200 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@dd694db} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{21a4b78 com.instagram.android.activity.MainTabActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false topActivityInSizeCompat=false topActivityInMiuiSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden mIsCastMode=false mTopActivityMediaSize=null mTopActivityRecordName=ActivityRecord{7f14906 u0 com.instagram.android/.activity.MainTabActivity t1338} mTopActivityOrientation=1 mTopActivityWindowIsNowVisible=true isTranslucent=false isEmbedded=false shouldBeVisible=true mBehindAppLockPkg=null mOriginatingUid=0}
+08-16 23:41:22.518  3445  3892 W RecentsModel: getTaskInfoIgnoreHomeAndFreeform   taskInfo=ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity}
+08-16 23:41:22.519  3445  3892 E ActivityManagerWrapper: get all recent tasks force including 1338
+08-16 23:41:22.522  3445  3892 E ActivityManagerWrapper: getRecentTasks: size=8
+08-16 23:41:22.522  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1447   userId=0   windowMode=1   baseIntent=Intent { act=null flag=268435456 cmp=ComponentInfo{com.careeraiapp.jobs/com.careeraiapp.jobs.MainActivity} }
+08-16 23:41:22.522  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1338   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=287309824 cmp=ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity} }
+08-16 23:41:22.522  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1401   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.whatsapp/com.whatsapp.Main} }
+08-16 23:41:22.522  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1402   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.VIEW flag=318767104 cmp=ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity} }
+08-16 23:41:22.522  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1270   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=352321536 cmp=ComponentInfo{com.google.android.youtube/com.google.android.apps.youtube.app.watchwhile.InternalMainActivity} }
+08-16 23:41:22.522  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1232   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity} }
+08-16 23:41:22.522  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1233   userId=0   windowMode=1   baseIntent=Intent { act=null flag=268468224 cmp=ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.search.lens.LensActivity} }
+08-16 23:41:22.522  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1226   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=335544320 cmp=ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClockTabActivity} }
+08-16 23:41:22.524 12074 12074 I areeraiapp.jobs: Using generational CollectorTypeCC GC.
+08-16 23:41:22.524 27860 27860 I Choreographer: Skipped 34 frames!  The application may be doing too much work on its main thread.
+08-16 23:41:22.538 12074 12074 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+08-16 23:41:22.542  1893  3292 D FileUtils: Rounded bytes from 12162617344 to 16000000000
+08-16 23:41:22.547 12074 12074 I MessageMonitor: Load libmiui_runtime
+08-16 23:41:22.550 27860 11975 E IdleQueuePayloadBasedServiceLayer: Request empty, but still some servings left: 34647
+08-16 23:41:22.557  1893  3292 D SymlinkUtils: attachApplication file op go pass: 0 ms
+08-16 23:41:22.558  1269  1312 E ANDR-PERF-LM: MetaMeter: handleAsync() 166: AdaptLaunch Invalid Async
+08-16 23:41:22.558  1893  3292 I SmartPower: com.careeraiapp.jobs/10323(12074): died->invisible(28888ms) R(process start ) adj=-10000.
+08-16 23:41:22.559  1893  3292 D CompatibilityInfo: mCompatibilityFlags - 0
+08-16 23:41:22.559  1893  3292 D CompatibilityInfo: applicationDensity - 440
+08-16 23:41:22.559  1893  3292 D CompatibilityInfo: applicationScale - 1.0
+08-16 23:41:22.560  1893  3292 W MiuiBoosterUtils: enable_miuibooster : false ,isInit: true
+08-16 23:41:22.560  1893  3292 D WindowManager: Collecting in transition 8293: ActivityRecord{835413a u0 com.careeraiapp.jobs/.MainActivity t1447} init visibleRequested:false
+08-16 23:41:22.560  1893  3292 I ActivityTaskManager: The Process com.careeraiapp.jobs Already Exists in BG. So sending its PID: 12074
+08-16 23:41:22.560  1269  1312 E ANDR-PERF-LM: MetaMeter: handleAsync() 166: AdaptLaunch Invalid Async
+08-16 23:41:22.561  1893  3292 D WindowManager: Collecting in transition 8293: ActivityRecord{7f14906 u0 com.instagram.android/.activity.MainTabActivity t1338} init visibleRequested:true
+08-16 23:41:22.561  1893  2859 I MiuiNetworkPolicy: updateUidState uid = 10323, uidState = 19
+08-16 23:41:22.562  1893  3292 D SchedBoost: com.careeraiapp.jobs boosting, skip reset priority
+08-16 23:41:22.563  1893  2745 D CompatibilityChangeReporter: Compat change id reported: 265195908; UID 10323; state: ENABLED
+08-16 23:41:22.569  1893  3686 D FileUtils: Rounded bytes from 12162617344 to 16000000000
+08-16 23:41:22.571 12074 12074 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10323; state: ENABLED
+08-16 23:41:22.571 12074 12074 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 10323; state: ENABLED
+08-16 23:41:22.578  1893  3686 D CompatibilityChangeReporter: Compat change id reported: 170503758; UID 10323; state: ENABLED
+08-16 23:41:22.583 27860 27860 W NonBlockingScreenshotDetectorImpl: Resigning active session
+08-16 23:41:22.583 27860 27860 W NonBlockingScreenshotDetectorImpl: Now handling 3 active screenshot sessions
+08-16 23:41:22.583 27860 27860 W NonBlockingScreenshotDetectorImpl: Resigning active session
+08-16 23:41:22.583 27860 27860 W NonBlockingScreenshotDetectorImpl: Now handling 2 active screenshot sessions
+08-16 23:41:22.583 27860 27860 W NonBlockingScreenshotDetectorImpl: Resigning active session
+08-16 23:41:22.583 27860 27860 W NonBlockingScreenshotDetectorImpl: Now handling 1 active screenshot sessions
+08-16 23:41:22.585 27860 27860 W RageShakeSensorHelper: onActivityPause
+08-16 23:41:22.585 27860 27860 W RageShakeSensorHelper: unregisterShakeListener started | mRegistered=true
+08-16 23:41:22.585 27860 27860 W RageShakeSensorHelper: unregisterShakeListener unregistered
+08-16 23:41:22.587  1893  4234 I ActivityTaskManager: resumeTopActivityInnerLocked topActivity:ActivityRecord{835413a u0 com.careeraiapp.jobs/.MainActivity t1447} isFocusable:true this:Task{568a1eb #1447 type=standard A=10323:com.careeraiapp.jobs}
+08-16 23:41:22.588  1893  4234 D PerfStubImpl: perfWarmLaunchBoost: com.careeraiapp.jobs, -1, 1
+08-16 23:41:22.588  1269  1312 W ANDR-PERF-LM: MetaMeter: handlePrimaryAsync() 118: AdaptLaunch MetaMeter. No MeterMgr Available to handle this Primary Async. !!!!
+08-16 23:41:22.588  1269  1312 W ANDR-PERF-LM: MetaMeter: handlePrimaryAsync() 118: AdaptLaunch MetaMeter. No MeterMgr Available to handle this Primary Async. !!!!
+08-16 23:41:22.588  1893  4234 I ActivityTaskManager: The Process com.careeraiapp.jobs Already Exists in BG. So sending its PID: 12074
+08-16 23:41:22.588  1269  1312 E ANDR-PERF-LM: MetaMeter: handleAsync() 166: AdaptLaunch Invalid Async
+08-16 23:41:22.589  1893  4234 D WindowManager: Collecting in transition 8293: ActivityRecord{835413a u0 com.careeraiapp.jobs/.MainActivity t1447} init visibleRequested:true
+08-16 23:41:22.591  1893  4234 D WindowManagerService: checkFlipFullScreenChange is same, nowIsFullScreen = false
+08-16 23:41:22.592  1893  4234 D WindowManager: wms.Input focus has changed to null display=0 updateInputWindows = true
+08-16 23:41:22.592  1893  4234 I MultiSenceManagerInternalStub: getInstance
+08-16 23:41:22.593  1893  4234 D WindowManager: Collecting in transition 8293: ActivityRecord{835413a u0 com.careeraiapp.jobs/.MainActivity t1447} init visibleRequested:true
+08-16 23:41:22.593  1893  4234 D WindowManager: Set transition=TransitionRecord{9e3dde1 id=8293 type=OPEN flags=0x0}, ready=true, SyncId=8293 
+08-16 23:41:22.598  1893  4234 I SmartPower: com.careeraiapp.jobs/10323(12074): invisible->visible(40ms) R(become visible) adj=905.
+08-16 23:41:22.598  1893  4234 I WindowManager: wms.showSurfaceRobustly mWin:Window{2d71c7 u0 Splash Screen com.careeraiapp.jobs}
+08-16 23:41:22.598  1893  4234 D WindowManager: Final targets: [Task{568a1eb #1447 type=standard A=10323:com.careeraiapp.jobs}, Task{e2b311d #1338 type=standard A=10111:com.instagram.android}]
+08-16 23:41:22.598  3404  3573 D MiuiFullScreenTaskRepository: removeFocusedTask displayId=0
+08-16 23:41:22.599  3404  3573 D MiuiFullScreenTaskRepository: addOrUpdateFullScreenTaskInfo taskId=1338, topActivity=ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity}
+08-16 23:41:22.601 27860 28210 I RenderInspector: window state type=4 , value=0 
+08-16 23:41:22.611  1893  4234 D WindowManager: Calling onTransitionReady info={id=8293 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{2aaac90 Task{568a1eb #1447 type=standard A=10323:com.careeraiapp.jobs}}} m=OPEN f=NONE leash=Surface(name=Task=1447#131445)/@0x8a49224 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{2f76389 Task{e2b311d #1338 type=standard A=10111:com.instagram.android}}} m=TO_BACK f=NONE leash=Surface(name=Task=1338#122166)/@0x123ffb6 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}] noAni=[false] df=[false] mk=[true]}, mToken=Token{a9f8989 TransitionRecord{9e3dde1 id=8293 type=OPEN flags=0x0}}
+08-16 23:41:22.612  1893  4234 I BLASTSyncEngine: finishNow: after onTransactionReady, mSyncId=8293
+08-16 23:41:22.612  1893  4234 E NativeTurboSchedManagerJni: open /dev/metis failed!
+08-16 23:41:22.613 12074 12074 D nativeloader: Configuring clns-4 for other apk /data/app/~~tz_uNrEyIVdYsIdEKV-iNQ==/com.careeraiapp.jobs-FuAoJ_mU1QUwff67bpu7yQ==/base.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~tz_uNrEyIVdYsIdEKV-iNQ==/com.careeraiapp.jobs-FuAoJ_mU1QUwff67bpu7yQ==/lib/arm64:/data/app/~~tz_uNrEyIVdYsIdEKV-iNQ==/com.careeraiapp.jobs-FuAoJ_mU1QUwff67bpu7yQ==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.careeraiapp.jobs
+08-16 23:41:22.616  1893  3686 I WindowManager: cancelAnimation removed leash : Surface(name=Surface(name=83d6251 StatusBar#105)/@0xb7023b7 - animation-leash of insets_animation#131434)/@0x4d87974
+08-16 23:41:22.617  3404  3573 E NativeTurboSchedManagerJni: open /dev/metis failed!
+08-16 23:41:22.623  1893  3686 I PowerManagerServiceImpl: Release wakelock: SCREEN_BRIGHT_WAKE_LOCK        'WindowManager/displayId:0' ON_AFTER_RELEASE DISABLED ACQ=-28s865ms (uid=1000 pid=1893 pkg=android ws=WorkSource{10111 com.instagram.android})
+08-16 23:41:22.623  1413  1657 D RefreshRateSelector: Touch Boost
+08-16 23:41:22.623  1413  1657 D MI-SF   : mIsSupportAutomodeForMaxFpsSetting is 0(0), getCurrentBrightness() = 58(450), mIsKeepAutoMode 0
+08-16 23:41:22.623  1413  1657 D RefreshRateSelector: fixedMode_group: 0, isFindModeGroup 0
+08-16 23:41:22.623  1413  1657 D RefreshRateSelector: find max refresh rate:120, mode Group:0
+08-16 23:41:22.628 27860 11851 W runtime-internals: redirecting sigaction to sigmux_sigaction for signal 11
+08-16 23:41:22.633  3404  3573 D MiuiFreeformAnimation: startAnimation change: {WCT{android.window.IWindowContainerToken$Stub$Proxy@cb8d4a7} m=OPEN f=NONE leash=Surface(name=Task=1447#131445)/@0xf2996cb sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0} info.getType(): 1
+08-16 23:41:22.633  3404  3573 I MiuiFreeformAnimation: isLaunchWidgetPicker=false,taskInfo.getWindowingMode()=1, taskInfo.getActivityType()=1
+08-16 23:41:22.633  3404  3573 D MiuiFreeFormManager:  isSplitRootTask taskId=1447
+08-16 23:41:22.633  3404  3573 D MiuiFreeformAnimation: startAnimation change: {WCT{android.window.IWindowContainerToken$Stub$Proxy@ba79d54} m=TO_BACK f=NONE leash=Surface(name=Task=1338#122166)/@0xca93ea8 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0} info.getType(): 1
+08-16 23:41:22.633  3404  3573 W MiuiTaskTransitionHandler: Receive an unknown transition, token=android.os.BinderProxy@5031e8d, type=1
+08-16 23:41:22.634 12074 12074 D nativeloader: Load libframework-connectivity-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity.jar: ok
+08-16 23:41:22.634  3404  3573 D TransitionAnimationHelper:  load default animation  type = 1 enter = false animAttr = 9 isTask = true translucent = false
+08-16 23:41:22.634  1893  2971 D CameraBlackCoveredManager: mForegroundPackage = com.careeraiapp.jobs mOccupiedPackage = com.miui.face
+08-16 23:41:22.634  7921 15022 D PerfEngineController: ForegroundInfo{mForegroundPackageName='com.careeraiapp.jobs', mForegroundUid=10323, mForegroundPid=12074, mLastForegroundPackageName='com.instagram.android', mLastForegroundUid=10111, mLastForegroundPid=27860, mMultiWindowForegroundPackageName='com.careeraiapp.jobs', mMultiWindowForegroundUid=10323, mFlags=0}
+08-16 23:41:22.634  3404  3573 D TransitionAnimationHelper:  load default animation  type = 1 enter = true animAttr = 8 isTask = true translucent = false
+08-16 23:41:22.634  5645  9280 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.careeraiapp.jobs', mForegroundUid=10323, mForegroundPid=12074, mLastForegroundPackageName='com.instagram.android', mLastForegroundUid=10111, mLastForegroundPid=27860, mMultiWindowForegroundPackageName='com.careeraiapp.jobs', mMultiWindowForegroundUid=10323, mFlags=0}
+08-16 23:41:22.634  1893  2971 I NetworkBoostStatusManager: onForegroundInfoChanged uid:10323, isColdStart:false
+08-16 23:41:22.634  1893  2971 I SLM-SRV-SLAToast: foreground uid:10323, isColdStart:false, isLinkTurboEnable:false
+08-16 23:41:22.634  1893  2971 D NetworkSDKService: handleMultiAppsDualWifi isSet = false isEverOpened = false
+08-16 23:41:22.634  8512  9145 I GST     : forePkg: com.careeraiapp.jobs, preForePkg: com.instagram.android
+08-16 23:41:22.635  5645  9280 I GameBoosterService: onForegroundInfoChanged: Cur=com.careeraiapp.jobs	 last=com.instagram.android
+08-16 23:41:22.635  5645  9280 D GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.careeraiapp.jobs', mForegroundUid=10323, mForegroundPid=12074, mLastForegroundPackageName='com.instagram.android', mLastForegroundUid=10111, mLastForegroundPid=27860, mMultiWindowForegroundPackageName='com.careeraiapp.jobs', mMultiWindowForegroundUid=10323, mFlags=0}
+08-16 23:41:22.635  5645  9280 I VideoBoxUtils: isSupportVideoBox: true
+08-16 23:41:22.636  5645  5658 D x1      : myUserId = 0	currentUserId0
+08-16 23:41:22.636  8512  9145 D VENUS_GAMEAI_START_GameAiStartManager: 高能时刻未安装
+08-16 23:41:22.636  1893  2859 I MiuiNetworkPolicy: updateUidState uid = 10323, uidState = 2
+08-16 23:41:22.636  3404  3573 E NativeTurboSchedManagerJni: open /dev/metis failed!
+08-16 23:41:22.636  3445 21449 D AppObserver: ForegroundInfo{mForegroundPackageName='com.careeraiapp.jobs', mForegroundUid=10323, mForegroundPid=12074, mLastForegroundPackageName='com.instagram.android', mLastForegroundUid=10111, mLastForegroundPid=27860, mMultiWindowForegroundPackageName='com.careeraiapp.jobs', mMultiWindowForegroundUid=10323, mFlags=0}
+08-16 23:41:22.637  3404  3589 D ShellTransitions: speed ui!!!!!!!!!!!
+08-16 23:41:22.640  5645  9280 I VideoToolBoxService: splitMode: onfalse
+08-16 23:41:22.642 12074 12074 I Perf    : Connecting to perf service.
+08-16 23:41:22.647 12074 12074 V GraphicsEnvironment: Currently set values for:
+08-16 23:41:22.648 12074 12074 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+08-16 23:41:22.648 12074 12074 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+08-16 23:41:22.648 12074 12074 V GraphicsEnvironment: ANGLE GameManagerService for com.careeraiapp.jobs: false
+08-16 23:41:22.648 12074 12074 V GraphicsEnvironment: com.careeraiapp.jobs is not listed in per-application setting
+08-16 23:41:22.649 12074 12074 V GraphicsEnvironment: App is not on the allowlist for updatable production driver.
+08-16 23:41:22.650  3404  3573 D MiuiFullScreenTaskRepository: setFocusedTask taskId=1447, displayId=0, topActivity=ComponentInfo{com.careeraiapp.jobs/com.careeraiapp.jobs.MainActivity}
+08-16 23:41:22.650  3404  3573 D MiuiFullScreenTaskRepository: addOrUpdateFullScreenTaskInfo taskId=1447, topActivity=ComponentInfo{com.careeraiapp.jobs/com.careeraiapp.jobs.MainActivity}
+08-16 23:41:22.653  1413  1494 I SurfaceFlinger: sf.setTransactionState focusRequest transactionId:8130374214350 frontWin:<null>
+08-16 23:41:22.654  1413  1413 I SurfaceFlinger: sf.transactionReadyTimelineCheck focusRequest transactionId:8130374214350 vsyncId: -1
+08-16 23:41:22.657  5645  9280 D FreeformUtil: retrieveFirstNoFreeformRootTaskInfo: windowMode = 1
+08-16 23:41:22.658  1893  3211 D InputDispatcher: setFocusedWindow <null> on display 0 ignored, reason: already focused
+08-16 23:41:22.658  5645  9280 I VideoToolBoxService: not support vtb. skipExit : false
+08-16 23:41:22.646  1269  1269 W /vendor/bin/hw/vendor.qti.hardware.perf@2.2-service: type=1400 audit(0.0:1713824): avc:  denied  { search } for  comm=41646170744C61756E636820566D name="2153" dev="proc" ino=108755766 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:system_server:s0 tclass=dir permissive=0
+08-16 23:41:22.646  1269  1269 W /vendor/bin/hw/vendor.qti.hardware.perf@2.2-service: type=1400 audit(0.0:1713825): avc:  denied  { search } for  comm=41646170744C61756E636820566D name="2154" dev="proc" ino=108755767 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:system_server:s0 tclass=dir permissive=0
+08-16 23:41:22.646  1269  1269 W /vendor/bin/hw/vendor.qti.hardware.perf@2.2-service: type=1400 audit(0.0:1713826): avc:  denied  { search } for  comm=41646170744C61756E636820566D name="2155" dev="proc" ino=108755768 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:system_server:s0 tclass=dir permissive=0
+08-16 23:41:22.646  1269  1269 W /vendor/bin/hw/vendor.qti.hardware.perf@2.2-service: type=1400 audit(0.0:1713827): avc:  denied  { search } for  comm=41646170744C61756E636820566D name="2796" dev="proc" ino=108755775 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:system_server:s0 tclass=dir permissive=0
+08-16 23:41:22.646  1269  1269 W /vendor/bin/hw/vendor.qti.hardware.perf@2.2-service: type=1400 audit(0.0:1713828): avc:  denied  { search } for  comm=41646170744C61756E636820566D name="2797" dev="proc" ino=108755776 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:system_server:s0 tclass=dir permissive=0
+08-16 23:41:22.646  1269  1269 W /vendor/bin/hw/vendor.qti.hardware.perf@2.2-service: type=1400 audit(0.0:1713829): avc:  denied  { search } for  comm=41646170744C61756E636820566D name="2798" dev="proc" ino=108755777 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:system_server:s0 tclass=dir permissive=0
+08-16 23:41:22.646  1269  1269 W /vendor/bin/hw/vendor.qti.hardware.perf@2.2-service: type=1400 audit(0.0:1713830): avc:  denied  { search } for  comm=41646170744C61756E636820566D name="2801" dev="proc" ino=108755778 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:system_server:s0 tclass=dir permissive=0
+08-16 23:41:22.664  3445  3445 D EventBus: No subscribers registered for event class com.miui.home.recents.messages.TaskSnapshotChangedEvent
+08-16 23:41:22.664  3445  3445 D EventBus: No subscribers registered for event class org.greenrobot.eventbus.NoSubscriberEvent
+08-16 23:41:22.665  6448 12219 D ProcessObserverV10: onForegroundActivitiesChanged:pid = 12074,activity-uid=10323,foregroundActivities=true
+08-16 23:41:22.666  1893  2151 D Aurogon :  uid = 10323 switch to FG
+08-16 23:41:22.666  1893  2955 D isUidValid: uid = 10323
+08-16 23:41:22.667  1893  3635 D ForceDarkAppConfigProvider: cloudConfigVersion: -1   localConfigVersion:20240722
+08-16 23:41:22.667  1893  3635 I UiModeManager: systemserver package:com.careeraiapp.jobs null
+08-16 23:41:22.668 12074 12074 I ForceDarkHelperStubImpl: initialize for com.careeraiapp.jobs , ForceDarkAppConfig: null
+08-16 23:41:22.669  4677  4677 D TouchAssistant: getPackageNameFromPid packageName:com.careeraiapp.jobs
+08-16 23:41:22.669  4677  4677 D TouchAssistant: onTopAppChanged packageName:com.careeraiapp.jobs
+08-16 23:41:22.669  4677  4677 D TouchAssistant: onTopAppChanged show
+08-16 23:41:22.669 12074 12074 D nativeloader: Load libforcedarkimpl.so using system ns (caller=/system_ext/framework/miui-framework.jar): ok
+08-16 23:41:22.669 12074 12074 D OpenGLRenderer: JNI_OnLoad success
+08-16 23:41:22.669  4677  4677 D TouchAssistant: AssistantWindowHelper isWeltHidden
+08-16 23:41:22.669  4677  4677 D TouchAssistant: AssistantWindowHelper forceSlideAway()
+08-16 23:41:22.669  4677  4677 D TouchAssistant: AssistantWindowHelper onAutoSlideAway() mIsAutoSliding: false, originSlideAway: true, mViewAdded: true
+08-16 23:41:22.670 12074 12074 I MiuiForceDarkConfig: setConfig density:2.750000, mainRule:0, secondaryRule:0, tertiaryRule:0
+08-16 23:41:22.670 12074 12101 D AppScoutStateMachine: 12074-ScoutStateMachinecreated
+08-16 23:41:22.671  1413  1413 I MI-SF   : surfaceflinger setAffinity mode=1
+08-16 23:41:22.671  1413  1413 I MI-SF   : surfaceflinger setreAffinity reTid=1498
+08-16 23:41:22.676 12074 12074 E ExpoModulesPackage: Couldn't get expo package list.
+08-16 23:41:22.676 12074 12074 E ExpoModulesPackage: java.lang.ClassNotFoundException: expo.modules.ExpoModulesPackageList
+08-16 23:41:22.676 12074 12074 E ExpoModulesPackage: 	at java.lang.Class.classForName(Native Method)
+08-16 23:41:22.676 12074 12074 E ExpoModulesPackage: 	at java.lang.Class.forName(Class.java:591)
+08-16 23:41:22.676 12074 12074 E ExpoModulesPackage: 	at java.lang.Class.forName(Class.java:496)
+08-16 23:41:22.676 12074 12074 E ExpoModulesPackage: 	at expo.modules.ExpoModulesPackage.packageList_delegate$lambda$1(ExpoModulesPackage.kt:23)
+08-16 23:41:22.676 12074 12074 E ExpoModulesPackage: 	at expo.modules.ExpoModulesPackage.$r8$lambda$QFBV9-FY5jLEWS4oBZ76Yb8QIkI(ExpoModulesPackage.kt:0)
+08-16 23:41:22.676 12074 12074 E ExpoModulesPackage: 	at expo.modules.ExpoModulesPackage$$ExternalSyntheticLambda0.invoke(D8$$SyntheticClass:0)
+08-16 23:41:22.676 12074 12074 E ExpoModulesPackage: 	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:86)
+08-16 23:41:22.676 12074 12074 E ExpoModulesPackage: 	at expo.modules.ExpoModulesPackage$Companion.getPackageList(ExpoModulesPackage.kt:21)
+08-16 23:41:22.676 12074 12074 E ExpoModulesPackage: 	at expo.modules.ReactNativeHostWrapperBase.<init>(ReactNativeHostWrapperBase.kt:19)
+08-16 23:41:22.676 12074 12074 E ExpoModulesPackage: 	at expo.modules.ReactNativeHostWrapper.<init>(ReactNativeHostWrapper.kt:17)
+08-16 23:41:22.676 12074 12074 E ExpoModulesPackage: 	at com.careeraiapp.jobs.MainApplication.<init>(MainApplication.kt:20)
+08-16 23:41:22.676 12074 12074 E ExpoModulesPackage: 	at java.lang.Class.newInstance(Native Method)
+08-16 23:41:22.676 12074 12074 E ExpoModulesPackage: 	at android.app.AppComponentFactory.instantiateApplication(AppComponentFactory.java:76)
+08-16 23:41:22.676 12074 12074 E ExpoModulesPackage: 	at androidx.core.app.CoreComponentFactory.instantiateApplication(CoreComponentFactory.java:51)
+08-16 23:41:22.676 12074 12074 E ExpoModulesPackage: 	at android.app.Instrumentation.newApplication(Instrumentation.java:1289)
+08-16 23:41:22.676 12074 12074 E ExpoModulesPackage: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1487)
+08-16 23:41:22.676 12074 12074 E ExpoModulesPackage: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1424)
+08-16 23:41:22.676 12074 12074 E ExpoModulesPackage: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7479)
+08-16 23:41:22.676 12074 12074 E ExpoModulesPackage: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(ActivityThread.java:0)
+08-16 23:41:22.676 12074 12074 E ExpoModulesPackage: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2382)
+08-16 23:41:22.676 12074 12074 E ExpoModulesPackage: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+08-16 23:41:22.676 12074 12074 E ExpoModulesPackage: 	at android.os.Looper.loopOnce(Looper.java:224)
+08-16 23:41:22.676 12074 12074 E ExpoModulesPackage: 	at android.os.Looper.loop(Looper.java:318)
+08-16 23:41:22.676 12074 12074 E ExpoModulesPackage: 	at android.app.ActivityThread.main(ActivityThread.java:8790)
+08-16 23:41:22.676 12074 12074 E ExpoModulesPackage: 	at java.lang.reflect.Method.invoke(Native Method)
+08-16 23:41:22.676 12074 12074 E ExpoModulesPackage: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:561)
+08-16 23:41:22.676 12074 12074 E ExpoModulesPackage: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1013)
+08-16 23:41:22.676 12074 12074 E ExpoModulesPackage: Caused by: java.lang.ClassNotFoundException: expo.modules.ExpoModulesPackageList
+08-16 23:41:22.676 12074 12074 E ExpoModulesPackage: 	... 27 more
+08-16 23:41:22.676  7921  8692 D ThermalIECHandler: pkgName: com.google.android.apps.maps; processState: 16
+08-16 23:41:22.677  1413  1494 D MI-SF   : updateScene: module = 258 (TpIdle), value = 0, pkg = com.careeraiapp.jobs, Vrr = 0
+08-16 23:41:22.678  1413  1494 D MI-SF   : updateScene mSetTpIdleFlag 0
+08-16 23:41:22.685  7921  8692 D ThermalIECHandler: pkgName: com.google.android.apps.maps; processState: 16
+08-16 23:41:22.690 27860 27864 I stagram.android: Background young concurrent copying GC freed 7101KB AllocSpace bytes, 88(5428KB) LOS objects, 3% free, 234MB/241MB, paused 1.487ms,125us total 150.418ms
+08-16 23:41:22.692 12074 12074 W SoLoader: Initializing SoLoader: 0
+08-16 23:41:22.692 12074 12074 W SoLoader: Recording new base apk path: /data/app/~~tz_uNrEyIVdYsIdEKV-iNQ==/com.careeraiapp.jobs-FuAoJ_mU1QUwff67bpu7yQ==/base.apk
+08-16 23:41:22.692 12074 12074 W SoLoader: Previously recorded 0 base apk paths.
+08-16 23:41:22.693 12074 12074 I SoLoader: Preparing SO source: DirectorySoSource[root = /vendor/lib64 flags = 2]
+08-16 23:41:22.693 12074 12074 I SoLoader: Preparing SO source: DirectorySoSource[root = /system/lib64 flags = 2]
+08-16 23:41:22.693 12074 12074 I SoLoader: Preparing SO source: ApplicationSoSource[DirectorySoSource[root = /data/app/~~tz_uNrEyIVdYsIdEKV-iNQ==/com.careeraiapp.jobs-FuAoJ_mU1QUwff67bpu7yQ==/lib/arm64 flags = 0]]
+08-16 23:41:22.694 12074 12074 I SoLoader: Preparing SO source: BackupSoSource[root = /data/data/com.careeraiapp.jobs/lib-main flags = 1 apks = [/data/app/~~tz_uNrEyIVdYsIdEKV-iNQ==/com.careeraiapp.jobs-FuAoJ_mU1QUwff67bpu7yQ==/base.apk]]
+08-16 23:41:22.694 12074 12074 I SoLoader: init finish: 4 SO sources prepared
+08-16 23:41:22.694 12074 12074 W SoLoader: SoLoader initialized: 0
+08-16 23:41:22.695  3445 21449 D RecentsModel: onTaskStackChangedBackground
+08-16 23:41:22.695  3445 21449 D EventBus: No subscribers registered for event class com.miui.home.recents.messages.RecentTasksChangedEvent
+08-16 23:41:22.695  3445 21449 D EventBus: No subscribers registered for event class org.greenrobot.eventbus.NoSubscriberEvent
+08-16 23:41:22.695  3445  3892 D RecentsModel: onTaskStackChangedBackground    MSG_TASK_STACK_CHANGE
+08-16 23:41:22.695  3445  3892 D RecentsModel: preloadRecents
+08-16 23:41:22.695  3445  3892 W RecentsModel: getRunningTask
+08-16 23:41:22.695  3445 16288 D RecentsModel: onTaskStackChangedBackground
+08-16 23:41:22.697  3445  3892 W RecentsModel: getRunningTask   taskInfo=TaskInfo{userId=0 taskId=1447 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.careeraiapp.jobs/.MainActivity } baseActivity=ComponentInfo{com.careeraiapp.jobs/com.careeraiapp.jobs.MainActivity} topActivity=ComponentInfo{com.careeraiapp.jobs/com.careeraiapp.jobs.MainActivity} origActivity=null realActivity=ComponentInfo{com.careeraiapp.jobs/com.careeraiapp.jobs.MainActivity} numActivities=1 lastActiveTime=635126760 supportsSplitScreenMultiWindow=true supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=200 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@c9fa3b7} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 80 - 0, 0) topActivityInfo=ActivityInfo{a64a724 com.careeraiapp.jobs.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false topActivityInSizeCompat=false topActivityInMiuiSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden mIsCastMode=false mTopActivityMediaSize=null mTopActivityRecordName=ActivityRecord{835413a u0 com.careeraiapp.jobs/.MainActivity t1447} mTopActivityOrientation=1 mTopActivityWindowIsNowVisible=false isTranslucent=false isEmbedded=false shouldBeVisible=true mBehindAppLockPkg=null mOriginatingUid=0}
+08-16 23:41:22.697  3445  3892 W RecentsModel: getTaskInfoIgnoreHomeAndFreeform   taskInfo=ComponentInfo{com.careeraiapp.jobs/com.careeraiapp.jobs.MainActivity}
+08-16 23:41:22.697 12074 12074 D nativeloader: Load /data/app/~~tz_uNrEyIVdYsIdEKV-iNQ==/com.careeraiapp.jobs-FuAoJ_mU1QUwff67bpu7yQ==/lib/arm64/libjsi.so using class loader ns clns-4 (caller=/data/app/~~tz_uNrEyIVdYsIdEKV-iNQ==/com.careeraiapp.jobs-FuAoJ_mU1QUwff67bpu7yQ==/base.apk!classes2.dex): ok
+08-16 23:41:22.698  5645  5683 I SCTaskStackListener: onTaskStackChanged! inSplit = false
+08-16 23:41:22.699  3445  3892 E ActivityManagerWrapper: get all recent tasks force including 1447
+08-16 23:41:22.701  5645 11153 I SCTaskStackListener: onTaskStackChanged! inSplit = false
+08-16 23:41:22.704  3445  3892 E ActivityManagerWrapper: getRecentTasks: size=8
+08-16 23:41:22.704  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1447   userId=0   windowMode=1   baseIntent=Intent { act=null flag=268435456 cmp=ComponentInfo{com.careeraiapp.jobs/com.careeraiapp.jobs.MainActivity} }
+08-16 23:41:22.704  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1338   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=287309824 cmp=ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity} }
+08-16 23:41:22.704  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1401   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.whatsapp/com.whatsapp.Main} }
+08-16 23:41:22.704  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1402   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.VIEW flag=318767104 cmp=ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity} }
+08-16 23:41:22.704  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1270   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=352321536 cmp=ComponentInfo{com.google.android.youtube/com.google.android.apps.youtube.app.watchwhile.InternalMainActivity} }
+08-16 23:41:22.704  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1232   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity} }
+08-16 23:41:22.704  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1233   userId=0   windowMode=1   baseIntent=Intent { act=null flag=268468224 cmp=ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.search.lens.LensActivity} }
+08-16 23:41:22.704  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1226   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=335544320 cmp=ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClockTabActivity} }
+08-16 23:41:22.709 12074 12074 D nativeloader: Load /data/app/~~tz_uNrEyIVdYsIdEKV-iNQ==/com.careeraiapp.jobs-FuAoJ_mU1QUwff67bpu7yQ==/lib/arm64/libreactnative.so using class loader ns clns-4 (caller=/data/app/~~tz_uNrEyIVdYsIdEKV-iNQ==/com.careeraiapp.jobs-FuAoJ_mU1QUwff67bpu7yQ==/base.apk!classes2.dex): ok
+08-16 23:41:22.709 12074 12074 D jni_lib_merge: Entering merged library JNI_OnLoad.
+08-16 23:41:22.709 12074 12074 D jni_lib_merge: Preparing 12 pre-merged libs (including stub)
+08-16 23:41:22.709 12074 12074 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x790094a2c0
+08-16 23:41:22.709 12074 12074 D jni_lib_merge: Preparing to register libmapbufferjni_so.  onload_func: 0x7900995588
+08-16 23:41:22.709 12074 12074 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x7900a0cbf0
+08-16 23:41:22.709 12074 12074 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x7900a13b40
+08-16 23:41:22.709 12074 12074 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x7900a36e0c
+08-16 23:41:22.709 12074 12074 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x7900abf200
+08-16 23:41:22.709 12074 12074 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x7900addb48
+08-16 23:41:22.709 12074 12074 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x7900af7d4c
+08-16 23:41:22.709 12074 12074 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x7900b570a0
+08-16 23:41:22.709 12074 12074 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x7900b5e918
+08-16 23:41:22.709 12074 12074 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x7900b63bc8
+08-16 23:41:22.709 12074 12074 D jni_lib_merge: About to register 11 actual methods.
+08-16 23:41:22.711  3445  3892 D RecentsModel: onTaskStackChangedBackground    MSG_TASK_STACK_CHANGE
+08-16 23:41:22.711  3445  3892 D RecentsModel: preloadRecents
+08-16 23:41:22.711  3445  3892 W RecentsModel: getRunningTask
+08-16 23:41:22.712  1893  5435 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 10323. pid: 12074
+08-16 23:41:22.712  3445  3892 W RecentsModel: getRunningTask   taskInfo=TaskInfo{userId=0 taskId=1447 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.careeraiapp.jobs/.MainActivity } baseActivity=ComponentInfo{com.careeraiapp.jobs/com.careeraiapp.jobs.MainActivity} topActivity=ComponentInfo{com.careeraiapp.jobs/com.careeraiapp.jobs.MainActivity} origActivity=null realActivity=ComponentInfo{com.careeraiapp.jobs/com.careeraiapp.jobs.MainActivity} numActivities=1 lastActiveTime=635126776 supportsSplitScreenMultiWindow=true supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=200 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@780c453} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 80 - 0, 0) topActivityInfo=ActivityInfo{8d71190 com.careeraiapp.jobs.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false topActivityInSizeCompat=false topActivityInMiuiSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden mIsCastMode=false mTopActivityMediaSize=null mTopActivityRecordName=ActivityRecord{835413a u0 com.careeraiapp.jobs/.MainActivity t1447} mTopActivityOrientation=1 mTopActivityWindowIsNowVisible=false isTranslucent=false isEmbedded=false shouldBeVisible=true mBehindAppLockPkg=null mOriginatingUid=0}
+08-16 23:41:22.712  3445  3892 W RecentsModel: getTaskInfoIgnoreHomeAndFreeform   taskInfo=ComponentInfo{com.careeraiapp.jobs/com.careeraiapp.jobs.MainActivity}
+08-16 23:41:22.712  3445  3892 E ActivityManagerWrapper: get all recent tasks force including 1447
+08-16 23:41:22.722 27860 11978 E IdleQueuePayloadBasedServiceLayer: Request empty, but still some servings left: -4263
+08-16 23:41:22.728  3445  3892 E ActivityManagerWrapper: getRecentTasks: size=8
+08-16 23:41:22.728  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1447   userId=0   windowMode=1   baseIntent=Intent { act=null flag=268435456 cmp=ComponentInfo{com.careeraiapp.jobs/com.careeraiapp.jobs.MainActivity} }
+08-16 23:41:22.728  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1338   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=287309824 cmp=ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity} }
+08-16 23:41:22.728  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1401   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.whatsapp/com.whatsapp.Main} }
+08-16 23:41:22.728  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1402   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.VIEW flag=318767104 cmp=ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity} }
+08-16 23:41:22.728  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1270   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=352321536 cmp=ComponentInfo{com.google.android.youtube/com.google.android.apps.youtube.app.watchwhile.InternalMainActivity} }
+08-16 23:41:22.728  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1232   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity} }
+08-16 23:41:22.728  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1233   userId=0   windowMode=1   baseIntent=Intent { act=null flag=268468224 cmp=ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.search.lens.LensActivity} }
+08-16 23:41:22.728  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1226   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=335544320 cmp=ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClockTabActivity} }
+08-16 23:41:22.730 12074 12148 W libc    : Access denied finding property "vendor.migl.debug"
+08-16 23:41:22.730 12074 12148 I libMiGL : EnableDR: 0
+08-16 23:41:22.730 12074 12148 D libMiGL : mDFIInterval: -1
+08-16 23:41:22.742 27860 11978 E IdleQueuePayloadBasedServiceLayer: Request empty, but still some servings left: 10576
+08-16 23:41:22.751  1152  1152 I sensors-hal: batch:180, android.sensor.accelerometer/72, period=200000000, max_latency=0
+08-16 23:41:22.753  1152 31370 I sensors-hal: ssc_conn_event_cb:489, event[0] sensor:step_detector  Wakeup msg_id=129, ts=12194519706878
+08-16 23:41:22.753  1152  1152 I sensors-hal: batch:189, android.sensor.accelerometer/72, period=200000000, max_latency=0 request completed
+08-16 23:41:22.758 12074 12074 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+08-16 23:41:22.766  1893  3635 I ClipboardServiceI: checkProviderWakePathForClipboard: primaryClip is null
+08-16 23:41:22.780 27860 11980 W soft_error.cpp: [pando::graphql::PandoGraphQLRequestHybrid::assertValid] : Using a PandoGraphQLRequest after it has been consumed. Query name is MetaAiMediaEligibilityQuery
+08-16 23:41:22.802 12074 12074 W libc    : Access denied finding property "ro.vendor.df.effect.conflict"
+08-16 23:41:22.809 27860 32123 W soft_error.cpp: [pando::graphql::PandoGraphQLRequestHybrid::assertValid] : Using a PandoGraphQLRequest after it has been consumed. Query name is MetaAiContentDeepDiveBatchQuery
+08-16 23:41:22.812  3445 16288 D TaskStackChangeListeners: onTaskDescriptionChanged =  taskId = 1447
+08-16 23:41:22.813  3445 16288 D TaskStackChangeListeners: onTaskDescriptionChanged =  taskId = 1447
+08-16 23:41:22.830 12074 12074 W SoLoader: SoLoader already initialized
+08-16 23:41:22.833 12074 12074 D nativeloader: Load /data/app/~~tz_uNrEyIVdYsIdEKV-iNQ==/com.careeraiapp.jobs-FuAoJ_mU1QUwff67bpu7yQ==/lib/arm64/libhermes.so using class loader ns clns-4 (caller=/data/app/~~tz_uNrEyIVdYsIdEKV-iNQ==/com.careeraiapp.jobs-FuAoJ_mU1QUwff67bpu7yQ==/base.apk!classes2.dex): dlopen failed: cannot locate symbol "_ZN8facebook3jsi7Runtime13castInterfaceERKNS0_4UUIDE" referenced by "/data/app/~~tz_uNrEyIVdYsIdEKV-iNQ==/com.careeraiapp.jobs-FuAoJ_mU1QUwff67bpu7yQ==/lib/arm64/libhermes.so"...
+08-16 23:41:22.834 27860 11977 E IdleQueuePayloadBasedServiceLayer: Request empty, but still some servings left: 45059
+08-16 23:41:22.834 12074 12074 W SoLoader: Running a recovery step for libhermes.so due to com.facebook.soloader.SoLoaderULError: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN8facebook3jsi7Runtime13castInterfaceERKNS0_4UUIDE" referenced by "/data/app/~~tz_uNrEyIVdYsIdEKV-iNQ==/com.careeraiapp.jobs-FuAoJ_mU1QUwff67bpu7yQ==/lib/arm64/libhermes.so"...
+08-16 23:41:22.835 12074 12074 W soloader.recovery.CheckBaseApkExists: Base apk exists: /data/app/~~tz_uNrEyIVdYsIdEKV-iNQ==/com.careeraiapp.jobs-FuAoJ_mU1QUwff67bpu7yQ==/base.apk
+08-16 23:41:22.835 12074 12074 E SoLoader: Waiting on SoSource BackupSoSource
+08-16 23:41:22.838 12074 12074 D nativeloader: Load /data/app/~~tz_uNrEyIVdYsIdEKV-iNQ==/com.careeraiapp.jobs-FuAoJ_mU1QUwff67bpu7yQ==/lib/arm64/libhermes.so using class loader ns clns-4 (caller=/data/app/~~tz_uNrEyIVdYsIdEKV-iNQ==/com.careeraiapp.jobs-FuAoJ_mU1QUwff67bpu7yQ==/base.apk!classes2.dex): dlopen failed: cannot locate symbol "_ZN8facebook3jsi7Runtime13castInterfaceERKNS0_4UUIDE" referenced by "/data/app/~~tz_uNrEyIVdYsIdEKV-iNQ==/com.careeraiapp.jobs-FuAoJ_mU1QUwff67bpu7yQ==/lib/arm64/libhermes.so"...
+08-16 23:41:22.838 12074 12074 W SoLoader: Running a recovery step for libhermes.so due to com.facebook.soloader.SoLoaderULError: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN8facebook3jsi7Runtime13castInterfaceERKNS0_4UUIDE" referenced by "/data/app/~~tz_uNrEyIVdYsIdEKV-iNQ==/com.careeraiapp.jobs-FuAoJ_mU1QUwff67bpu7yQ==/lib/arm64/libhermes.so"...
+08-16 23:41:22.838 12074 12074 E SoLoader: Checking /data/app missing libraries.
+08-16 23:41:22.843 27860 11977 E IdleQueuePayloadBasedServiceLayer: Request empty, but still some servings left: -46321
+08-16 23:41:22.858 12074 12074 E SoLoader: No libraries missing from /data/app/~~tz_uNrEyIVdYsIdEKV-iNQ==/com.careeraiapp.jobs-FuAoJ_mU1QUwff67bpu7yQ==/lib/arm64
+08-16 23:41:22.859 12074 12074 E SoLoader: Reunpacking BackupSoSources due to com.facebook.soloader.SoLoaderULError: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN8facebook3jsi7Runtime13castInterfaceERKNS0_4UUIDE" referenced by "/data/app/~~tz_uNrEyIVdYsIdEKV-iNQ==/com.careeraiapp.jobs-FuAoJ_mU1QUwff67bpu7yQ==/lib/arm64/libhermes.so"..., retrying for specific library libhermes.so
+08-16 23:41:22.859 12074 12074 E SoLoader: Preparing BackupSoSource for the first time BackupSoSource
+08-16 23:41:22.877 27860 11978 E IdleQueuePayloadBasedServiceLayer: Request empty, but still some servings left: -727
+08-16 23:41:22.887 12074 12074 I fb-UnpackingSoSource: dso store is up-to-date: /data/user/0/com.careeraiapp.jobs/lib-main
+08-16 23:41:22.891 12074 12074 D nativeloader: Load /data/data/com.careeraiapp.jobs/lib-main/libc++_shared.so using class loader ns clns-4 (caller=/data/app/~~tz_uNrEyIVdYsIdEKV-iNQ==/com.careeraiapp.jobs-FuAoJ_mU1QUwff67bpu7yQ==/base.apk!classes2.dex): ok
+08-16 23:41:22.891 12074 12074 D nativeloader: Load /data/data/com.careeraiapp.jobs/lib-main/libfbjni.so using class loader ns clns-4 (caller=/data/app/~~tz_uNrEyIVdYsIdEKV-iNQ==/com.careeraiapp.jobs-FuAoJ_mU1QUwff67bpu7yQ==/base.apk!classes2.dex): ok
+08-16 23:41:22.892 12074 12074 D nativeloader: Load /data/data/com.careeraiapp.jobs/lib-main/libhermes.so using class loader ns clns-4 (caller=/data/app/~~tz_uNrEyIVdYsIdEKV-iNQ==/com.careeraiapp.jobs-FuAoJ_mU1QUwff67bpu7yQ==/base.apk!classes2.dex): dlopen failed: cannot locate symbol "_ZN8facebook3jsi7Runtime13castInterfaceERKNS0_4UUIDE" referenced by "/data/data/com.careeraiapp.jobs/lib-main/libhermes.so"...
+08-16 23:41:22.893 12074 12074 W SoLoader: Running a recovery step for libhermes.so due to com.facebook.soloader.SoLoaderULError: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN8facebook3jsi7Runtime13castInterfaceERKNS0_4UUIDE" referenced by "/data/data/com.careeraiapp.jobs/lib-main/libhermes.so"...
+08-16 23:41:22.893 12074 12074 E SoLoader: Checking /data/data missing libraries.
+08-16 23:41:22.893 12074 12074 E SoLoader: No libraries missing from unpacking so paths while recovering /data/data failure
+08-16 23:41:22.893 12074 12074 E SoLoader: Reunpacking NonApk UnpackingSoSources due to com.facebook.soloader.SoLoaderULError: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN8facebook3jsi7Runtime13castInterfaceERKNS0_4UUIDE" referenced by "/data/data/com.careeraiapp.jobs/lib-main/libhermes.so"..., retrying for specific library libhermes.so
+08-16 23:41:22.894 12074 12074 D nativeloader: Load /data/data/com.careeraiapp.jobs/lib-main/libhermes.so using class loader ns clns-4 (caller=/data/app/~~tz_uNrEyIVdYsIdEKV-iNQ==/com.careeraiapp.jobs-FuAoJ_mU1QUwff67bpu7yQ==/base.apk!classes2.dex): dlopen failed: cannot locate symbol "_ZN8facebook3jsi7Runtime13castInterfaceERKNS0_4UUIDE" referenced by "/data/data/com.careeraiapp.jobs/lib-main/libhermes.so"...
+08-16 23:41:22.895 12074 12074 W SoLoader: Running a recovery step for libhermes.so due to com.facebook.soloader.SoLoaderULError: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN8facebook3jsi7Runtime13castInterfaceERKNS0_4UUIDE" referenced by "/data/data/com.careeraiapp.jobs/lib-main/libhermes.so"...
+08-16 23:41:22.895 12074 12074 E SoLoader: Waiting on SoSource BackupSoSource
+08-16 23:41:22.897 12074 12074 D nativeloader: Load /data/data/com.careeraiapp.jobs/lib-main/libhermes.so using class loader ns clns-4 (caller=/data/app/~~tz_uNrEyIVdYsIdEKV-iNQ==/com.careeraiapp.jobs-FuAoJ_mU1QUwff67bpu7yQ==/base.apk!classes2.dex): dlopen failed: cannot locate symbol "_ZN8facebook3jsi7Runtime13castInterfaceERKNS0_4UUIDE" referenced by "/data/data/com.careeraiapp.jobs/lib-main/libhermes.so"...
+08-16 23:41:22.897 12074 12074 W SoLoader: Running a recovery step for libhermes.so due to com.facebook.soloader.SoLoaderULError: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN8facebook3jsi7Runtime13castInterfaceERKNS0_4UUIDE" referenced by "/data/data/com.careeraiapp.jobs/lib-main/libhermes.so"...
+08-16 23:41:22.897 12074 12074 W SoLoader: Failed to recover
+--------- beginning of crash
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: FATAL EXCEPTION: main
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: Process: com.careeraiapp.jobs, PID: 12074
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: com.facebook.soloader.SoLoaderULError: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN8facebook3jsi7Runtime13castInterfaceERKNS0_4UUIDE" referenced by "/data/data/com.careeraiapp.jobs/lib-main/libhermes.so"...
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at com.facebook.soloader.SoLoaderULErrorFactory.create(SoLoaderULErrorFactory.java:34)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at com.facebook.soloader.DirectorySoSource.loadLibraryFrom(DirectorySoSource.java:115)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at com.facebook.soloader.DirectorySoSource.loadLibrary(DirectorySoSource.java:71)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at com.facebook.soloader.BackupSoSource.loadLibrary(BackupSoSource.java:98)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryFromSoSource(SoLoader.java:1246)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.doLoadLibraryBySoName(SoLoader.java:1210)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryBySoNameImpl(SoLoader.java:1078)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryBySoName(SoLoader.java:943)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibraryOnAndroid(SoLoader.java:859)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:842)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:812)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at com.facebook.hermes.reactexecutor.HermesExecutor.loadLibrary(HermesExecutor.java:26)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at com.facebook.hermes.reactexecutor.HermesExecutor.<clinit>(HermesExecutor.java:20)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at com.facebook.react.ReactInstanceManagerBuilder.getDefaultJSExecutorFactory(ReactInstanceManagerBuilder.java:407)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at com.facebook.react.ReactInstanceManagerBuilder.build(ReactInstanceManagerBuilder.java:349)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at com.facebook.react.ReactNativeHost.createReactInstanceManager(ReactNativeHost.java:87)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at expo.modules.ReactNativeHostWrapperBase.createReactInstanceManager(ReactNativeHostWrapperBase.kt:29)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at com.facebook.react.ReactNativeHost.getReactInstanceManager(ReactNativeHost.java:57)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at com.facebook.react.ReactDelegate.loadApp(ReactDelegate.java:301)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at com.facebook.react.ReactActivityDelegate.loadApp(ReactActivityDelegate.java:137)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at com.facebook.react.ReactActivityDelegate.onCreate(ReactActivityDelegate.java:132)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at expo.modules.ReactActivityDelegateWrapper$onCreate$1.invokeSuspend(ReactActivityDelegateWrapper.kt:152)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at expo.modules.ReactActivityDelegateWrapper$onCreate$1.invoke(ReactActivityDelegateWrapper.kt:8)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at expo.modules.ReactActivityDelegateWrapper$onCreate$1.invoke(ReactActivityDelegateWrapper.kt:4)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at expo.modules.ReactActivityDelegateWrapper$launchLifecycleScopeWithLock$1.invokeSuspend(ReactActivityDelegateWrapper.kt:439)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at expo.modules.ReactActivityDelegateWrapper$launchLifecycleScopeWithLock$1.invoke(ReactActivityDelegateWrapper.kt:8)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at expo.modules.ReactActivityDelegateWrapper$launchLifecycleScopeWithLock$1.invoke(ReactActivityDelegateWrapper.kt:4)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:44)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at kotlinx.coroutines.BuildersKt.launch(dex-id-5f9699ab87467797634acf82194ee937ce73e1d6:1)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at kotlinx.coroutines.BuildersKt.launch$default(dex-id-5f9699ab87467797634acf82194ee937ce73e1d6:1)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at expo.modules.ReactActivityDelegateWrapper.launchLifecycleScopeWithLock(ReactActivityDelegateWrapper.kt:437)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at expo.modules.ReactActivityDelegateWrapper.onCreate(ReactActivityDelegateWrapper.kt:144)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at com.facebook.react.ReactActivity.onCreate(ReactActivity.java:47)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at com.careeraiapp.jobs.MainActivity.onCreate(MainActivity.kt:13)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8891)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8856)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1471)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3973)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4144)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:103)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:99)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2589)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:224)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:318)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8790)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:561)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1013)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	Suppressed: kotlinx.coroutines.internal.DiagnosticCoroutineContextException: [StandaloneCoroutine{Cancelling}@87381df, Dispatchers.Main.immediate]
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: Caused by: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN8facebook3jsi7Runtime13castInterfaceERKNS0_4UUIDE" referenced by "/data/data/com.careeraiapp.jobs/lib-main/libhermes.so"...
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at java.lang.Runtime.load0(Runtime.java:962)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at java.lang.System.load(System.java:1729)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at com.facebook.soloader.SoFileLoaderImpl.load(SoFileLoaderImpl.java:64)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at com.facebook.soloader.InstrumentedSoFileLoader.load(InstrumentedSoFileLoader.java:36)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	at com.facebook.soloader.DirectorySoSource.loadLibraryFrom(DirectorySoSource.java:113)
+08-16 23:41:22.902 12074 12074 E AndroidRuntime: 	... 52 more
+08-16 23:41:22.905 12074 12074 W ScoutUtils: Failed to mkdir /data/miuilog/stability/memleak/heapdump/
+08-16 23:41:22.906  5662  9138 W MQSEventManager: jeoccur
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: Process: com.careeraiapp.jobs, PID: 12074
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: com.facebook.soloader.SoLoaderULError: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN8facebook3jsi7Runtime13castInterfaceERKNS0_4UUIDE" referenced by "/data/data/com.careeraiapp.jobs/lib-main/libhermes.so"...
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at com.facebook.soloader.SoLoaderULErrorFactory.create(SoLoaderULErrorFactory.java:34)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at com.facebook.soloader.DirectorySoSource.loadLibraryFrom(DirectorySoSource.java:115)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at com.facebook.soloader.DirectorySoSource.loadLibrary(DirectorySoSource.java:71)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at com.facebook.soloader.BackupSoSource.loadLibrary(BackupSoSource.java:98)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at com.facebook.soloader.SoLoader.loadLibraryFromSoSource(SoLoader.java:1246)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at com.facebook.soloader.SoLoader.doLoadLibraryBySoName(SoLoader.java:1210)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at com.facebook.soloader.SoLoader.loadLibraryBySoNameImpl(SoLoader.java:1078)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at com.facebook.soloader.SoLoader.loadLibraryBySoName(SoLoader.java:943)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at com.facebook.soloader.SoLoader.loadLibraryOnAndroid(SoLoader.java:859)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:842)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:812)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at com.facebook.hermes.reactexecutor.HermesExecutor.loadLibrary(HermesExecutor.java:26)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at com.facebook.hermes.reactexecutor.HermesExecutor.<clinit>(HermesExecutor.java:20)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at com.facebook.react.ReactInstanceManagerBuilder.getDefaultJSExecutorFactory(ReactInstanceManagerBuilder.java:407)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at com.facebook.react.ReactInstanceManagerBuilder.build(ReactInstanceManagerBuilder.java:349)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at com.facebook.react.ReactNativeHost.createReactInstanceManager(ReactNativeHost.java:87)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at expo.modules.ReactNativeHostWrapperBase.createReactInstanceManager(ReactNativeHostWrapperBase.kt:29)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at com.facebook.react.ReactNativeHost.getReactInstanceManager(ReactNativeHost.java:57)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at com.facebook.react.ReactDelegate.loadApp(ReactDelegate.java:301)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at com.facebook.react.ReactActivityDelegate.loadApp(ReactActivityDelegate.java:137)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at com.facebook.react.ReactActivityDelegate.onCreate(ReactActivityDelegate.java:132)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at expo.modules.ReactActivityDelegateWrapper$onCreate$1.invokeSuspend(ReactActivityDelegateWrapper.kt:152)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at expo.modules.ReactActivityDelegateWrapper$onCreate$1.invoke(ReactActivityDelegateWrapper.kt:8)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at expo.modules.ReactActivityDelegateWrapper$onCreate$1.invoke(ReactActivityDelegateWrapper.kt:4)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at expo.modules.ReactActivityDelegateWrapper$launchLifecycleScopeWithLock$1.invokeSuspend(ReactActivityDelegateWrapper.kt:439)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at expo.modules.ReactActivityDelegateWrapper$launchLifecycleScopeWithLock$1.invoke(ReactActivityDelegateWrapper.kt:8)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at expo.modules.ReactActivityDelegateWrapper$launchLifecycleScopeWithLock$1.invoke(ReactActivityDelegateWrapper.kt:4)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:44)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at kotlinx.coroutines.BuildersKt.launch(dex-id-5f9699ab87467797634acf82194ee937ce73e1d6:1)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at kotlinx.coroutines.BuildersKt.launch$default(dex-id-5f9699ab87467797634acf82194ee937ce73e1d6:1)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at expo.modules.ReactActivityDelegateWrapper.launchLifecycleScopeWithLock(ReactActivityDelegateWrapper.kt:437)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at expo.modules.ReactActivityDelegateWrapper.onCreate(ReactActivityDelegateWrapper.kt:144)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at com.facebook.react.ReactActivity.onCreate(ReactActivity.java:47)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at com.careeraiapp.jobs.MainActivity.onCreate(MainActivity.kt:13)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at android.app.Activity.performCreate(Activity.java:8891)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at android.app.Activity.performCreate(Activity.java:8856)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1471)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3973)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4144)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:103)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:99)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2589)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at android.os.Looper.loopOnce(Looper.java:224)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at android.os.Looper.loop(Looper.java:318)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at android.app.ActivityThread.main(ActivityThread.java:8790)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at java.lang.reflect.Method.invoke(Native Method)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:561)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1013)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	Suppressed: kotlinx.coroutines.internal.DiagnosticCoroutineContextException: [StandaloneCoroutine{Cancelling}@87381df, Dispatchers.Main.immediate]
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: Caused by: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZN8facebook3jsi7Runtime13castInterfaceERKNS0_4UUIDE" referenced by "/data/data/com.careeraiapp.jobs/lib-main/libhermes.so"...
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at java.lang.Runtime.load0(Runtime.java:962)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at java.lang.System.load(System.java:1729)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at com.facebook.soloader.SoFileLoaderImpl.load(SoFileLoaderImpl.java:64)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at com.facebook.soloader.InstrumentedSoFileLoader.load(InstrumentedSoFileLoader.java:36)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	at com.facebook.soloader.DirectorySoSource.loadLibraryFrom(DirectorySoSource.java:113)
+08-16 23:41:22.908  5662  6043 E JavaExceptionHandler: 	... 52 more
+08-16 23:41:22.908  1893  3635 W ActivityTaskManager:   Force finishing activity com.careeraiapp.jobs/.MainActivity
+08-16 23:41:22.909  1893  2163 W RescuePartyPlus: This device support and enable RescuePartyPlus! (Via cloud control)
+08-16 23:41:22.909  1893  2154 E NativeTurboSchedManagerJni: open /dev/metis failed!
+08-16 23:41:22.909  1893  3635 D WindowManager: Requesting StartTransition: TransitionRecord{29df6a2 id=8294 type=CLOSE flags=0x10}
+08-16 23:41:22.909  1893  3635 D MiuiSoScManagerStub: supportSoScMinimizedMode:true
+08-16 23:41:22.909  1893  3635 D MiuiSoScManagerStub: taskInSoScFullMode:false
+08-16 23:41:22.909  1893  3635 D WindowManager: Collecting in transition 8294: Task{568a1eb #1447 type=standard A=10323:com.careeraiapp.jobs} init visibleRequested:true
+08-16 23:41:22.909  1893  3635 D WindowManager: Collecting in transition 8294: ActivityRecord{835413a u0 com.careeraiapp.jobs/.MainActivity t1447 f}} init visibleRequested:true
+08-16 23:41:22.910  1893  3635 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+08-16 23:41:22.911  1893  3635 I WindowManager: cancelAnimation removed leash : Surface(name=Surface(name=83d6251 StatusBar#105)/@0xb7023b7 - animation-leash of insets_animation#131451)/@0xab601bc
+08-16 23:41:22.915  3404  3573 E NativeTurboSchedManagerJni: open /dev/metis failed!
+08-16 23:41:22.915  3404  3573 E NativeTurboSchedManagerJni: open /dev/metis failed!
+08-16 23:41:22.916  1893  4234 D WindowManager: Set transition=TransitionRecord{29df6a2 id=8294 type=CLOSE flags=0x10}, ready=false, SyncId=8294 used=true, override=false, defer=0, states=Display{#0 state=ON size=1080x2400 ROTATION_0}:false
+08-16 23:41:22.916  1893  2151 I ActivityManager: Showing crash dialog for package com.careeraiapp.jobs u0
+08-16 23:41:22.916  3404  3573 E NativeTurboSchedManagerJni: open /dev/metis failed!
+08-16 23:41:22.917  3404  3573 D MiuiFullScreenTaskRepository: setFocusedTask taskId=1447, displayId=0, topActivity=null
+08-16 23:41:22.917  3404  3573 D MiuiFullScreenTaskRepository: addOrUpdateFullScreenTaskInfo taskId=1447, topActivity=null
+08-16 23:41:22.917  3404  3573 D MiuiDesktopModeController: onFocusTaskChanged newFocus: TaskInfo{userId=0 taskId=1447 displayId=0 isRunning=false baseIntent=Intent { flg=0x10000000 cmp=com.careeraiapp.jobs/.MainActivity } baseActivity=null topActivity=null origActivity=null realActivity=ComponentInfo{com.careeraiapp.jobs/com.careeraiapp.jobs.MainActivity} numActivities=0 lastActiveTime=635126970 supportsSplitScreenMultiWindow=true supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=200 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@aef6816} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 80 - 0, 0) topActivityInfo=null launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityInMiuiSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden mIsCastMode=false mTopActivityMediaSize=null mTopActivityRecordName=null mTopActivityOrientation=-2 mTopActivityWindowIsNowVisible=false isTranslucent=true isEmbedded=false shouldBeVisible=false mBehindAppLockPkg=null mOriginatingUid=0}
+08-16 23:41:22.917  3404  3573 D MiuiFreeformModeController: onFocusTaskChanged taskInfo: TaskInfo{userId=0 taskId=1447 displayId=0 isRunning=false baseIntent=Intent { flg=0x10000000 cmp=com.careeraiapp.jobs/.MainActivity } baseActivity=null topActivity=null origActivity=null realActivity=ComponentInfo{com.careeraiapp.jobs/com.careeraiapp.jobs.MainActivity} numActivities=0 lastActiveTime=635126970 supportsSplitScreenMultiWindow=true supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=200 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@aef6816} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 80 - 0, 0) topActivityInfo=null launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityInMiuiSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden mIsCastMode=false mTopActivityMediaSize=null mTopActivityRecordName=null mTopActivityOrientation=-2 mTopActivityWindowIsNowVisible=false isTranslucent=true isEmbedded=false shouldBeVisible=false mBehindAppLockPkg=null mOriginatingUid=0}
+08-16 23:41:22.922  1893 12182 I DropBoxManagerService: add tag=data_app_crash isTagEnabled=true flags=0x2
+08-16 23:41:22.925  3404  3573 D OneHandedController: stopOneHanded state is 0
+08-16 23:41:22.929  3404  3404 I FocusedNotifPromptContr: onTopActivityMayChanged: topActivity=com.instagram.android
+08-16 23:41:22.929  3404  3404 I FocusedNotifPromptContr: topActivityMayChanged: topActivity=com.instagram.android
+08-16 23:41:22.929  3404  3404 D KeyguardEditorHelper: onTopActivityMayChanged, topActivity=ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity}; mState=IDEL
+08-16 23:41:22.949 27860 27860 E SlowAppComponent: 0ms: KeepWarmReceiver instantiating…
+08-16 23:41:22.949 27860 27860 E SlowAppComponent: Main thread was blocked for 184ms in the foreground starting with KeepWarmReceiver
+08-16 23:41:22.963  1893  2151 D AlertController: Alert dialog ime debugEnable = 
+08-16 23:41:22.967  5662  6043 D DigestGenerator: digest=============com.careeraiapp.jobscom.facebook.soloader.SoLoaderULError: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZNfacebookjsiRuntimecastInterfaceERKNS_UUIDE" referenced by "/data/data/com.careeraiapp.jobs/lib-main/libhermes.so"...
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at com.facebook.soloader.SoLoaderULErrorFactory.create(SoLoaderULErrorFactory.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at com.facebook.soloader.DirectorySoSource.loadLibraryFrom(DirectorySoSource.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at com.facebook.soloader.DirectorySoSource.loadLibrary(DirectorySoSource.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at com.facebook.soloader.BackupSoSource.loadLibrary(BackupSoSource.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at com.facebook.soloader.SoLoader.loadLibraryFromSoSource(SoLoader.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at com.facebook.soloader.SoLoader.doLoadLibraryBySoName(SoLoader.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at com.facebook.soloader.SoLoader.loadLibraryBySoNameImpl(SoLoader.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at com.facebook.soloader.SoLoader.loadLibraryBySoName(SoLoader.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at com.facebook.soloader.SoLoader.loadLibraryOnAndroid(SoLoader.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at com.facebook.hermes.reactexecutor.HermesExecutor.loadLibrary(HermesExecutor.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at com.facebook.hermes.reactexecutor.HermesExecutor.<clinit>(HermesExecutor.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at com.facebook.react.ReactInstanceManagerBuilder.getDefaultJSExecutorFactory(ReactInstanceManagerBuilder.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at com.facebook.react.ReactInstanceManagerBuilder.build(ReactInstanceManagerBuilder.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at com.facebook.react.ReactNativeHost.createReactInstanceManager(ReactNativeHost.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at expo.modules.ReactNativeHostWrapperBase.createReactInstanceManager(ReactNativeHostWrapperBase.kt:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at com.facebook.react.ReactNativeHost.getReactInstanceManager(ReactNativeHost.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at com.facebook.react.ReactDelegate.loadApp(ReactDelegate.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at com.facebook.react.ReactActivityDelegate.loadApp(ReactActivityDelegate.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at com.facebook.react.ReactActivityDelegate.onCreate(ReactActivityDelegate.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at expo.modules.ReactActivityDelegateWrapper$onCreate$.invokeSuspend(ReactActivityDelegateWrapper.kt:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at expo.modules.ReactActivityDelegateWrapper$onCreate$.invoke(ReactActivityDelegateWrapper.kt:)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at expo.modules.ReactActivityDelegateWrapper$onCreate$.invoke(ReactActivityDelegateWrapper.kt:)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at expo.modules.ReactActivityDelegateWrapper$launchLifecycleScopeWithLock$.invokeSuspend(ReactActivityDelegateWrapper.kt:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at expo.modules.ReactActivityDelegateWrapper$launchLifecycleScopeWithLock$.invoke(ReactActivityDelegateWrapper.kt:)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at expo.modules.ReactActivityDelegateWrapper$launchLifecycleScopeWithLock$.invoke(ReactActivityDelegateWrapper.kt:)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at kotlinx.coroutines.BuildersKt.launch(dex-id-XX:)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at kotlinx.coroutines.BuildersKt.launch$default(dex-id-XX:)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at expo.modules.ReactActivityDelegateWrapper.launchLifecycleScopeWithLock(ReactActivityDelegateWrapper.kt:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at expo.modules.ReactActivityDelegateWrapper.onCreate(ReactActivityDelegateWrapper.kt:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at com.facebook.react.ReactActivity.onCreate(ReactActivity.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at com.careeraiapp.jobs.MainActivity.onCreate(MainActivity.kt:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at android.app.Activity.performCreate(Activity.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at android.app.Activity.performCreate(Activity.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at android.app.ActivityThread$H.handleMessage(ActivityThread.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at android.os.Handler.dispatchMessage(Handler.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at android.os.Looper.loopOnce(Looper.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at android.os.Looper.loop(Looper.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at android.app.ActivityThread.main(ActivityThread.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at java.lang.reflect.Method.invoke(Native Method)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: Suppressed: kotlinx.coroutines.internal.DiagnosticCoroutineContextException: [StandaloneCoroutine{Cancelling}XX, Dispatchers.Main.immediate]
+08-16 23:41:22.967  5662  6043 D DigestGenerator: Caused by: java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "_ZNfacebookjsiRuntimecastInterfaceERKNS_UUIDE" referenced by "/data/data/com.careeraiapp.jobs/lib-main/libhermes.so"...
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at java.lang.Runtime.load(Runtime.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at java.lang.System.load(System.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at com.facebook.soloader.SoFileLoaderImpl.load(SoFileLoaderImpl.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at com.facebook.soloader.InstrumentedSoFileLoader.load(InstrumentedSoFileLoader.java:XX)
+08-16 23:41:22.967  5662  6043 D DigestGenerator: at com.facebook.soloader.DirectorySoSource.loadLibraryFrom(DirectorySoSource.java:XX)
+08-16 23:41:22.972  1893  2151 D MiuixDialog: onCreate() taskExecutor get failed InvocationTargetException java.lang.reflect.InvocationTargetException
+08-16 23:41:22.984  5662  6043 W MQSEventManager: begin to storeEvent
+08-16 23:41:22.992  5662  6043 W JavaExceptionHandler: Too noisy! skip duplicate java exception report:com.careeraiapp.jobs now=1786903882992 mLastReportTime=1786903853651 interval=60000
+08-16 23:41:22.992  5662  6043 W MQSEventManager: Too noisy! Bail the event:com.careeraiapp.jobs type:1
+08-16 23:41:22.999  1893  2151 D ScrollerOptimizationManager: registerConfigChangedListener
+08-16 23:41:23.012  1893  2151 W LayerDrawable: Invalid drawable added to LayerDrawable! Drawable already belongs to another owner but does not expose a constant state.
+08-16 23:41:23.012  1893  2151 W LayerDrawable: java.lang.RuntimeException
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.graphics.drawable.LayerDrawable$ChildDrawable.<init>(LayerDrawable.java:1887)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.graphics.drawable.LayerDrawable$LayerState.<init>(LayerDrawable.java:2007)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.graphics.drawable.LayerDrawable.createConstantState(LayerDrawable.java:174)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.graphics.drawable.LayerDrawable.mutate(LayerDrawable.java:1812)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.content.res.ResourcesImpl.loadDrawable(ResourcesImpl.java:743)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.content.res.MiuiResourcesImpl.loadDrawable(MiuiResourcesImpl.java:322)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.content.res.Resources.loadDrawable(Resources.java:1055)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.content.res.TypedArray.getDrawableForDensity(TypedArray.java:1020)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.content.res.TypedArray.getDrawable(TypedArray.java:994)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.view.View.<init>(View.java:5835)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.widget.TextView.<init>(TextView.java:1168)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.widget.Button.<init>(Button.java:166)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.widget.Button.<init>(Button.java:141)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at androidx.appcompat.widget.AppCompatButton.<init>(SourceFile:3)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at miuix.internal.widget.GroupButton.<init>(SourceFile:3)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at miuix.internal.widget.GroupButton.<init>(SourceFile:2)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.createView(LayoutInflater.java:879)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:1031)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:986)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1148)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1109)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.parseInclude(LayoutInflater.java:1293)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1144)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1109)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1151)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1109)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1151)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1109)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:707)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:545)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at miuix.appcompat.app.AlertController.getPanelWidth(SourceFile:14)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at miuix.appcompat.app.AlertController.updateDialogPanel(SourceFile:7)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at miuix.appcompat.app.AlertController.setupView(SourceFile:5)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at miuix.appcompat.app.AlertController.setupView(SourceFile:1)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at miuix.appcompat.app.AlertController.installContent(SourceFile:10)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at miuix.appcompat.app.AlertDialog.onCreate(SourceFile:6)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at com.android.server.am.AppErrorDialog.onCreate(AppErrorDialog.java:116)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.app.Dialog.dispatchOnCreate(Dialog.java:450)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.app.Dialog.show(Dialog.java:339)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at com.android.server.am.ErrorDialogController.$r8$lambda$EzKFSHSVa6qVMkA_S3N9ySIr1PU(ErrorDialogController.java:0)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at com.android.server.am.ErrorDialogController$$ExternalSyntheticLambda2.accept(D8$$SyntheticClass:2)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at com.android.server.am.ErrorDialogController.forAllDialogs(ErrorDialogController.java:164)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at com.android.server.am.ErrorDialogController.lambda$showCrashDialogs$1(ErrorDialogController.java:182)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at com.android.server.am.ErrorDialogController.$r8$lambda$RbiusjkAePXWGrMazzX5fIVcwYY(ErrorDialogController.java:0)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at com.android.server.am.ErrorDialogController$$ExternalSyntheticLambda3.run(D8$$SyntheticClass:2)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.os.Handler.handleCallback(Handler.java:958)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.os.Looper.loopOnce(Looper.java:224)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.os.Looper.loop(Looper.java:318)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+08-16 23:41:23.012  1893  2151 W LayerDrawable: 	at com.android.server.UiThread.run(UiThread.java:45)
+08-16 23:41:23.013 27860 27864 I stagram.android: Background young concurrent copying GC freed 3710KB AllocSpace bytes, 30(968KB) LOS objects, 0% free, 244MB/244MB, paused 695us,224us total 272.905ms
+08-16 23:41:23.015  1893  2151 W LayerDrawable: Invalid drawable added to LayerDrawable! Drawable already belongs to another owner but does not expose a constant state.
+08-16 23:41:23.015  1893  2151 W LayerDrawable: java.lang.RuntimeException
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.graphics.drawable.LayerDrawable$ChildDrawable.<init>(LayerDrawable.java:1887)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.graphics.drawable.LayerDrawable$LayerState.<init>(LayerDrawable.java:2007)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.graphics.drawable.LayerDrawable.createConstantState(LayerDrawable.java:174)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.graphics.drawable.LayerDrawable.mutate(LayerDrawable.java:1812)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.content.res.ResourcesImpl.loadDrawable(ResourcesImpl.java:743)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.content.res.MiuiResourcesImpl.loadDrawable(MiuiResourcesImpl.java:322)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.content.res.Resources.loadDrawable(Resources.java:1055)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.content.res.TypedArray.getDrawableForDensity(TypedArray.java:1020)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.content.res.TypedArray.getDrawable(TypedArray.java:994)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.view.View.<init>(View.java:5835)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.widget.TextView.<init>(TextView.java:1168)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.widget.Button.<init>(Button.java:166)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.widget.Button.<init>(Button.java:141)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at androidx.appcompat.widget.AppCompatButton.<init>(SourceFile:3)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at miuix.internal.widget.GroupButton.<init>(SourceFile:3)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at miuix.internal.widget.GroupButton.<init>(SourceFile:2)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.createView(LayoutInflater.java:879)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:1031)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:986)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1148)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1109)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.parseInclude(LayoutInflater.java:1293)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1144)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1109)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1151)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1109)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1151)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1109)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:707)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:545)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at miuix.appcompat.app.AlertController.getPanelWidth(SourceFile:14)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at miuix.appcompat.app.AlertController.updateDialogPanel(SourceFile:7)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at miuix.appcompat.app.AlertController.setupView(SourceFile:5)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at miuix.appcompat.app.AlertController.setupView(SourceFile:1)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at miuix.appcompat.app.AlertController.installContent(SourceFile:10)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at miuix.appcompat.app.AlertDialog.onCreate(SourceFile:6)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at com.android.server.am.AppErrorDialog.onCreate(AppErrorDialog.java:116)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.app.Dialog.dispatchOnCreate(Dialog.java:450)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.app.Dialog.show(Dialog.java:339)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at com.android.server.am.ErrorDialogController.$r8$lambda$EzKFSHSVa6qVMkA_S3N9ySIr1PU(ErrorDialogController.java:0)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at com.android.server.am.ErrorDialogController$$ExternalSyntheticLambda2.accept(D8$$SyntheticClass:2)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at com.android.server.am.ErrorDialogController.forAllDialogs(ErrorDialogController.java:164)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at com.android.server.am.ErrorDialogController.lambda$showCrashDialogs$1(ErrorDialogController.java:182)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at com.android.server.am.ErrorDialogController.$r8$lambda$RbiusjkAePXWGrMazzX5fIVcwYY(ErrorDialogController.java:0)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at com.android.server.am.ErrorDialogController$$ExternalSyntheticLambda3.run(D8$$SyntheticClass:2)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.os.Handler.handleCallback(Handler.java:958)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.os.Looper.loopOnce(Looper.java:224)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.os.Looper.loop(Looper.java:318)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+08-16 23:41:23.015  1893  2151 W LayerDrawable: 	at com.android.server.UiThread.run(UiThread.java:45)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: Invalid drawable added to LayerDrawable! Drawable already belongs to another owner but does not expose a constant state.
+08-16 23:41:23.017  1893  2151 W LayerDrawable: java.lang.RuntimeException
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.graphics.drawable.LayerDrawable$ChildDrawable.<init>(LayerDrawable.java:1887)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.graphics.drawable.LayerDrawable$LayerState.<init>(LayerDrawable.java:2007)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.graphics.drawable.LayerDrawable.createConstantState(LayerDrawable.java:174)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.graphics.drawable.LayerDrawable.mutate(LayerDrawable.java:1812)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.content.res.ResourcesImpl.loadDrawable(ResourcesImpl.java:743)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.content.res.MiuiResourcesImpl.loadDrawable(MiuiResourcesImpl.java:322)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.content.res.Resources.loadDrawable(Resources.java:1055)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.content.res.TypedArray.getDrawableForDensity(TypedArray.java:1020)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.content.res.TypedArray.getDrawable(TypedArray.java:994)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.view.View.<init>(View.java:5835)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.widget.TextView.<init>(TextView.java:1168)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.widget.Button.<init>(Button.java:166)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.widget.Button.<init>(Button.java:141)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at androidx.appcompat.widget.AppCompatButton.<init>(SourceFile:3)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at miuix.internal.widget.GroupButton.<init>(SourceFile:3)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at miuix.internal.widget.GroupButton.<init>(SourceFile:2)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.createView(LayoutInflater.java:879)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:1031)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:986)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1148)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1109)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.parseInclude(LayoutInflater.java:1293)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1144)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1109)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1151)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1109)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1151)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1109)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:707)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:545)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at miuix.appcompat.app.AlertController.getPanelWidth(SourceFile:14)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at miuix.appcompat.app.AlertController.updateDialogPanel(SourceFile:7)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at miuix.appcompat.app.AlertController.setupView(SourceFile:5)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at miuix.appcompat.app.AlertController.setupView(SourceFile:1)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at miuix.appcompat.app.AlertController.installContent(SourceFile:10)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at miuix.appcompat.app.AlertDialog.onCreate(SourceFile:6)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at com.android.server.am.AppErrorDialog.onCreate(AppErrorDialog.java:116)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.app.Dialog.dispatchOnCreate(Dialog.java:450)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.app.Dialog.show(Dialog.java:339)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at com.android.server.am.ErrorDialogController.$r8$lambda$EzKFSHSVa6qVMkA_S3N9ySIr1PU(ErrorDialogController.java:0)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at com.android.server.am.ErrorDialogController$$ExternalSyntheticLambda2.accept(D8$$SyntheticClass:2)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at com.android.server.am.ErrorDialogController.forAllDialogs(ErrorDialogController.java:164)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at com.android.server.am.ErrorDialogController.lambda$showCrashDialogs$1(ErrorDialogController.java:182)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at com.android.server.am.ErrorDialogController.$r8$lambda$RbiusjkAePXWGrMazzX5fIVcwYY(ErrorDialogController.java:0)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at com.android.server.am.ErrorDialogController$$ExternalSyntheticLambda3.run(D8$$SyntheticClass:2)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.os.Handler.handleCallback(Handler.java:958)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.os.Looper.loopOnce(Looper.java:224)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.os.Looper.loop(Looper.java:318)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+08-16 23:41:23.017  1893  2151 W LayerDrawable: 	at com.android.server.UiThread.run(UiThread.java:45)
+08-16 23:41:23.035  1893  2151 I WindowManager: cancelAnimation removed leash : Surface(name=Surface(name=83d6251 StatusBar#105)/@0xb7023b7 - animation-leash of insets_animation#131453)/@0x387b2f0
+08-16 23:41:23.039  1893  2151 D WindowManager: wms.Input focus has changed to Window{200e375 u0 Application Error: com.careeraiapp.jobs} display=0 updateInputWindows = false
+08-16 23:41:23.039  1893  2151 I MultiSenceManagerInternalStub: getInstance
+08-16 23:41:23.041  1893  2154 D WindowManager: wms.Focus not requested for window=Window{200e375 u0 Application Error: com.careeraiapp.jobs} because it has no surface or is not focusable.
+08-16 23:41:23.052  1893  2151 D CoreBackPreview: Window{200e375 u0 Application Error: com.careeraiapp.jobs}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.WindowOnBackInvokedDispatcher$OnBackInvokedCallbackWrapper@ecd3e29, mPriority=0, mIsAnimationCallback=false}
+08-16 23:41:23.080  1893  2808 E OpenGLRenderer: Unable to match the desired swap behavior.
+08-16 23:41:23.082  1893  2151 D VRI[jobs]: vri.reportNextDraw android.view.ViewRootImpl.performTraversals:4360 android.view.ViewRootImpl.doTraversal:2989 android.view.ViewRootImpl$TraversalRunnable.run:10304 android.view.Choreographer$CallbackRecord.run:1594 android.view.Choreographer$CallbackRecord.run:1603 
+08-16 23:41:23.082  1893  2151 D VRI[jobs]: vri.Setup new sync=wmsSync-VRI[jobs]#60
+08-16 23:41:23.084  1413  1494 I SurfaceFlinger: sf.setTransactionState focusRequest transactionId:8130374214385 frontWin:200e375 Application Error: com.careeraiapp.jobs
+08-16 23:41:23.086  1413  1413 I SurfaceFlinger: sf.transactionReadyTimelineCheck focusRequest transactionId:8130374214385 vsyncId: -1
+08-16 23:41:23.124  1893  2151 D VRI[jobs]: vri.reportDrawFinished
+08-16 23:41:23.124  1893  2151 E NativeTurboSchedManagerJni: open /dev/metis failed!
+08-16 23:41:23.124  1893  2151 D WindowManager: wms.finishDrawingLocked: mDrawState=COMMIT_DRAW_PENDING Window{200e375 u0 Application Error: com.careeraiapp.jobs} in Surface(name=Application Error: com.careeraiapp.jobs#131457)/@0x8d6eeba
+08-16 23:41:23.125  1893  2151 E NativeTurboSchedManagerJni: open /dev/metis failed!
+08-16 23:41:23.131  1893  2154 I WindowManager: wms.showSurfaceRobustly mWin:Window{200e375 u0 Application Error: com.careeraiapp.jobs}
+08-16 23:41:23.133 27860 11979 E IdleQueuePayloadBasedServiceLayer: Request empty, but still some servings left: 314411
+08-16 23:41:23.135 27860 11977 W stagram.android: Long monitor contention with owner IgExecutorV2 #23084 (11979) at void X.2uM.onComplete()(:-1) waiters=0 in void X.2uM.onResponseStarted(X.2mO) for 283ms
+08-16 23:41:23.137  1413  1413 W Layer   : gatherBufferInfo: Received unknown dataspace from gralloc
+08-16 23:41:23.154  1413  1413 W Layer   : gatherBufferInfo: Received unknown dataspace from gralloc
+08-16 23:41:23.170  1413  1413 W Layer   : gatherBufferInfo: Received unknown dataspace from gralloc
+08-16 23:41:23.174 27860 12188 E IdleQueuePayloadBasedServiceLayer: Request empty, but still some servings left: -308412
+08-16 23:41:23.183  1128  1231 I qdlights: thermal dimming: success to open /sys/class/backlight/panel0-backlight/brightness_clone
+08-16 23:41:23.183  1128  1231 I qdlights: thermal dimming: thermal_lv[1675] thermal_cur_bl = [58]
+08-16 23:41:23.184  1128  1128 I qdlights: thermal dimming: get thermal_target!
+08-16 23:41:23.184  1128  1231 I qdlights: thermal dimming: loop begin
+08-16 23:41:23.186  1413  1413 W Layer   : gatherBufferInfo: Received unknown dataspace from gralloc
+08-16 23:41:23.192  1893  3010 I SmartPower: com.facebook.services/10063(18032): background->idle(3002ms) R(alarm start) adj=905.
+08-16 23:41:23.213 27860 28220 W UnifiedPrefetchManager: Manifest for videoId 3958623410409969544_54114279330 is missing prefetch segment range
+08-16 23:41:23.223 27860 12188 E IdleQueuePayloadBasedServiceLayer: Request empty, but still some servings left: 126735
+08-16 23:41:23.290 27860 11979 E IdleQueuePayloadBasedServiceLayer: Request empty, but still some servings left: -133452
+08-16 23:41:23.332  1893  1986 I system_server: Background young concurrent copying GC freed 12MB AllocSpace bytes, 248(6348KB) LOS objects, 12% free, 136MB/155MB, paused 1.108ms,174us total 197.263ms
+08-16 23:41:23.346 27860 11966 E IdleQueuePayloadBasedServiceLayer: Request empty, but still some servings left: 78439
+08-16 23:41:23.349  1893  1988 W System  : A resource failed to call release. 
+08-16 23:41:23.360 27860 12187 E IdleQueuePayloadBasedServiceLayer: Request empty, but still some servings left: -87662
+08-16 23:41:23.401 27860 12187 E IdleQueuePayloadBasedServiceLayer: Request empty, but still some servings left: -1909
+08-16 23:41:23.409  1893  2153 W ActivityTaskManager: Activity top resumed state loss timeout for ActivityRecord{835413a u0 com.careeraiapp.jobs/.MainActivity t1447 f}}
+08-16 23:41:23.410  1893  2153 W ActivityTaskManager: Activity pause timeout for ActivityRecord{835413a u0 com.careeraiapp.jobs/.MainActivity t1447 f}}
+08-16 23:41:23.411  1893  2153 I ActivityTaskManager: resumeTopActivityInnerLocked topActivity:ActivityRecord{7f14906 u0 com.instagram.android/.activity.MainTabActivity t1338} isFocusable:true this:Task{e2b311d #1338 type=standard A=10111:com.instagram.android}
+08-16 23:41:23.411  1893  2153 D PerfStubImpl: perfWarmLaunchBoost: com.instagram.android, -1, 1
+08-16 23:41:23.412  1269  1312 W ANDR-PERF-LM: MetaMeter: handlePrimaryAsync() 118: AdaptLaunch MetaMeter. No MeterMgr Available to handle this Primary Async. !!!!
+08-16 23:41:23.412  1269  1312 W ANDR-PERF-LM: MetaMeter: handlePrimaryAsync() 118: AdaptLaunch MetaMeter. No MeterMgr Available to handle this Primary Async. !!!!
+08-16 23:41:23.413  1893  2153 D PerfStubImpl: perfAnimBoost: com.instagram.android
+08-16 23:41:23.414  1893  2153 D WindowManager: Collecting in transition 8294: ActivityRecord{7f14906 u0 com.instagram.android/.activity.MainTabActivity t1338} init visibleRequested:false
+08-16 23:41:23.415  1893  2153 D WindowManagerService: checkFlipFullScreenChange is same, nowIsFullScreen = false
+08-16 23:41:23.418 27860 27860 I ForceDarkHelperStubImpl: setViewRootImplForceDark: false for com.instagram.mainactivity.InstagramMainActivity@367ed04, reason: AppDarkModeEnable
+08-16 23:41:23.421  1893  2153 D WindowManager: Set transition=TransitionRecord{29df6a2 id=8294 type=CLOSE flags=0x10}, ready=true, SyncId=8294 
+08-16 23:41:23.427  1893  2153 I BLASTSyncEngine: SyncGroup 8294:  Unfinished container:ActivityRecord{7f14906 u0 com.instagram.android/.activity.MainTabActivity t1338}
+08-16 23:41:23.427  1893  2153 I BLASTSyncEngine: isActivitySyncFinished isSyncFinished false ActivityRecord{7f14906 u0 com.instagram.android/.activity.MainTabActivity t1338}
+08-16 23:41:23.427  1893  2165 D ATMSImpl: Begin to report package foreground events...
+08-16 23:41:23.428  1893  2971 D CameraBlackCoveredManager: mForegroundPackage = com.instagram.android mOccupiedPackage = com.miui.face
+08-16 23:41:23.428  1893  2971 I NetworkBoostStatusManager: onForegroundInfoChanged uid:10111, isColdStart:false
+08-16 23:41:23.428  1893  2971 I SLM-SRV-SLAToast: foreground uid:10111, isColdStart:false, isLinkTurboEnable:false
+08-16 23:41:23.428  7921 15022 D PerfEngineController: ForegroundInfo{mForegroundPackageName='com.instagram.android', mForegroundUid=10111, mForegroundPid=27860, mLastForegroundPackageName='com.careeraiapp.jobs', mLastForegroundUid=10323, mLastForegroundPid=12074, mMultiWindowForegroundPackageName='com.instagram.android', mMultiWindowForegroundUid=10111, mFlags=0}
+08-16 23:41:23.428  1893  2971 D NetworkSDKService: handleMultiAppsDualWifi isSet = false isEverOpened = false
+08-16 23:41:23.428  5645  5683 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.instagram.android', mForegroundUid=10111, mForegroundPid=27860, mLastForegroundPackageName='com.careeraiapp.jobs', mLastForegroundUid=10323, mLastForegroundPid=12074, mMultiWindowForegroundPackageName='com.instagram.android', mMultiWindowForegroundUid=10111, mFlags=0}
+08-16 23:41:23.428  8512  9145 I GST     : forePkg: com.instagram.android, preForePkg: com.careeraiapp.jobs
+08-16 23:41:23.428  3445 16288 D AppObserver: ForegroundInfo{mForegroundPackageName='com.instagram.android', mForegroundUid=10111, mForegroundPid=27860, mLastForegroundPackageName='com.careeraiapp.jobs', mLastForegroundUid=10323, mLastForegroundPid=12074, mMultiWindowForegroundPackageName='com.instagram.android', mMultiWindowForegroundUid=10111, mFlags=0}
+08-16 23:41:23.429  8512  9145 D VENUS_GAMEAI_START_GameAiStartManager: 高能时刻未安装
+08-16 23:41:23.430  3404  3573 D MiuiFullScreenTaskRepository: removeFocusedTask displayId=0
+08-16 23:41:23.431  3404  3573 D MiuiFullScreenTaskRepository: addOrUpdateFullScreenTaskInfo taskId=1447, topActivity=null
+08-16 23:41:23.432  5645  5683 I GameBoosterService: onForegroundInfoChanged: Cur=com.instagram.android	 last=com.careeraiapp.jobs
+08-16 23:41:23.434  3404  3573 D MiuiFullScreenTaskRepository: setFocusedTask taskId=1338, displayId=0, topActivity=ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity}
+08-16 23:41:23.434  3404  3573 D MiuiFullScreenTaskRepository: addOrUpdateFullScreenTaskInfo taskId=1338, topActivity=ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity}
+08-16 23:41:23.434  3404  3573 D MiuiDesktopModeController: onFocusTaskChanged newFocus: TaskInfo{userId=0 taskId=1338 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x11200000 cmp=com.instagram.android/.activity.MainTabActivity } baseActivity=ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity} topActivity=ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity} origActivity=ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity} realActivity=ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity} numActivities=1 lastActiveTime=635127475 supportsSplitScreenMultiWindow=true supportsMultiWindow=true resizeMode=2 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=200 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@aa3597} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{e970384 com.instagram.android.activity.MainTabActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false topActivityInSizeCompat=false topActivityInMiuiSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden mIsCastMode=false mTopActivityMediaSize=null mTopActivityRecordName=ActivityRecord{7f14906 u0 com.instagram.android/.activity.MainTabActivity t1338} mTopActivityOrientation=1 mTopActivityWindowIsNowVisible=false isTranslucent=false isEmbedded=false shouldBeVisible=true mBehindAppLockPkg=null mOriginatingUid=0}
+08-16 23:41:23.434  3404  3573 D MiuiFreeformModeController: onFocusTaskChanged taskInfo: TaskInfo{userId=0 taskId=1338 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x11200000 cmp=com.instagram.android/.activity.MainTabActivity } baseActivity=ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity} topActivity=ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity} origActivity=ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity} realActivity=ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity} numActivities=1 lastActiveTime=635127475 supportsSplitScreenMultiWindow=true supportsMultiWindow=true resizeMode=2 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=200 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@aa3597} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{e970384 com.instagram.android.activity.MainTabActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false topActivityInSizeCompat=false topActivityInMiuiSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden mIsCastMode=false mTopActivityMediaSize=null mTopActivityRecordName=ActivityRecord{7f14906 u0 com.instagram.android/.activity.MainTabActivity t1338} mTopActivityOrientation=1 mTopActivityWindowIsNowVisible=false isTranslucent=false isEmbedded=false shouldBeVisible=true mBehindAppLockPkg=null mOriginatingUid=0}
+08-16 23:41:23.435  1808  1808 I wificond: station_bandwidth: P
+08-16 23:41:23.438  5645  5683 D GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.instagram.android', mForegroundUid=10111, mForegroundPid=27860, mLastForegroundPackageName='com.careeraiapp.jobs', mLastForegroundUid=10323, mLastForegroundPid=12074, mMultiWindowForegroundPackageName='com.instagram.android', mMultiWindowForegroundUid=10111, mFlags=0}
+08-16 23:41:23.438  5645  5683 I VideoBoxUtils: isSupportVideoBox: true
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory: Connected to unknown network * ID: 10 SSID: "Airtel_mich_2553" PROVIDER-NAME: null BSSID: null FQDN: null HOME-PROVIDER-NETWORK: false PRIO: 0 HIDDEN: false PMF: false CarrierId: -1 SubscriptionId: -1 SubscriptionGroup: null Currently Connected: true User Selected: false
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  NetworkSelectionStatus NETWORK_SELECTION_ENABLED
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  hasEverConnected: true
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  hasNeverDetectedCaptivePortal: true
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  mCandidateSecurityParams: Security Parameters:
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  Type: 2
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  Enabled: true
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  KeyMgmt: WPA_PSK
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  Protocols: WPA RSN
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  AuthAlgorithms:
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  PairwiseCiphers: TKIP CCMP
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  GroupCiphers: WEP40 WEP104 TKIP CCMP
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  GroupMgmtCiphers:
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  SuiteBCiphers:
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  RequirePmf: false
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  IsAddedByAutoUpgrade: false
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  IsSaeH2eOnlyMode: false
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  IsSaePkOnlyMode: false
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  mLastUsedSecurityParams: Security Parameters:
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  Type: 2
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  Enabled: true
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  KeyMgmt: WPA_PSK
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  Protocols: WPA RSN
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  AuthAlgorithms:
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  PairwiseCiphers: TKIP CCMP
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  GroupCiphers: WEP40 WEP104 TKIP CCMP
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  GroupMgmtCiphers:
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  SuiteBCiphers:
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  RequirePmf: false
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  IsAddedByAutoUpgrade: false
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  IsSaeH2eOnlyMode: false
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  IsSaePkOnlyMode: false
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  numAssociation 5
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  validatedInternetAccess shared trusted
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  macRandomizationSetting: 3
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  mRandomizedMacAddress: ce:2e:eb:cf:5d:86
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  randomizedMacExpirationTimeMs: 08-17 21:10:20.476
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  randomizedMacLastModifiedTimeMs: <none>
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  deletionPriority: 0
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  KeyMgmt: WPA_PSK Protocols: WPA RSN
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  AuthAlgorithms:
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  PairwiseCiphers: TKIP CCMP
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  GroupCiphers: WEP40 WEP104 TKIP CCMP
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  GroupMgmtCiphers:
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  SuiteBCiphers:
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  PSK/SAE: *
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory: SecurityParams List:
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory: Security Parameters:
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  Type: 2
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  Enabled: true
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  KeyMgmt: WPA_PSK
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  Protocols: WPA RSN
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  AuthAlgorithms:
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  PairwiseCiphers: TKIP CCMP
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  GroupCiphers: WEP40 WEP104 TKIP CCMP
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  GroupMgmtCiphers:
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  SuiteBCiphers:
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  RequirePmf: false
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  IsAddedByAutoUpgrade: false
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  IsSaeH2eOnlyMode: false
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  IsSaePkOnlyMode: false
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory: Security Parameters:
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  Type: 4
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  Enabled: true
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  KeyMgmt: SAE
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  Protocols: RSN
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  AuthAlgorithms:
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  PairwiseCiphers: CCMP GCMP_256 GCMP_128
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  GroupCiphers: CCMP GCMP_256 GCMP_128
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  GroupMgmtCiphers:
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  SuiteBCiphers:
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  RequirePmf: true
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  IsAddedByAutoUpgrade: true
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  IsSaeH2eOnlyMode: false
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  IsSaePkOnlyMode: false
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory: 
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory: Enterprise config:
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  ocsp: 0
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  trust_on_first_use: false
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  user_approve_no_ca_cert: false
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  selected_rcoi: 0
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  minimum_tls_version: 0
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  enable_conservative_peer_mode: false
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory: IP config:
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory: IP assignment: DHCP
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory: Proxy settings: NONE
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory:  cuid=1000 cname=android.uid.system:1000 luid=1000 lname=com.android.settings lcuid=1000 allowAutojoin=true noInternetAccessExpected=false mostRecentlyConnected=false 
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory: lastConnected: 08-16 21:10:19.525 
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory: 
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory: numRebootsSinceLastUse: 0
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory: recentFailure: Association Rejection code: 0, last update time: 0
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory: bssidAllowlist unset
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory: IsDppConfigurator: true
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory: HasEncryptedPreSharedKey: false
+08-16 23:41:23.440  1893  2861 W WifiNetworkFactory: :f4:27:56:10:c7:31. Ignoring...
+08-16 23:41:23.444  8512  8932 W Settings: Setting device_provisioned has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+08-16 23:41:23.444  8512  8932 I JoyoseCloudControlManager3: network metered changed, network metered: false, deviceProvisioned: true, scAllowConn: true, try to setNetworkAccessEnabled: true
+08-16 23:41:23.447  5645  5683 I VideoToolBoxService: splitMode: onfalse
+08-16 23:41:23.448  5645 11153 D x1      : myUserId = 0	currentUserId0
+08-16 23:41:23.462  3404  3573 D SoScUtils: monitorTransitionFinished transition:android.os.BinderProxy@5031e8d transaction: android.view.SurfaceControl$Transaction@576e76d mRequestCloseTransition:null mRequestOpenTransition:null mPairsOpenTransition:null mPairsOpenTransitionNull:null mRequestOpenTriggerTask:-1 mRequestCloseTriggerTask:-1 mOrientationTransition: null mMainStartingTask:-1 mSideStartingTask:-1
+08-16 23:41:23.468  1893  3828 I BLASTSyncEngine: SyncGroup 8294:  Unfinished container:ActivityRecord{7f14906 u0 com.instagram.android/.activity.MainTabActivity t1338}
+08-16 23:41:23.468  1893  3828 I BLASTSyncEngine: isActivitySyncFinished isSyncFinished false ActivityRecord{7f14906 u0 com.instagram.android/.activity.MainTabActivity t1338}
+08-16 23:41:23.468  1893  3828 D WindowManager: relayoutVisibleWindow: Window{f373e48 u0 com.instagram.android/com.instagram.android.activity.MainTabActivity EXITING} mAnimatingExit=true, mRemoveOnExit=false, mDestroying=false
+08-16 23:41:23.469  9951 10012 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[4ea66532-fffb]>Handler" thread_id=298 ]
+08-16 23:41:23.472  9951 10012 I BugleRcsEngine: Cannot use CS.apk as it's battery optimized [CONTEXT thread_id=298 ]
+08-16 23:41:23.473  9951 10006 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=292 ]
+08-16 23:41:23.473  6031  6031 I NetBusNetworkMonitor: gateway=192.*.*.1
+08-16 23:41:23.480  1893  6871 I Transition: finishTransition: updateLastSurfacePosition tf=Task{568a1eb #1447 type=standard A=10323:com.careeraiapp.jobs}
+08-16 23:41:23.485  1893  2153 D SchedBoost: com.careeraiapp.jobs boosting, skip reset priority
+08-16 23:41:23.490  1893  2881 D ConnectivityService: NetReassign [no changes] [c 0] [a 1] [i 8]
+08-16 23:41:23.492  6031  6031 I NetBusNetworkMonitor: addConnectNetworkInterface mediumType:256, detail:NetworkDetailInfo{mIsConnected=false, mNetworkType=0, mIpAddress=192.*.*.13, mIfName=wlan0, mGateway=192.*.*.1, mNetmask=255.*.*.0}
+08-16 23:41:23.493  6031  6031 I NetBusNetworkMonitor: onCapabilitiesChanged handle=862399156237, mediumType=256, ifName=wlan0
+08-16 23:41:23.493  1893  3796 I ClipboardServiceI: checkProviderWakePathForClipboard: primaryClip is null
+08-16 23:41:23.494  5645  5683 D FreeformUtil: retrieveFirstNoFreeformRootTaskInfo: windowMode = 1
+08-16 23:41:23.494  5645  5683 I VideoToolBoxService: not support vtb. skipExit : false
+08-16 23:41:23.498 27860 27860 W libc    : Access denied finding property "vendor.display.enable_optimal_refresh_rate"
+08-16 23:41:23.499 27860  4548 E OpenGLRenderer: Unable to match the desired swap behavior.
+08-16 23:41:23.502  1413  1413 I MI-SF   : surfaceflinger setAffinity mode=0
+08-16 23:41:23.514 27860 12188 E IdleQueuePayloadBasedServiceLayer: Request empty, but still some servings left: 920768
+08-16 23:41:23.515 32531 22965 I NearbyMediums: Wifi changed new SSID: "Airtel_mich_2553"
+08-16 23:41:23.515 32531 22965 I NearbyMediums: WifiLanConnectivityInfo is not changed, skip notify.
+08-16 23:41:23.517  7921  8692 D ThermalIECHandler: pkgName: com.google.android.apps.maps; processState: 16
+08-16 23:41:23.518  1413  1494 D MI-SF   : updateScene: module = 258 (TpIdle), value = 1, pkg = com.instagram.android, Vrr = 0
+08-16 23:41:23.518  1413  1494 D MI-SF   : updateScene mSetTpIdleFlag 1
+08-16 23:41:23.520  1269  5006 E ANDR-PERF-LM: VmRssMeter:: start() 447: Could not find pid, can not collect vmrss data
+08-16 23:41:23.520  1269  5006 E ANDR-PERF-LM: AdaptiveLaunch: writeToDataBase() 64: Meter aborted or could not get meter data for this run
+08-16 23:41:23.521 27860 27860 W libc    : Access denied finding property "vendor.display.enable_optimal_refresh_rate"
+08-16 23:41:23.521 27860 27860 E SurfaceView: Exception configuring surface
+08-16 23:41:23.521 27860 27860 E SurfaceView: java.lang.NullPointerException: null SurfaceControl native object. Are you using a released SurfaceControl?
+08-16 23:41:23.521 27860 27860 E SurfaceView: 	at android.view.Surface.copyFrom(Surface.java:665)
+08-16 23:41:23.521 27860 27860 E SurfaceView: 	at android.view.Surface.<init>(Surface.java:287)
+08-16 23:41:23.521 27860 27860 E SurfaceView: 	at X.1n7.surfaceCreated(:103)
+08-16 23:41:23.521 27860 27860 E SurfaceView: 	at android.view.SurfaceView.updateSurface(SurfaceView.java:1260)
+08-16 23:41:23.521 27860 27860 E SurfaceView: 	at android.view.SurfaceView.setWindowStopped(SurfaceView.java:374)
+08-16 23:41:23.521 27860 27860 E SurfaceView: 	at android.view.SurfaceView.surfaceCreated(SurfaceView.java:1936)
+08-16 23:41:23.521 27860 27860 E SurfaceView: 	at android.view.ViewRootImpl.notifySurfaceCreated(ViewRootImpl.java:2660)
+08-16 23:41:23.521 27860 27860 E SurfaceView: 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:4216)
+08-16 23:41:23.521 27860 27860 E SurfaceView: 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:2989)
+08-16 23:41:23.521 27860 27860 E SurfaceView: 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:10304)
+08-16 23:41:23.521 27860 27860 E SurfaceView: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1594)
+08-16 23:41:23.521 27860 27860 E SurfaceView: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1603)
+08-16 23:41:23.521 27860 27860 E SurfaceView: 	at android.view.Choreographer.doCallbacks(Choreographer.java:1125)
+08-16 23:41:23.521 27860 27860 E SurfaceView: 	at android.view.Choreographer.doFrame(Choreographer.java:1030)
+08-16 23:41:23.521 27860 27860 E SurfaceView: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1567)
+08-16 23:41:23.521 27860 27860 E SurfaceView: 	at android.os.Handler.handleCallback(Handler.java:958)
+08-16 23:41:23.521 27860 27860 E SurfaceView: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+08-16 23:41:23.521 27860 27860 E SurfaceView: 	at android.os.Looper.loopOnce(Looper.java:224)
+08-16 23:41:23.521 27860 27860 E SurfaceView: 	at android.os.Looper.loop(Looper.java:318)
+08-16 23:41:23.521 27860 27860 E SurfaceView: 	at android.app.ActivityThread.main(ActivityThread.java:8790)
+08-16 23:41:23.521 27860 27860 E SurfaceView: 	at java.lang.reflect.Method.invoke(Native Method)
+08-16 23:41:23.521 27860 27860 E SurfaceView: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:561)
+08-16 23:41:23.521 27860 27860 E SurfaceView: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1013)
+08-16 23:41:23.521 27860 27860 D VRI[MainTabActivity]: vri.reportNextDraw android.view.ViewRootImpl.performTraversals:4360 android.view.ViewRootImpl.doTraversal:2989 android.view.ViewRootImpl$TraversalRunnable.run:10304 android.view.Choreographer$CallbackRecord.run:1594 android.view.Choreographer$CallbackRecord.run:1603 
+08-16 23:41:23.521 27860 27860 D SurfaceView: UPDATE Surface(name=SurfaceView[com.instagram.android/com.instagram.android.activity.MainTabActivity]#131460)/@0x29de4c5, mIsProjectionMode = false
+08-16 23:41:23.522 27860 27860 D VRI[MainTabActivity]: vri.Setup new sync=wmsSync-VRI[MainTabActivity]#69
+08-16 23:41:23.527 32531 12255 I DropBoxUtil: (REDACTED) Reading dropbox entry with tag %s and timestamp %d
+08-16 23:41:23.528  5645 11153 I SCTaskStackListener: onTaskStackChanged! inSplit = false
+08-16 23:41:23.529 32531 12255 I DropBoxUtil: (REDACTED) Reading dropbox entry with tag %s and timestamp %d
+08-16 23:41:23.530  5645  5683 I SCTaskStackListener: onTaskStackChanged! inSplit = false
+08-16 23:41:23.531  3445 21449 D RecentsModel: onTaskStackChangedBackground
+08-16 23:41:23.531  3445 21449 D EventBus: No subscribers registered for event class com.miui.home.recents.messages.RecentTasksChangedEvent
+08-16 23:41:23.531  3445 21449 D EventBus: No subscribers registered for event class org.greenrobot.eventbus.NoSubscriberEvent
+08-16 23:41:23.531  3445  3892 D RecentsModel: onTaskStackChangedBackground    MSG_TASK_STACK_CHANGE
+08-16 23:41:23.531  3445  3892 D RecentsModel: preloadRecents
+08-16 23:41:23.531  3445  3892 W RecentsModel: getRunningTask
+08-16 23:41:23.531  3445 16288 D RecentsModel: onTaskStackChangedBackground
+08-16 23:41:23.534  3445  3892 W RecentsModel: getRunningTask   taskInfo=TaskInfo{userId=0 taskId=1338 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x11200000 cmp=com.instagram.android/.activity.MainTabActivity } baseActivity=ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity} topActivity=ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity} origActivity=ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity} realActivity=ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity} numActivities=1 lastActiveTime=635127597 supportsSplitScreenMultiWindow=true supportsMultiWindow=true resizeMode=2 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=200 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@4c8a89} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{1c2ea8e com.instagram.android.activity.MainTabActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false topActivityInSizeCompat=false topActivityInMiuiSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden mIsCastMode=false mTopActivityMediaSize=null mTopActivityRecordName=ActivityRecord{7f14906 u0 com.instagram.android/.activity.MainTabActivity t1338} mTopActivityOrientation=1 mTopActivityWindowIsNowVisible=true isTranslucent=false isEmbedded=false shouldBeVisible=true mBehindAppLockPkg=null mOriginatingUid=0}
+08-16 23:41:23.534  3445  3892 W RecentsModel: getTaskInfoIgnoreHomeAndFreeform   taskInfo=ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity}
+08-16 23:41:23.535  3445  3892 E ActivityManagerWrapper: get all recent tasks force including 1338
+08-16 23:41:23.546  3445  3892 E ActivityManagerWrapper: getRecentTasks: size=8
+08-16 23:41:23.546  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1338   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=287309824 cmp=ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity} }
+08-16 23:41:23.546  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1447   userId=0   windowMode=1   baseIntent=Intent { act=null flag=268435456 cmp=ComponentInfo{com.careeraiapp.jobs/com.careeraiapp.jobs.MainActivity} }
+08-16 23:41:23.546  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1401   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.whatsapp/com.whatsapp.Main} }
+08-16 23:41:23.546  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1402   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.VIEW flag=318767104 cmp=ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity} }
+08-16 23:41:23.546  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1270   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=352321536 cmp=ComponentInfo{com.google.android.youtube/com.google.android.apps.youtube.app.watchwhile.InternalMainActivity} }
+08-16 23:41:23.546  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1232   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity} }
+08-16 23:41:23.546  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1233   userId=0   windowMode=1   baseIntent=Intent { act=null flag=268468224 cmp=ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.search.lens.LensActivity} }
+08-16 23:41:23.546  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1226   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=335544320 cmp=ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClockTabActivity} }
+08-16 23:41:23.549  7921  8692 D ThermalIECHandler: pkgName: com.google.android.apps.maps; processState: 16
+08-16 23:41:23.556  1893  2859 I MiuiNetworkPolicy: updateUidState uid = 10323, uidState = 18
+08-16 23:41:23.563  1269  5005 E ANDR-PERF-LM: VmRssMeter:: start() 447: Could not find pid, can not collect vmrss data
+08-16 23:41:23.570  3445  3892 D RecentsModel: onTaskStackChangedBackground    MSG_TASK_STACK_CHANGE
+08-16 23:41:23.570  3445  3892 D RecentsModel: preloadRecents
+08-16 23:41:23.570  3445  3892 W RecentsModel: getRunningTask
+08-16 23:41:23.572  3445  3892 W RecentsModel: getRunningTask   taskInfo=TaskInfo{userId=0 taskId=1338 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x11200000 cmp=com.instagram.android/.activity.MainTabActivity } baseActivity=ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity} topActivity=ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity} origActivity=ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity} realActivity=ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity} numActivities=1 lastActiveTime=635127635 supportsSplitScreenMultiWindow=true supportsMultiWindow=true resizeMode=2 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=200 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@16a4645} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{a07219a com.instagram.android.activity.MainTabActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false topActivityInSizeCompat=false topActivityInMiuiSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden mIsCastMode=false mTopActivityMediaSize=null mTopActivityRecordName=ActivityRecord{7f14906 u0 com.instagram.android/.activity.MainTabActivity t1338} mTopActivityOrientation=1 mTopActivityWindowIsNowVisible=true isTranslucent=false isEmbedded=false shouldBeVisible=true mBehindAppLockPkg=null mOriginatingUid=0}
+08-16 23:41:23.572  3445  3892 W RecentsModel: getTaskInfoIgnoreHomeAndFreeform   taskInfo=ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity}
+08-16 23:41:23.572  3445  3892 E ActivityManagerWrapper: get all recent tasks force including 1338
+08-16 23:41:23.576  3445  3892 E ActivityManagerWrapper: getRecentTasks: size=8
+08-16 23:41:23.576  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1338   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=287309824 cmp=ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity} }
+08-16 23:41:23.576  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1447   userId=0   windowMode=1   baseIntent=Intent { act=null flag=268435456 cmp=ComponentInfo{com.careeraiapp.jobs/com.careeraiapp.jobs.MainActivity} }
+08-16 23:41:23.576  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1401   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.whatsapp/com.whatsapp.Main} }
+08-16 23:41:23.576  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1402   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.VIEW flag=318767104 cmp=ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity} }
+08-16 23:41:23.576  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1270   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=352321536 cmp=ComponentInfo{com.google.android.youtube/com.google.android.apps.youtube.app.watchwhile.InternalMainActivity} }
+08-16 23:41:23.576  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1232   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity} }
+08-16 23:41:23.576  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1233   userId=0   windowMode=1   baseIntent=Intent { act=null flag=268468224 cmp=ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.search.lens.LensActivity} }
+08-16 23:41:23.576  3445  3892 E ActivityManagerWrapper: getRecentTasks: mainTaskId=1226   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=335544320 cmp=ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClockTabActivity} }
+08-16 23:41:23.577 27860 12236 E IdleQueuePayloadBasedServiceLayer: Request empty, but still some servings left: -204649
+08-16 23:41:23.588 27860 27860 D VRI[MainTabActivity]: vri.reportDrawFinished
+08-16 23:41:23.589  1413  1413 I Layer   : sf.setBuffer drawingN:125126 frN:1 com.instagram.android/com.instagram.android.activity.MainTabActivity#130219
+08-16 23:41:23.589  1413  1413 W Layer   : gatherBufferInfo: Received unknown dataspace from gralloc
+08-16 23:41:23.590  1893  3292 E NativeTurboSchedManagerJni: open /dev/metis failed!
+08-16 23:41:23.590  1893  3292 E NativeTurboSchedManagerJni: open /dev/metis failed!
+08-16 23:41:23.593  1893  3292 D FileUtils: Rounded bytes from 12162617344 to 16000000000
+08-16 23:41:23.594 27860 27860 W RageShakeSensorHelper: onActivityResume
+08-16 23:41:23.595 27860 27860 W RageShakeEligibilityHelper: Showing public rageshake flow
+08-16 23:41:23.595 27860 27860 W RageShakeSensorHelper: registerShakeListener started | mRegistered=false
+08-16 23:41:23.595 27860 27860 W RageShakeSensorHelper: registerShakeListener registered
+08-16 23:41:23.601  1893  2154 D WindowManager: Final targets: [Task{e2b311d #1338 type=standard A=10111:com.instagram.android}, Task{568a1eb #1447 type=standard A=10323:com.careeraiapp.jobs}]
+08-16 23:41:23.609  1152  1152 I sensors-hal: batch:180, android.sensor.accelerometer/72, period=66667000, max_latency=0
+08-16 23:41:23.610  1152  1152 I sensors-hal: batch:189, android.sensor.accelerometer/72, period=66667000, max_latency=0 request completed
+08-16 23:41:23.610  1152 31370 I sensors-hal: ssc_conn_event_cb:489, event[0] sensor:step_detector  Wakeup msg_id=129, ts=12194536182170
+08-16 23:41:23.610  1152  1152 I sensors-hal: flush:209, android.sensor.accelerometer/72
+08-16 23:41:23.616  1152  1152 I sensors-hal: flush:215, android.sensor.accelerometer/72 completed
+08-16 23:41:23.620  1152 31370 I sensors-hal: ssc_conn_event_cb:489, event[0] sensor:step_detector  Wakeup msg_id=129, ts=12194536231643
+08-16 23:41:23.621  1893  2154 D WindowManager: Calling onTransitionReady info={id=8294 t=CLOSE f=0x10 trk=1 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{2f76389 Task{e2b311d #1338 type=standard A=10111:com.instagram.android}}} m=TO_FRONT f=MOVE_TO_TOP leash=Surface(name=Task=1338#122166)/@0x123ffb6 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{2aaac90 Task{568a1eb #1447 type=standard A=10323:com.careeraiapp.jobs}}} m=CLOSE f=NONE leash=Surface(name=Task=1447#131445)/@0x8a49224 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}] noAni=[false] df=[false] mk=[true]}, mToken=Token{6818d35 TransitionRecord{29df6a2 id=8294 type=CLOSE flags=0x10}}
+08-16 23:41:23.622  1893  2154 I BLASTSyncEngine: finishNow: after onTransactionReady, mSyncId=8294
+08-16 23:41:23.622  1893  2154 E NativeTurboSchedManagerJni: open /dev/metis failed!
+08-16 23:41:23.622  1893  3292 I WindowManagerService: before notify flip navigation bar color change, color = -15986668
+08-16 23:41:23.624  3404  3573 E NativeTurboSchedManagerJni: open /dev/metis failed!
+08-16 23:41:23.624  3445  3445 D EventBus: No subscribers registered for event class com.miui.home.recents.messages.TaskSnapshotChangedEvent
+08-16 23:41:23.624  3445  3445 D EventBus: No subscribers registered for event class org.greenrobot.eventbus.NoSubscriberEvent
+08-16 23:41:23.625  3404  3573 D MiuiFreeformAnimation: startAnimation change: {WCT{android.window.IWindowContainerToken$Stub$Proxy@1229725} m=TO_FRONT f=MOVE_TO_TOP leash=Surface(name=Task=1338#122166)/@0x6a363ee sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0} info.getType(): 2
+08-16 23:41:23.625  3404  3573 I MiuiFreeformAnimation: isLaunchWidgetPicker=false,taskInfo.getWindowingMode()=1, taskInfo.getActivityType()=1
+08-16 23:41:23.625  3404  3573 D MiuiFreeFormManager:  isSplitRootTask taskId=1338
+08-16 23:41:23.625 32531  9898 W Auth    : [DeviceAccountTaskService] Server-side error while trying to update Droidguard signal. Rescheduling task. [CONTEXT service_id=316 ]
+08-16 23:41:23.625 32531  9898 W Auth    : kawn: DEADLINE_EXCEEDED: CallOptions deadline exceeded after 29.955557344s. Name resolution delay 0.015813021 seconds. [closed=[], open=[[connecting_and_lb_delay=29956522958ns, was_still_waiting]]]
+08-16 23:41:23.625 32531  9898 W Auth    : 	at bkjm.q(:com.google.android.gms@262665029@26.26.65 (190400-954734388):31)
+08-16 23:41:23.625 32531  9898 W Auth    : 	at bkjm.f(:com.google.android.gms@262665029@26.26.65 (190400-954734388):90)
+08-16 23:41:23.625 32531  9898 W Auth    : 	at com.google.android.gms.auth.aang.impl.deviceaccount.DeviceAccountTaskService.e(:com.google.android.gms@262665029@26.26.65 (190400-954734388):683)
+08-16 23:41:23.625 32531  9898 W Auth    : 	at com.google.android.gms.auth.aang.impl.deviceaccount.DeviceAccountTaskService.a(:com.google.android.gms@262665029@26.26.65 (190400-954734388):67)
+08-16 23:41:23.625 32531  9898 W Auth    : 	at dblk.call(:com.google.android.gms@262665029@26.26.65 (190400-954734388):36)
+08-16 23:41:23.625 32531  9898 W Auth    : 	at java.util.concurrent.FutureTask.run(FutureTask.java:328)
+08-16 23:41:23.625 32531  9898 W Auth    : 	at bkpw.c(:com.google.android.gms@262665029@26.26.65 (190400-954734388):50)
+08-16 23:41:23.625 32531  9898 W Auth    : 	at bkpw.run(:com.google.android.gms@262665029@26.26.65 (190400-954734388):71)
+08-16 23:41:23.625 32531  9898 W Auth    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+08-16 23:41:23.625 32531  9898 W Auth    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+08-16 23:41:23.625 32531  9898 W Auth    : 	at bkvp.run(:com.google.android.gms@262665029@26.26.65 (190400-954734388):8)
+08-16 23:41:23.625 32531  9898 W Auth    : 	at java.lang.Thread.run(Thread.java:1572)
+08-16 23:41:23.626  3445 16288 D TaskStackChangeListeners: onTaskDescriptionChanged =  taskId = 1338
+08-16 23:41:23.626  3404  3573 D MiuiFreeformAnimation: startAnimation change: {WCT{android.window.IWindowContainerToken$Stub$Proxy@165d0fa} m=CLOSE f=NONE leash=Surface(name=Task=1447#131445)/@0x418408f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0} info.getType(): 2
+08-16 23:41:23.626  3404  3573 W MiuiTaskTransitionHandler: Receive an unknown transition, token=android.os.BinderProxy@d5de931, type=2
+08-16 23:41:23.627  3404  3573 D TransitionAnimationHelper:  load default animation  type = 2 enter = false animAttr = 11 isTask = true translucent = false
+08-16 23:41:23.627  3404  3573 D TransitionAnimationHelper:  load default animation  type = 2 enter = true animAttr = 10 isTask = true translucent = false
+08-16 23:41:23.629  3404  3589 D ShellTransitions: speed ui!!!!!!!!!!!
+08-16 23:41:23.630  3404  3573 E NativeTurboSchedManagerJni: open /dev/metis failed!
+08-16 23:41:23.633  3404  3573 D MiuiFullScreenTaskRepository: setFocusedTask taskId=1338, displayId=0, topActivity=ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity}
+08-16 23:41:23.633  3404  3573 D MiuiFullScreenTaskRepository: addOrUpdateFullScreenTaskInfo taskId=1338, topActivity=ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity}
+08-16 23:41:23.641 27860 27860 W NonBlockingScreenshotDetectorImpl: Started new screenshot session
+08-16 23:41:23.641 27860 27860 W NonBlockingScreenshotDetectorImpl: Started new screenshot session
+08-16 23:41:23.641 27860 27860 W NonBlockingScreenshotDetectorImpl: Started new screenshot session
+08-16 23:41:23.641 27860 27860 W NonBlockingScreenshotDetectorImpl: Setting active session
+08-16 23:41:23.641 27860 27860 W NonBlockingScreenshotDetectorImpl: Now handling 2 active screenshot sessions
+08-16 23:41:23.641 27860 27860 W NonBlockingScreenshotDetectorImpl: Setting active session
+08-16 23:41:23.641 27860 27860 W NonBlockingScreenshotDetectorImpl: Now handling 3 active screenshot sessions
+08-16 23:41:23.641 27860 27860 W NonBlockingScreenshotDetectorImpl: Setting active session
+08-16 23:41:23.641 27860 27860 W NonBlockingScreenshotDetectorImpl: Now handling 4 active screenshot sessions
+08-16 23:41:23.646  3445  3445 D RecentsImpl: mActivityStateObserver com.instagram.mainactivity.InstagramMainActivity
+08-16 23:41:23.647  3404 14696 D MiuiFreeformModeObserver: activityResumed() intent： Intent { cmp=com.instagram.android/com.instagram.mainactivity.InstagramMainActivity (has extras) }
+08-16 23:41:23.647  3445  3445 W RecentsImpl: onResumed className=com.instagram.mainactivity.InstagramMainActivity   mIsInAnotherPro=false   isKeyguardLocked=false   mSecuritySpaceGuideShown=false
+08-16 23:41:23.647  3445  3445 D RecentsImpl: showNavStubView
+08-16 23:41:23.647  3445  3633 W RecentsImpl: disableTouchBySwipeStatusBar    disable=false
+08-16 23:41:23.647  3445  3445 D NavStubView_Touch: setKeepHidden    old=false   new=false
+08-16 23:41:23.647  3445  3633 D GestureStubView_Touch: disableTouchBySwipeStatusBar    old=false   new=false
+08-16 23:41:23.647  3445  3633 D GestureStubView_Touch: disableTouchBySwipeStatusBar    old=false   new=false
+08-16 23:41:23.647  3445  3633 W RecentsImpl: disableBackStubWindow    disableTouch=false
+08-16 23:41:23.647  3445  3633 D GestureStubView_Touch: disableTouch    old=false   new=false
+08-16 23:41:23.647  3445  3633 D GestureStubView_Touch: disableTouch    old=false   new=false
+08-16 23:41:23.647  3445  3633 D RecentsImpl: showBackStubWindow  hasNavigationBar=true
+08-16 23:41:23.647  3445  3633 D GestureStubView_Touch: setKeepHidden    old=false   new=false
+08-16 23:41:23.647  3445  3633 W GestureStubView: adaptRotation   currentRotation=0   mRotation=0
+08-16 23:41:23.647  3445  3633 D GestureStubView: resetRenderProperty: showGestureStub   isLayoutParamChanged=false
+08-16 23:41:23.647  3445  3633 D GestureStubView_Touch: disableTouch    old=false   new=false
+08-16 23:41:23.647  3445  3633 D GestureStubView: showGestureStub
+08-16 23:41:23.647  3445  3633 D GestureStubView_Touch: setKeepHidden    old=false   new=false
+08-16 23:41:23.647  3445  3633 W GestureStubView: adaptRotation   currentRotation=0   mRotation=0
+08-16 23:41:23.647  3445  3633 D GestureStubView: resetRenderProperty: showGestureStub   isLayoutParamChanged=false
+08-16 23:41:23.647  3445  3633 D GestureStubView_Touch: disableTouch    old=false   new=false
+08-16 23:41:23.647  3445  3633 D GestureStubView: showGestureStub
+08-16 23:41:23.649  1893  3292 I WindowManagerService: before notify flip navigation bar color change, color = 16777216
+08-16 23:41:23.649 32531  9898 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+08-16 23:41:23.652 32531 32531 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.aang.impl.deviceaccount.DeviceAccountTaskService.ACTION_TASK_READY dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentInternalBoundBrokerService }
+08-16 23:41:23.652  3445  3633 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+08-16 23:41:23.652  1413  1413 I MI-SF   : surfaceflinger setAffinity mode=1
+08-16 23:41:23.652  3445  3633 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+08-16 23:41:23.652  1413  1413 I MI-SF   : surfaceflinger setreAffinity reTid=1498
+08-16 23:41:23.653  3445 16288 D TaskStackChangeListeners: onTaskDescriptionChanged =  taskId = 1338
+08-16 23:41:23.655  1893  5435 I PowerManagerServiceImpl: Acquire wakelock: SCREEN_BRIGHT_WAKE_LOCK        'WindowManager/displayId:0' ON_AFTER_RELEASE (uid=1000 pid=1893 pkg=android ws=WorkSource{10111 com.instagram.android})
+08-16 23:41:23.657 27860 11966 E IdleQueuePayloadBasedServiceLayer: Request empty, but still some servings left: -721500
+08-16 23:41:23.667  3404  3573 D MiuiFullScreenTaskRepository: setFocusedTask taskId=1338, displayId=0, topActivity=ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity}
+08-16 23:41:23.667  3404  3573 D MiuiFullScreenTaskRepository: addOrUpdateFullScreenTaskInfo taskId=1338, topActivity=ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity}
+08-16 23:41:23.702  1413  1413 W Layer   : gatherBufferInfo: Received unknown dataspace from gralloc
+08-16 23:41:23.715 32531  9898 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+08-16 23:41:23.740 27860 12184 E IdleQueuePayloadBasedServiceLayer: Request empty, but still some servings left: 1142772
+08-16 23:41:23.768  1413  1413 W Layer   : gatherBufferInfo: Received unknown dataspace from gralloc
+08-16 23:41:23.779 32531 32531 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.auth.aang.events.services.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiService }
+08-16 23:41:23.785  1413  1413 W Layer   : gatherBufferInfo: Received unknown dataspace from gralloc
+08-16 23:41:23.787 27860 11966 E IdleQueuePayloadBasedServiceLayer: Request empty, but still some servings left: -166644
+08-16 23:41:23.849 27860 27860 E SlowAppComponent: 0ms: KeepWarmReceiver instantiating…
+08-16 23:41:23.849 27860 27860 E SlowAppComponent: Main thread was blocked for 29ms in the foreground starting with KeepWarmReceiver
+08-16 23:41:23.928 27860 12186 E IdleQueuePayloadBasedServiceLayer: Request empty, but still some servings left: -911520
+08-16 23:41:23.951 32531 22154 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+08-16 23:41:23.951 32531 22965 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+08-16 23:41:23.963 27860 12186 E IdleQueuePayloadBasedServiceLayer: Request empty, but still some servings left: -28329
+08-16 23:41:24.058 27860 11966 E IdleQueuePayloadBasedServiceLayer: Request empty, but still some servings left: 782721
+08-16 23:41:24.151 27860 27864 I stagram.android: Background concurrent copying GC freed 22MB AllocSpace bytes, 209(19MB) LOS objects, 9% free, 223MB/247MB, paused 1.775ms,702us total 1.123s
+08-16 23:41:24.195 27860 12186 E IdleQueuePayloadBasedServiceLayer: Request empty, but still some servings left: -700432
+08-16 23:41:24.211 27860 11975 E IdleQueuePayloadBasedServiceLayer: Request empty, but still some servings left: 76935
+08-16 23:41:24.232 27860 12186 E IdleQueuePayloadBasedServiceLayer: Request empty, but still some servings left: -187317
+08-16 23:41:24.245 27860 12186 E IdleQueuePayloadBasedServiceLayer: Request empty, but still some servings left: -1125
+08-16 23:41:24.355  1915  1915 I cnss-daemon: nl80211 response handler invoked
+08-16 23:41:24.356  1915  1915 I cnss-daemon: nl80211_response_handler: cmd 103, vendorID 4980, subcmd 13  received
+08-16 23:41:24.356  1161 31411 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+08-16 23:41:24.444  3404  3573 D SoScUtils: monitorTransitionFinished transition:android.os.BinderProxy@d5de931 transaction: android.view.SurfaceControl$Transaction@a198552 mRequestCloseTransition:null mRequestOpenTransition:null mPairsOpenTransition:null mPairsOpenTransitionNull:null mRequestOpenTriggerTask:-1 mRequestCloseTriggerTask:-1 mOrientationTransition: null mMainStartingTask:-1 mSideStartingTask:-1
+08-16 23:41:24.446  1893  3796 I Transition: finishTransition: updateLastSurfacePosition tf=Task{568a1eb #1447 type=standard A=10323:com.careeraiapp.jobs}
+08-16 23:41:24.446  1893  3796 I Transition: finishTransition: updateLastSurfacePosition tf=Task{e2b311d #1338 type=standard A=10111:com.instagram.android}
+08-16 23:41:24.447  1893  2153 I SmartPower: com.careeraiapp.jobs/10323(12074): visible->invisible(1849ms) R(become invisible) adj=200.
+08-16 23:41:24.447  1893  2153 I SmartPower: com.careeraiapp.jobs/10323(12074): invisible->background(0ms) R(become background) adj=200.
+08-16 23:41:24.448  3318  3405 I DynamicDDSService: handleMessage(ACTIVITY_SUSPEND{appInfo=com.careeraiapp.jobs isFullScreen=}true)
+08-16 23:41:24.448  3318  3405 W DynamicDDSService: mAppNames is empty, no need to send QMI
+08-16 23:41:24.452  6448 12219 D ProcessObserverV10: onForegroundActivitiesChanged:pid = 12074,activity-uid=10323,foregroundActivities=false
+08-16 23:41:24.452  1893  2151 D Aurogon :  uid = 10323 switch to BG
+08-16 23:41:24.453  1893  2955 D isUidValid: uid = 10323
+08-16 23:41:24.461  3404  3573 D MiuiFullScreenTaskRepository: addOrUpdateFullScreenTaskInfo taskId=1447, topActivity=null
+08-16 23:41:24.461  4677  4677 D TouchAssistant: topActivity.getPackageName(),packageName:com.instagram.android
+08-16 23:41:24.461  4677  4677 D TouchAssistant: onTopAppChanged packageName:com.instagram.android
+08-16 23:41:24.462  4677  4677 D TouchAssistant: onTopAppChanged show
+08-16 23:41:24.463  4677  4677 D TouchAssistant: AssistantWindowHelper isWeltHidden
+08-16 23:41:24.463  4677  4677 D TouchAssistant: AssistantWindowHelper forceSlideAway()
+08-16 23:41:24.463  4677  4677 D TouchAssistant: AssistantWindowHelper onAutoSlideAway() mIsAutoSliding: false, originSlideAway: true, mViewAdded: true
+08-16 23:41:24.467  1413  1413 I MI-SF   : surfaceflinger setAffinity mode=0
+08-16 23:41:24.569  1663  1663 I adbd    : adbd service requested 'shell,v2:export ANDROID_LOG_TAGS=''; exec logcat '-d''
+08-16 23:41:24.604 27860 27860 E stagram.android: Invalid resource ID 0x00000003.
+08-16 23:41:24.608 27860 27860 E stagram.android: Invalid resource ID 0x00000003.
+08-16 23:41:24.608 27860 27860 E stagram.android: Invalid resource ID 0x00000003.
+08-16 23:41:24.611 27860 27860 E stagram.android: Invalid resource ID 0x00000003.
+08-16 23:41:24.612 27860 27860 E stagram.android: Invalid resource ID 0x00000003.
+08-16 23:41:24.615 27860 27860 E stagram.android: Invalid resource ID 0x00000003.
+08-16 23:41:24.615 27860 27860 E stagram.android: Invalid resource ID 0x00000003.
+08-16 23:41:24.619 27860 27860 E stagram.android: Invalid resource ID 0x00000003.
+08-16 23:41:24.620 27860 27860 E stagram.android: Invalid resource ID 0x00000003.
+08-16 23:41:24.623 27860 27860 E stagram.android: Invalid resource ID 0x00000003.
+08-16 23:41:24.624 27860 27860 E stagram.android: Invalid resource ID 0x00000003.
+08-16 23:41:24.627 27860 27860 E stagram.android: Invalid resource ID 0x00000003.
+08-16 23:41:24.627 27860 27860 E stagram.android: Invalid resource ID 0x00000003.
+08-16 23:41:24.630 27860 27860 E stagram.android: Invalid resource ID 0x00000003.
+08-16 23:41:24.634 27860 27860 E stagram.android: Invalid resource ID 0x00000003.
+08-16 23:41:24.637 27860 27860 E stagram.android: Invalid resource ID 0x00000003.
+08-16 23:41:24.638 27860 27860 E stagram.android: Invalid resource ID 0x00000003.
+08-16 23:41:24.641 27860 27860 E stagram.android: Invalid resource ID 0x00000003.

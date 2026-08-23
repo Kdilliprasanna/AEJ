@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Dark Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1f" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <!-- ARJ Brand Primary Accent Gradient -->
+    <linearGradient id="arjBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+
+    <!-- ARJ Emerald Secondary Accent Gradient -->
+    <linearGradient id="arjGreenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Card Container -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+
+  <!-- Outer Protective Border Frame -->
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="none" stroke="#1e293b" stroke-width="4" opacity="0.6" />
+
+  <!-- Monogram Group: ARJ -->
+  <g transform="translate(100, 116)">
+
+    <!-- Letter A (Left Peak) -->
+    <path d="M 20 280 L 110 40 L 160 40 L 110 280 Z" fill="url(#arjBlueGrad)" />
+    <!-- Letter A Crossbar Accent -->
+    <path d="M 65 180 L 155 180 L 140 220 L 50 220 Z" fill="url(#arjGreenGrad)" />
+
+    <!-- Letter R (Center Bold Arch) -->
+    <path d="M 130 40 L 230 40 C 275 40, 295 65, 295 105 C 295 145, 270 170, 225 170 L 175 170 L 175 40 Z" fill="#ffffff" />
+    <!-- Letter R Leg Sweep -->
+    <path d="M 200 160 L 275 280 L 230 280 L 165 175 Z" fill="url(#arjBlueGrad)" />
+
+    <!-- Letter J (Right Terminal Hook) -->
+    <path d="M 270 40 L 315 40 L 315 220 C 315 265, 280 290, 230 290 C 195 290, 175 275, 165 255 L 200 235 C 205 245, 215 252, 230 252 C 255 252, 270 240, 270 215 Z" fill="url(#arjGreenGrad)" />
+
+  </g>
+</svg>
