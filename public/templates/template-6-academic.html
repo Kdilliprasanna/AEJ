@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Professional Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Garamond', 'Georgia', serif;
+            line-height: 1.6;
+            color: #2c3e50;
+        }
+        
+        .container {
+            width: 8.5in;
+            height: 11in;
+            margin: 20px auto;
+            background: white;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            padding: 0.5in;
+        }
+        
+        .header {
+            border-bottom: 3px solid #1f3a73;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            font-weight: 700;
+            color: #1f3a73;
+            margin-bottom: 3px;
+        }
+        
+        .header .title {
+            font-size: 14px;
+            color: #34495e;
+            font-weight: 600;
+        }
+        
+        .contact-info {
+            font-size: 10px;
+            color: #666;
+            margin-top: 8px;
+        }
+        
+        .section {
+            margin-bottom: 18px;
+        }
+        
+        .section-title {
+            font-size: 13px;
+            font-weight: 700;
+            color: #1f3a73;
+            text-transform: uppercase;
+            border-bottom: 2px solid #1f3a73;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            letter-spacing: 0.5px;
+        }
+        
+        .entry {
+            margin-bottom: 12px;
+        }
+        
+        .entry-title {
+            font-weight: 700;
+            font-size: 11px;
+            color: #1f3a73;
+        }
+        
+        .entry-subtitle {
+            font-size: 10px;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        
+        .duration {
+            font-size: 9px;
+            color: #95a5a6;
+        }
+        
+        .description {
+            font-size: 10px;
+            margin-top: 5px;
+            color: #555;
+            line-height: 1.4;
+        }
+        
+        .publications {
+            font-size: 10px;
+            margin-top: 5px;
+            color: #555;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            font-size: 10px;
+        }
+        
+        .skill {
+            background: #ecf0f1;
+            color: #2c3e50;
+            padding: 4px 8px;
+            border-radius: 2px;
+            border-left: 2px solid #1f3a73;
+        }
+        
+        .highlight {
+            color: #1f3a73;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Dr. James Chen</h1>
+            <div class="title">Associate Professor of Computer Science</div>
+            <div class="contact-info">
+                Email: j.chen@university.edu | Phone: +1 (555) 123-4567 | Office: Building A, Room 405
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">Academic Summary</div>
+            <p style="font-size: 10px; line-height: 1.5; color: #555;">
+                Accomplished academic with 12+ years of teaching and research experience in machine learning and distributed systems. Published 25+ peer-reviewed papers and secured $1.2M in research grants. Dedicated to mentoring graduate students and advancing the field through innovative research.
+            </p>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">Academic Positions</div>
+            
+            <div class="entry">
+                <div class="entry-title">Associate Professor</div>
+                <div class="entry-subtitle">Massachusetts Institute of Technology (MIT)</div>
+                <div class="duration">2020 - Present</div>
+                <div class="description">
+                    • Lead research group focusing on AI and machine learning<br/>
+                    • Teach graduate courses: "Advanced ML" and "Distributed Systems"<br/>
+                    • Supervised 8 PhD students with 6 completed dissertations
+                </div>
+            </div>
+            
+            <div class="entry">
+                <div class="entry-title">Assistant Professor</div>
+                <div class="entry-subtitle">Stanford University</div>
+                <div class="duration">2017 - 2020</div>
+                <div class="description">
+                    • Developed curriculum for 3 new graduate courses<br/>
+                    • Published 12 papers in top-tier conferences<br/>
+                    • Received Teaching Excellence Award 2019
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">Research & Publications</div>
+            <div style="font-size: 9px; line-height: 1.5; color: #555;">
+                <strong>Selected Publications:</strong><br/>
+                • Chen, J. et al. (2024). "Federated Learning in Edge Computing." IEEE Transactions on Computing.<br/>
+                • Chen, J., Smith, A. (2023). "Deep Learning Applications in Healthcare." Nature ML, 42(5):234-256.<br/>
+                <strong>H-Index:</strong> 18 | <strong>Total Citations:</strong> 1,240+
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">Education</div>
+            
+            <div class="entry">
+                <div class="entry-title">PhD in Computer Science</div>
+                <div class="entry-subtitle">University of California, Berkeley | 2012</div>
+            </div>
+            
+            <div class="entry">
+                <div class="entry-title">B.S. in Mathematics</div>
+                <div class="entry-subtitle">National Taiwan University | 2008</div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">Core Competencies</div>
+            <div class="skills">
+                <div class="skill">Machine Learning</div>
+                <div class="skill">Research</div>
+                <div class="skill">Academic Writing</div>
+                <div class="skill">Python</div>
+                <div class="skill">Teaching</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

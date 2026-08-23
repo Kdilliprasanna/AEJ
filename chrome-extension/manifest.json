@@ -1,0 +1,44 @@
+{
+  "manifest_version": 3,
+  "name": "Career AI — Job Application Copilot",
+  "version": "1.0.0",
+  "description": "AI-powered job page detection, match scoring, missing skill analysis, resume tips, and 1-click application tracking.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "*://*.linkedin.com/*",
+    "*://*.naukri.com/*",
+    "*://*.indeed.com/*",
+    "*://*.glassdoor.com/*",
+    "*://*.wellfound.com/*",
+    "*://*.internshala.com/*",
+    "*://*.ziprecruiter.com/*",
+    "http://localhost/*",
+    "http://127.0.0.1/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Career AI Copilot"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.linkedin.com/*",
+        "*://*.naukri.com/*",
+        "*://*.indeed.com/*",
+        "*://*.glassdoor.com/*",
+        "*://*.wellfound.com/*",
+        "*://*.internshala.com/*",
+        "*://*.ziprecruiter.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

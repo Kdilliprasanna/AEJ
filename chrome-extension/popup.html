@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Career AI Copilot</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- HEADER BAR -->
+  <div class="header">
+    <div class="brand">
+      <span>✨</span> Career AI Copilot
+    </div>
+    <div id="statusBadge" class="status-badge">Checking Auth...</div>
+  </div>
+
+  <!-- AUTH SECTION (Show if not logged in) -->
+  <div id="authSection" class="card hidden">
+    <h3>Sign In to Career AI</h3>
+    <div id="authError" class="error-text hidden"></div>
+    <form id="loginForm">
+      <label for="emailInput">Email</label>
+      <input type="email" id="emailInput" placeholder="you@example.com" required>
+      <label for="passwordInput">Password</label>
+      <input type="password" id="passwordInput" placeholder="••••••••" required>
+      <button type="submit" class="btn-primary">Sign In to Workspace</button>
+    </form>
+  </div>
+
+  <!-- MAIN COPILOT SECTION -->
+  <div id="copilotSection" class="hidden">
+    
+    <!-- DETECTED JOB DETAILS CARD -->
+    <div class="card">
+      <h3>Detected Job Listing</h3>
+      <div id="jobDetailsBox">
+        <strong id="jobTitleDisplay">Click "Scan Page" to detect job...</strong>
+        <div id="companyDisplay" style="font-size: 12px; color: var(--text-muted); margin-top: 2px;"></div>
+        <div id="locationDisplay" style="font-size: 11px; color: var(--text-muted);"></div>
+      </div>
+      <button id="scanPageBtn" class="btn-secondary" style="margin-top: 10px;">🔍 Scan Current Page</button>
+    </div>
+
+    <!-- COPILOT ANALYSIS TRIGGER -->
+    <button id="analyzeJobBtn" class="btn-primary">🚀 Run AI Copilot Analysis</button>
+
+    <!-- ANALYSIS RESULTS DISPLAY -->
+    <div id="analysisCard" class="card hidden" style="margin-top: 14px;">
+      <h3>AI Fit Analysis & Optimization</h3>
+      
+      <!-- SCORE GAUGE -->
+      <div class="score-gauge">
+        <div id="scoreNumber" class="score-number">--%</div>
+        <div style="font-size: 11px; color: var(--text-muted);">Job Match Score</div>
+      </div>
+
+      <!-- MATCHING SKILLS -->
+      <label>Matching Skills:</label>
+      <div id="matchingSkillsPills" class="pill-container"></div>
+
+      <!-- MISSING SKILLS -->
+      <label>Missing Skills Gap:</label>
+      <div id="missingSkillsPills" class="pill-container"></div>
+
+      <!-- RESUME TIPS -->
+      <label>Resume Optimization Tips:</label>
+      <ul id="resumeTipsList" class="tips-list"></ul>
+
+      <!-- COVER LETTER SHORT DRAFT -->
+      <div style="margin-top: 10px;">
+        <label>AI Cover Letter Snippet:</label>
+        <textarea id="coverLetterBox" rows="4" readonly style="font-size: 11px;"></textarea>
+      </div>
+
+      <!-- ACTION BUTTONS -->
+      <div class="action-row">
+        <button id="saveJobBtn" class="btn-primary" style="background: #334155;">📌 Save Job</button>
+        <button id="trackAppBtn" class="btn-primary">✅ Track App</button>
+      </div>
+      <div id="actionFeedback" style="font-size: 11px; color: var(--success-green); text-align: center; margin-top: 6px;"></div>
+    </div>
+
+    <!-- LOGOUT / SETTINGS -->
+    <button id="logoutBtn" class="btn-secondary" style="margin-top: 14px;">Logout Account</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

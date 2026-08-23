@@ -1,0 +1,183 @@
+/* CAREER AI COPILOT CHROME EXTENSION POPUP STYLES */
+:root {
+  --bg-primary: #0f172a;
+  --bg-card: #1e293b;
+  --bg-input: #0b1329;
+  --accent-cyan: #38bdf8;
+  --accent-blue: #2563eb;
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --border-color: #334155;
+  --success-green: #4ade80;
+  --warning-yellow: #facc15;
+  --danger-red: #f87171;
+}
+
+body {
+  width: 380px;
+  min-height: 480px;
+  margin: 0;
+  padding: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-main);
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--accent-cyan);
+}
+
+.status-badge {
+  font-size: 11px;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-weight: 600;
+  background: rgba(56, 189, 248, 0.1);
+  color: var(--accent-cyan);
+  border: 1px solid var(--border-color);
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 14px;
+  margin-bottom: 14px;
+}
+
+h3 {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  color: var(--accent-cyan);
+}
+
+label {
+  display: block;
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  background: var(--bg-input);
+  border: 1px solid var(--border-color);
+  color: var(--text-main);
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 13px;
+}
+
+button.btn-primary {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(135deg, var(--accent-cyan), var(--accent-blue));
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+button.btn-secondary {
+  width: 100%;
+  padding: 8px;
+  background: transparent;
+  color: var(--text-muted);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 6px;
+}
+
+.score-gauge {
+  text-align: center;
+  padding: 12px;
+  background: var(--bg-input);
+  border-radius: 8px;
+  margin-bottom: 12px;
+  border: 1px solid var(--border-color);
+}
+
+.score-number {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--success-green);
+}
+
+.pill-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.pill {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-color);
+}
+
+.pill.match {
+  color: var(--success-green);
+  border-color: rgba(74, 222, 128, 0.3);
+}
+
+.pill.missing {
+  color: var(--warning-yellow);
+  border-color: rgba(250, 204, 21, 0.3);
+}
+
+.tips-list {
+  margin: 0;
+  padding-left: 16px;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.tips-list li {
+  margin-bottom: 4px;
+}
+
+.action-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.error-text {
+  color: var(--danger-red);
+  font-size: 12px;
+  margin-bottom: 8px;
+}

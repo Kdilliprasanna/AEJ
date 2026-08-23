@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+color accent_blue
+color bg_dark
+color black
+color card_dark
+color primary_sky
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color text_bright
+color text_muted
+color white
+drawable ic_launcher_foreground
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string welcome_message
+style Theme.CareerAI
+xml network_security_config

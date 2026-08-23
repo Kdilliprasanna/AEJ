@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment files (sensitive - never commit!)
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# SQLite database (runtime data - don't commit)
+server/data/*.sqlite
+server/data/*.sqlite-journal
+server/data/*.sqlite-shm
+server/data/*.sqlite-wal
+*.db
+
+# IDE / Editor files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+
+# Windows files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Thumbs.db
+
+# Deployment config
+.vercel/
+
+# Large temp/log files
+transcript_messages_extracted.json
+eslint-report.json
+eslint-report.log
+eslint-errors.txt
+adb_logcat.txt
+adb_devices.txt
+android_log_dump.txt
+
+# Temp docs
+ARJ-full-code.doc
+ARJ-full-code.txt
+README_FINAL_SUMMARY.txt
